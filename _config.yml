@@ -9,7 +9,7 @@ plugins:
 # Navigation (simple, used by layouts below)
 nav:
   - title: "Home"
-    url: "/"
+    url: "/moxiecolor"
   - title: "Shop"
     url: "/shop/"
   - title: "About"
