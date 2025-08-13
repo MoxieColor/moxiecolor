@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Jennifer Chin | Artist & Visual Storyteller"
+title: "Moxie Color | Creative Entrepreneur, Arist, Storyteller"
 permalink: /
 ---
 
