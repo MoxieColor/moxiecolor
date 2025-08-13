@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+      <nav class="site-nav">
+        {% for item in site.nav %}
+          <a href="{{ item.url | relative_url }}" {% if page.url == item.url %}aria-current="page"{% endif %}>{{ item.title }}</a>
+        {% endfor %}
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; {{ "now" | date: "%Y" }} Jennifer Chin. All rights reserved.</p>
+      <p class="social">
+        <!-- Add your social links -->
+        <a href="#" aria-label="Instagram">Instagram</a> ·
+        <a href="#" aria-label="Pinterest">Pinterest</a> ·
+        <a href="mailto:youremail@example.com" aria-label="Email">Email</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
