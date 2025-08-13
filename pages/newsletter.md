@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Newsletter"
+title: "Moxie Color | Newsletter"
 permalink: /newsletter/
 ---
 
