@@ -1,0 +1,18 @@
+title: "Jennifer Chin | Artist & Visual Storyteller"
+description: "Bold, conceptual, and layered artworks for curious minds."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # your site URL (set this after connecting a custom domain)
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Navigation (simple, used by layouts below)
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "Shop"
+    url: "/shop/"
+  - title: "About"
+    url: "/about/"
+  - title: "Newsletter"
+    url: "/newsletter/"
