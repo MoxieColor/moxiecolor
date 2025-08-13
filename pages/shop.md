@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Shop"
+title: "Moxie Color | Shop"
 permalink: /shop/
 ---
 
