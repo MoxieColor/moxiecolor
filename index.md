@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Moxie Color | Creative Entrepreneur, Arist, Storyteller"
+title: "Moxie Color | A Creative Enterprise"
 permalink: /
 ---
 
