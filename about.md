@@ -10,4 +10,4 @@ I’m a Pacific Northwest artist with a background in data visualization and sto
 
 My work has been featured in installations, private collections, and digital collaborations. When I’m not creating, I’m exploring ways to connect art with everyday life.
 
-**Collabs & Commissions**: <a href="mailto:youremail@example.com">Email me</a> for commissions, collaborations, or licensing inquiries.
+**Collabs & Commissions**: <a href="mailto:jchin@moxiecolor.com">Email me</a> for commissions, collaborations, or licensing inquiries.
