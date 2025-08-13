@@ -5,11 +5,13 @@ url: "" # your site URL (set this after connecting a custom domain)
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Navigation (simple, used by layouts below)
 nav:
   - title: "Home"
-    url: "/moxiecolor"
+    url: "/moxiecolor/"
   - title: "Shop"
     url: "/shop/"
   - title: "About"
