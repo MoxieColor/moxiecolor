@@ -1,0 +1,22 @@
+<div class="cv-section">
+  <h2>{{ include.title }}</h2>
+  <dl class="cv-list">
+    {% assign groups = site.data.cv[include.key] | sort: "year" | reverse %}
+    {% for group in groups %}
+      <dt>{{ group.year }}</dt>
+      <dd>
+        <ul>
+          {% for e in group.entries %}
+            <li>
+              {% if e.title %}<em>{{ e.title }}</em>{% endif %}
+              {% if e.venue %}{% if e.title %}, {% endif %}{{ e.venue }}{% endif %}
+              {% if e.location %}, {{ e.location }}{% endif %}
+              {% if e.details %} — {{ e.details }}{% endif %}
+              {% if e.note %} <span class="cv-note">({{ e.note }})</span>{% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </dd>
+    {% endfor %}
+  </dl>
+</div>
