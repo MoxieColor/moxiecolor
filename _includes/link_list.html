@@ -1,0 +1,24 @@
+<ul class="{{ include.class | default: 'links' }}">
+  {% assign items = include.items | default: site.data.links.footer %}
+  {% for item in items %}
+    {% assign external = item.url contains '://' %}
+    {% assign icon_id = item.icon | default: 'globe' %}
+    <li>
+      <a
+        href="{% if external %}{{ item.url }}{% else %}{{ item.url | relative_url }}{% endif %}"
+        {% if external %}target="_blank" rel="noopener"{% endif %}
+        class="link" aria-label="{{ item.label }}"
+      >
+        <svg class="icon" width="20" height="20" aria-hidden="true">
+          <use href="{{ '/assets/icons.svg#' | append: icon_id | relative_url }}"></use>
+          <use xlink:href="{{ '/assets/icons.svg#' | append: icon_id | relative_url }}"></use>
+        </svg>
+        {% if include.show_text != false %}
+          <span class="label">{{ item.label }}</span>
+        {% else %}
+          <span class="sr-only">{{ item.label }}</span>
+        {% endif %}
+      </a>
+    </li>
+  {% endfor %}
+</ul>
