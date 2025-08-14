@@ -14,7 +14,11 @@ body{
   background:var(--bg);
   line-height:1.6;
 }
-.container{ max-width:var(--maxw); }
+.container{
+  max-width: var(--maxw);
+  margin: 0 auto;        /* center the page content */
+  padding: 0 1rem;       /* comfy side gutters */
+}
 .site-header .wrap{ max-width:var(--maxw); }
 .site-title{font-size:1.25rem;margin:0;}
 .site-title a{text-decoration:none;color:var(--fg)}
