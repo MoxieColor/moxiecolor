@@ -24,14 +24,19 @@
     <div class="wrap">
       <!-- Brand -->
       <a class="brand" href="{{ '/' | relative_url }}">
-        <img
-          class="brand-mark"
-          src="{{ '/assets/logo/moxiecolor_logo.png' | relative_url }}"
-          alt=""
-          decoding="async"
-          fetchpriority="high"
-        >
-        <span class="brand-name">Moxie <span class="semi">Color</span></span>
+        <picture class="brand-pic">
+          <!-- Dark mode → white logo -->
+          <source media="(prefers-color-scheme: dark)"
+                  srcset="{{ '/assets/logo/moxiecolor_name_white.png' | relative_url }}">
+          <!-- Default (light mode) -->
+          <img
+            class="brand-mark"
+            src="{{ '/assets/logo/moxiecolor_name.png' | relative_url }}"
+            alt="Moxie Color"
+            decoding="async"
+            fetchpriority="high"
+          >
+        </picture>
       </a>
 
       <!-- Mobile toggle (no JS) -->
