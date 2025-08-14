@@ -54,7 +54,7 @@ description: "Short studio stories + a quick Moxie Lab Minute. 1–2×/month. No
       </article>
     {% endfor %}
   </div>
-  <p class="all-issues"><a href="https://mailchi.mp/d9fccc887890/join-hue-and-tell?utm_source=site&utm_medium=archive_link&utm_campaign=hue_and_tell#archive">View all →</a></p>
+  <p class="all-issues"><a href="{{ '/newsletter/archive/' | relative_url }}">View all →</a></p>
 </section>
 
 <section class="nl-faq small">
