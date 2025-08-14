@@ -210,7 +210,7 @@ h1,h2,h3{line-height:1.2}
     padding-bottom: .6rem;
   }
 
-  .brand{ margin: 0 auto; }        /* centers the logo row */
+/*   .brand{ margin: 0 auto; }        centers the logo row */
 
   /* reset nav from the mobile popover styles */
   .site-header .site-nav .nav-list{
