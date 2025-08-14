@@ -1,0 +1,40 @@
+solo:
+  - year: 2023
+    entries:
+      - title: "Throughline"
+        venue: "Link Community Clinic"
+        location: "Tacoma, WA"
+  - year: 2020
+    entries:
+      - title: "My Dreams Are Blue"
+        venue: "Sig Brewing Company"
+        location: "Tacoma, WA"
+
+group:
+  - year: 2018
+    entries:
+      - title: "Tacoma Studio Tour"
+        location: "Tacoma, WA"
+      - title: "Black & White"
+        venue: "Mary Spirito Pillitteri/Vanita and Paul Mathews Gallery"
+        location: "Seattle, WA"
+
+publications:
+  - year: 2019
+    entries:
+      - title: "Creative Colloquy Volume Six Collected Stories"
+        details: "pgs. 20, 117"
+  - year: 2018
+    entries:
+      - title: "Creative Colloquy Volume Five Collected Stories"
+        details: "pgs. 71, 97"
+
+education:
+  - year: 2014
+    entries:
+      - title: "Artist Trust, EDGE Professional Dev Program for Visual Artists"
+        location: "Seattle, WA"
+  - year: 1995
+    entries:
+      - title: "University of Washington, BA in Art"
+        location: "Seattle, WA"
