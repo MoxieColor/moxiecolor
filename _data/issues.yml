@@ -1,7 +1,11 @@
-/* insert new issues here */
-
 - title: "Hue & Tell #1 — Why 'Hue & Tell'"
-  date: 2025-08-20
+  date: "2025-08-10"
   url: "https://mailchi.mp/xxxx/your-campaign-1"
   blurb: "Welcome! What to expect + first Moxie Lab Minute."
-  image: "/assets/newsletter/placeholder.jpg"   
+  image: "/assets/newsletter/placeholder.jpg"
+
+- title: "Hue & Tell #2 — Texture experiments"
+  date: "2025-08-29"
+  url: "https://mailchi.mp/xxxx/your-campaign-2"
+  blurb: "Paper textures, happy accidents, and one color crush."
+  image: "/assets/newsletter/issue-02-cover.jpg"
