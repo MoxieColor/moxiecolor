@@ -307,7 +307,11 @@ h1,h2,h3{line-height:1.2}
 .nl-benefits{ list-style:none; padding:0; margin:1rem 0 0; display:grid; gap:.25rem; }
 .nl-benefits li::before{ content:"• "; color:#888; }
 
-.nl-issues{ max-width:960px; margin:2.5rem auto; }
+.nl-issues{
+  max-width: 1100px;      /* same as .nl-hero */
+  margin: 2.5rem auto;
+  padding: 0 1rem;        /* same side padding as hero */
+}
 .issues-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:1rem; }
 .issue-card{ background:#fff; border:1px solid #eee; border-radius:12px; padding:16px; }
 .issue-card h3{ margin:.25rem 0 .25rem; font-size:1.05rem; }
@@ -364,3 +368,14 @@ h1,h2,h3{line-height:1.2}
 @media (prefers-reduced-motion: reduce){
   .sample-card, .sample-badge, .nl-cta{ transition:none !important; transform:none !important; }
 }
+
+/* Left-align the right column contents in the hero */
+.nl-hero { text-align: left; }            /* kill any inherited centering */
+.hero-copy { text-align: left; }
+.hero-copy h1,
+.hero-copy .lead,
+.nl-benefits { text-align: left; }
+
+/* Optional: tighten the bullets a hair */
+.nl-benefits { margin-left: 0; }
+
