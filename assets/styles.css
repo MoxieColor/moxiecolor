@@ -60,7 +60,8 @@ h1,h2,h3{line-height:1.2}
 .site-footer .footer-links a.link { color: inherit !important; }
 .site-footer .footer-links .icon { width: 1.25rem; height: 1.25rem; fill: currentColor !important; }
 
-/* --- Hover brand tints (icon only) --- */
+/* --- Hover brand (icon only) --- */
+.footer-links a.link:hover .icon { transform: translateY(-1px); transition: transform .15s; }
 .footer-links a.etsy:hover      .icon { color: #F1641E; } /* Etsy orange */
 .footer-links a.instagram:hover .icon { color: #E4405F; } /* IG pink */
 .footer-links a.mail:hover      .icon { color: var(--accent, #0A84FF); } /* your accent */
