@@ -8,13 +8,14 @@
         href="{% if external %}{{ item.url }}{% else %}{{ item.url | relative_url }}{% endif %}"
         {% if external %}target="_blank" rel="noopener"{% endif %}
         class="link {{ icon_id }}"
-        class="link" aria-label="{{ item.label }}"
+        aria-label="{{ item.label }}"
       >
         {% assign sprite = '/assets/icons.svg?v=2' | relative_url %}
         <svg class="icon" width="20" height="20" aria-hidden="true">
           <use href="{{ sprite }}#{{ icon_id }}"></use>
           <use xlink:href="{{ sprite }}#{{ icon_id }}"></use>  <!-- old Safari -->
         </svg>
+
         {% assign show = include.show_text %}
         {% if show == false or show == 'false' %}
           <span class="sr-only">{{ item.label }}</span>
