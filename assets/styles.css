@@ -203,7 +203,7 @@ h1,h2,h3{line-height:1.2}
 @media (min-width: 781px){
   .site-header .wrap{
     flex-direction: column;        /* stack logo then nav */
-    align-items: center;
+    align-items: left;
     justify-content: center;
     gap: .35rem;
     padding-top: .75rem;
