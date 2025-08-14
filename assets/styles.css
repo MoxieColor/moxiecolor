@@ -156,3 +156,23 @@ h1,h2,h3{line-height:1.2}
 }
 .footer-links li{ display:inline-flex; }
 .footer-links a.link{ display:inline-flex; align-items:center; gap:.35rem; text-decoration:none; color:inherit; }
+/* Footer icons: row + centered; hide visible labels */
+.site-footer .social { text-align: center; }
+
+.footer-links{
+  display:flex; justify-content:center; align-items:center;
+  gap:.9rem; flex-wrap:wrap; list-style:none; margin:0; padding:0;
+}
+.footer-links li{ display:inline-flex; }
+.footer-links a.link{ display:inline-flex; align-items:center; gap:.35rem; text-decoration:none; color:inherit; }
+
+/* Hide text when show_text=false renders sr-only */
+.sr-only{
+  position:absolute; width:1px; height:1px; padding:0; margin:-1px;
+  overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0;
+}
+
+/* Extra guard: if a visible .label slips through, hide it in the footer */
+.site-footer .footer-links .label{ display:none !important; }
+
+                 
