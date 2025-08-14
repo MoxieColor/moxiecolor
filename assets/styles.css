@@ -293,3 +293,28 @@ h1,h2,h3{line-height:1.2}
 
 /* the SVGs use currentColor, so make sure this is set (you already have this) */
 .site-footer .footer-links .icon{ fill: currentColor; }
+
+.nl-hero { text-align:center; max-width:720px; margin:0 auto 2rem; }
+.nl-hero .lead { font-size:1.05rem; color:#444; }
+.nl-cta{
+  display:inline-flex; align-items:center; justify-content:center;
+  padding:12px 18px; border-radius:9999px; background:#111; color:#fff;
+  font-weight:700; text-decoration:none; box-shadow:0 6px 16px rgba(0,0,0,.15);
+  transition:transform .15s ease, box-shadow .15s ease;
+}
+.nl-cta:hover,.nl-cta:focus{ transform:translateY(-2px); box-shadow:0 10px 20px rgba(0,0,0,.22); }
+
+.nl-benefits{ list-style:none; padding:0; margin:1rem 0 0; display:grid; gap:.25rem; }
+.nl-benefits li::before{ content:"• "; color:#888; }
+
+.nl-issues{ max-width:960px; margin:2.5rem auto; }
+.issues-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:1rem; }
+.issue-card{ background:#fff; border:1px solid #eee; border-radius:12px; padding:16px; }
+.issue-card h3{ margin:.25rem 0 .25rem; font-size:1.05rem; }
+.issue-card .meta{ font-size:.85rem; color:#667; margin:0 0 .35rem; }
+.all-issues{ text-align:center; margin-top:1rem; }
+.small{ font-size:.93rem; color:#444; }
+
+@media (prefers-reduced-motion: reduce){
+  .nl-cta{ transition:none; transform:none; }
+}
