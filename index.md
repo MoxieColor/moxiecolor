@@ -3,6 +3,9 @@ layout: default
 title: "Moxie Color | A Creative Enterprise"
 permalink: /
 ---
+<section>
+  <p>Hi, I’m Jenn — I create art that merges color, texture, and narrative into thought‑provoking visuals. Whether it’s a bold abstract or a delicate botanical, every piece tells a layered story. Explore my latest work, discover digital downloads, or connect for collaborations.</p>
+</section>
 
 <section class="hero">
   <div class="hero-text">
@@ -19,6 +22,4 @@ permalink: /
   </div>
 </section>
 
-<section>
-  <p>Hi, I’m Jenn — I create art that merges color, texture, and narrative into thought‑provoking visuals. Whether it’s a bold abstract or a delicate botanical, every piece tells a layered story. Explore my latest work, discover digital downloads, or connect for collaborations.</p>
-</section>
+
