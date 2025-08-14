@@ -9,9 +9,10 @@
         {% if external %}target="_blank" rel="noopener"{% endif %}
         class="link" aria-label="{{ item.label }}"
       >
+        {% assign sprite = '/assets/icons.svg?v=2' | relative_url %}
         <svg class="icon" width="20" height="20" aria-hidden="true">
-          <use href="{{ '/assets/icons.svg#' | append: icon_id | relative_url }}"></use>
-          <use xlink:href="{{ '/assets/icons.svg#' | append: icon_id | relative_url }}"></use>
+          <use href="{{ sprite }}#{{ icon_id }}"></use>
+          <use xlink:href="{{ sprite }}#{{ icon_id }}"></use>  <!-- old Safari -->
         </svg>
         {% if include.show_text != false %}
           <span class="label">{{ item.label }}</span>
