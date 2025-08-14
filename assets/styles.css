@@ -227,3 +227,31 @@ h1,h2,h3{line-height:1.2}
   .nav-burger span{ width:20px; height:2px; margin:3px 0; background:currentColor; border-radius:2px; }
   .site-header .site-nav .nav-list{ right:.75rem; top:56px; z-index:1001; }
 }
+
+/* === Robust hamburger: always 3 bars === */
+@media (max-width: 780px){
+  /* use only the first span; hide any extra spans safely */
+  .nav-burger span { position: relative; display:block; width:22px; height:2px; background: currentColor; border-radius:2px; }
+  .nav-burger span + span,
+  .nav-burger span + span + span { display: none !important; }
+
+  .nav-burger span::before,
+  .nav-burger span::after{
+    content: "";
+    position: absolute; left: 0; width: 100%; height: 2px;
+    background: currentColor; border-radius: 2px;
+  }
+  .nav-burger span::before{ top: -6px; }
+  .nav-burger span::after { top:  6px; }
+
+  /* ensure the dropdown is vertical + positioned correctly */
+  .site-header .site-nav .nav-list{
+    display: none;                 /* hidden until checked */
+    flex-direction: column !important;
+    right: .75rem; top: 56px;
+    min-width: 12rem;
+  }
+  .site-header .site-nav .nav-list li { margin: 0; }
+  .site-header .site-nav .nav-list a{ display:block; padding:.6rem .8rem; }
+  .nav-toggle:checked ~ nav .nav-list{ display:flex; }
+}
