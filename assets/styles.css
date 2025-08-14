@@ -272,3 +272,24 @@ h1,h2,h3{line-height:1.2}
     transform: translateY(-6px) rotate(-45deg);
   }
 }
+/* --- Footer social: brand tints on hover/focus --- */
+.footer-links a.link{
+  transition: color .15s ease, transform .15s ease;
+}
+.footer-links a.link:hover,
+.footer-links a.link:focus-visible{
+  transform: translateY(-1px);
+}
+
+/* use the link's class (etsy/instagram/mail/linktree) to color the icon */
+.footer-links a.etsy:hover,
+.footer-links a.etsy:focus-visible{       color:#F1641E; } /* Etsy orange */
+.footer-links a.instagram:hover,
+.footer-links a.instagram:focus-visible{  color:#E4405F; } /* IG pink */
+.footer-links a.mail:hover,
+.footer-links a.mail:focus-visible{       color:var(--accent); } /* your accent */
+.footer-links a.linktree:hover,
+.footer-links a.linktree:focus-visible{   color:#39E09B; } /* Linktree green */
+
+/* the SVGs use currentColor, so make sure this is set (you already have this) */
+.site-footer .footer-links .icon{ fill: currentColor; }
