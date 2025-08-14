@@ -1,17 +1,41 @@
 ---
 layout: default
-title: "Moxie Color | Newsletter"
+title: "Hue & Tell | Newsletter"
 permalink: /newsletter/
+description: "Short studio stories + a quick Moxie Lab Minute. 1–2×/month. No spam."
 ---
 
-# Join My Studio List
+<section class="nl-hero">
+  <h1>Hue & Tell</h1>
+  <p class="lead">Short studio stories + a quick <strong>Moxie Lab Minute</strong>. 1–2×/month. No spam.</p>
 
-Get first dibs on new releases, behind‑the‑scenes peeks, and exclusive offers.  
-I only email when there’s something good to share — no spam, ever.
+  <a class="nl-cta"
+     href="https://mailchi.mp/d9fccc887890/join-hue-and-tell?utm_source=site&utm_medium=newsletter_page&utm_campaign=hue_and_tell"
+     target="_blank" rel="noopener noreferrer">Subscribe free</a>
 
-<!-- Replace this with your email provider's embed (Mailchimp/ConvertKit/Buttondown) -->
-<form action="#" method="post" class="newsletter-form">
-  <label for="email">Email</label>
-  <input id="email" name="email" type="email" placeholder="you@example.com" required>
-  <button type="submit">Subscribe</button>
-</form>
+  <ul class="nl-benefits">
+    <li>Studio peeks & process notes</li>
+    <li>Tiny tests → bold results (Moxie Lab Minute)</li>
+    <li>Early dibs & occasional exclusives</li>
+    <li>Occasional freebies, discounts, and exclusives</li>
+  </ul>
+</section>
+
+<section class="nl-issues">
+  <h2>Back Issues</h2>
+  <div class="issues-grid">
+    {% assign latest = site.data.issues | slice: 0, 6 %}
+    {% for i in latest %}
+      <article class="issue-card">
+        <h3><a href="{{ i.url }}?utm_source=site&utm_medium=back_issues&utm_campaign=hue_and_tell">{{ i.title }}</a></h3>
+        <p class="meta">{{ i.date | date: "%b %-d, %Y" }}</p>
+        <p>{{ i.blurb }}</p>
+      </article>
+    {% endfor %}
+  </div>
+  <p class="all-issues"><a href="https://mailchi.mp/d9fccc887890/join-hue-and-tell?utm_source=site&utm_medium=archive_link&utm_campaign=hue_and_tell#archive">View all →</a></p>
+</section>
+
+<section class="nl-faq small">
+  <p><strong>How often?</strong> 1–2×/month. <strong>Unsubscribe?</strong> Anytime with one click. <strong>Privacy?</strong> I only use your email to send Hue & Tell.</p>
+</section>
