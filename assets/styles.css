@@ -255,3 +255,20 @@ h1,h2,h3{line-height:1.2}
   .site-header .site-nav .nav-list a{ display:block; padding:.6rem .8rem; }
   .nav-toggle:checked ~ nav .nav-list{ display:flex; }
 }
+
+/* Burger → X animation */
+@media (max-width: 780px){
+  .nav-burger span,
+  .nav-burger span::before,
+  .nav-burger span::after{
+    transition: transform .18s ease, opacity .18s ease, background .18s ease;
+  }
+  /* hide middle line when open */
+  .nav-toggle:checked ~ .nav-burger span{ background: transparent; }
+  .nav-toggle:checked ~ .nav-burger span::before{
+    transform: translateY(6px) rotate(45deg);
+  }
+  .nav-toggle:checked ~ .nav-burger span::after{
+    transform: translateY(-6px) rotate(-45deg);
+  }
+}
