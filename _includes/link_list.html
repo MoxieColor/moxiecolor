@@ -7,6 +7,7 @@
       <a
         href="{% if external %}{{ item.url }}{% else %}{{ item.url | relative_url }}{% endif %}"
         {% if external %}target="_blank" rel="noopener"{% endif %}
+        class="link {{ icon_id }}"
         class="link" aria-label="{{ item.label }}"
       >
         {% assign sprite = '/assets/icons.svg?v=2' | relative_url %}
