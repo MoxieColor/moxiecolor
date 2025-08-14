@@ -203,21 +203,21 @@ h1,h2,h3{line-height:1.2}
 @media (min-width: 781px){
   .site-header .wrap{
     flex-direction: column;        /* stack logo then nav */
-    align-items: left;
-    justify-content: left;
+    align-items: center;
+    justify-content: center;
     gap: .35rem;
     padding-top: .75rem;
     padding-bottom: .6rem;
   }
 
-/*   .brand{ margin: 0 auto; }        centers the logo row */
+   .brand{ margin: 0 auto; }       /* centers the logo row */
 
   /* reset nav from the mobile popover styles */
   .site-header .site-nav .nav-list{
     position: static;
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: center;
     gap: .8rem;
     padding: 0;
     margin: 0;
@@ -240,4 +240,64 @@ h1,h2,h3{line-height:1.2}
     width: 40px; height: 36px; padding: 0; line-height: 0; border-radius: .6rem;
   }
   .nav-burger span{ width: 20px; height: 2px; margin: 3px 0; }
+}
+
+/* --- Desktop/tablet: center logo + center nav underneath; tighter look --- */
+@media (min-width: 781px){
+  /* scale the wordmark sensibly on big screens */
+  .brand-mark{ height: clamp(56px, 9vw, 96px); }
+
+  /* bring logo+nav closer together */
+  .site-header .wrap{
+    flex-direction: column;        /* stack logo over nav */
+    align-items: center;
+    justify-content: center;
+    gap: .25rem;
+    padding-top: .6rem;
+    padding-bottom: .4rem;
+  }
+  .brand{ margin: 0 auto; }
+
+  /* center the nav under the logo, no popover */
+  .site-header .site-nav .nav-list{
+    position: static;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+  }
+
+  /* underline-only style (override the earlier hover pill) */
+  .site-header .site-nav a{
+    padding: .4rem .6rem;
+    font-weight: 600;
+    letter-spacing: .2px;
+    background: transparent;
+    border: 1px solid transparent;
+  }
+  .site-header .site-nav a:hover,
+  .site-header .site-nav a:focus-visible{
+    background: transparent;     /* kill pill on desktop */
+  }
+  .site-header .site-nav a::after{
+    left: .6rem; right: .6rem; bottom: .2rem;
+  }
+
+  /* hide burger on desktop */
+  .nav-burger, .nav-toggle{ display: none; }
+}
+
+/* --- Mobile keeps logo left + burger right --- */
+@media (max-width: 780px){
+  .site-header .wrap{ justify-content: flex-start; }
+  .nav-burger{
+    margin-left: auto; display:flex; align-items:center; justify-content:center;
+    width:40px; height:36px; padding:0; line-height:0; border-radius:.6rem;
+  }
+  .nav-burger span{ width:20px; height:2px; margin:3px 0; }
 }
