@@ -65,7 +65,9 @@
     <div class="container">
       <p>&copy; {{ "now" | date: "%Y" }} Jennifer Chin. All rights reserved.</p>
       <p>If sharing, pinning, or blogging my images, please credit me and link back to my website. Mutual support is a good thing - thanks so much!!!</p>
-      <p class="social">{% include link_list.html class="footer-links" items=site.data.links.footer show_text=false %}</p>
+      <div class="social">
+        {% include link_list.html class="footer-links" items=site.data.links.footer show_text=false %}
+      </div>
     </div>
   </footer>
 </body>
