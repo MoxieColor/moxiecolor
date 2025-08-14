@@ -23,8 +23,8 @@ body{
 .site-title{font-size:1.25rem;margin:0;}
 .site-title a{text-decoration:none;color:var(--fg)}
 .site-nav a[aria-current="page"]{color:var(--fg);font-weight:600}
-.brand-mark{ height: 28px; width: auto; border-radius: 0; display: block; }
-@media (min-width: 900px){ .brand-mark{ height: 32px; } } 
+.brand-mark{ height: 150px; width: auto; border-radius: 0; display: block; }
+@media (min-width: 900px){ .brand-mark{ height: 150px; } } 
 .hero{display:grid;grid-template-columns:1.1fr 0.9fr;gap:1.5rem;align-items:center;margin-top:1rem}
 .hero h2{font-size:2rem;margin:0 0 .5rem}
 .hero p{margin:0 0 1rem}
