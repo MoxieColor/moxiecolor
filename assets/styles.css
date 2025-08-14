@@ -216,3 +216,14 @@ h1,h2,h3{line-height:1.2}
   .site-footer .footer-links{ color:var(--fg); }
 }
                 
+/* --- Mobile header alignment --- */
+@media (max-width: 780px){
+  .site-header .wrap{ justify-content:flex-start; padding-top:.5rem; padding-bottom:.5rem; }
+  .brand-mark{ height:40px; }
+  .nav-burger{
+    margin-left:auto; display:flex; align-items:center; justify-content:center;
+    width:40px; height:36px; padding:0; line-height:0; border-radius:.6rem;
+  }
+  .nav-burger span{ width:20px; height:2px; margin:3px 0; background:currentColor; border-radius:2px; }
+  .site-header .site-nav .nav-list{ right:.75rem; top:56px; z-index:1001; }
+}
