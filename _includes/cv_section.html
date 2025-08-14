@@ -1,5 +1,4 @@
 <div class="cv-section">
-  <h2>{{ include.title }}</h2>
   <dl class="cv-list">
     {% assign groups = site.data.cv[include.key] | sort: "year" | reverse %}
     {% for group in groups %}
