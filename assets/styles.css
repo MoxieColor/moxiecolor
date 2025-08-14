@@ -55,9 +55,16 @@ h1,h2,h3{line-height:1.2}
 .footer-links li { display:inline-block; margin:0 .6rem .4rem 0; }
 .footer-links a.link { display:inline-flex; align-items:center; gap:.35rem; text-decoration:none; color: inherit; }
 
+/* --- Footer base: already set earlier --- */
 .site-footer .footer-links { color: var(--fg, #000); }     /* black just for the icon row */
 .site-footer .footer-links a.link { color: inherit !important; }
 .site-footer .footer-links .icon { width: 1.25rem; height: 1.25rem; fill: currentColor !important; }
+
+/* --- Hover brand tints (icon only) --- */
+.footer-links a.etsy:hover      .icon { color: #F1641E; } /* Etsy orange */
+.footer-links a.instagram:hover .icon { color: #E4405F; } /* IG pink */
+.footer-links a.mail:hover      .icon { color: var(--accent, #0A84FF); } /* your accent */
+.footer-links a.linktree:hover  .icon { color: #39E09B; } /* Linktree green */
 
 .icon { width:1.1rem; height:1.1rem; fill: currentColor; }
 .link-buttons li { margin:.5rem 0; }
@@ -70,3 +77,15 @@ h1,h2,h3{line-height:1.2}
 .newsletter-form{display:grid;gap:.5rem;max-width:420px}
 .newsletter-form input{padding:.6rem .8rem;border-radius:.5rem;border:1px solid #ddd}
 .newsletter-form button{padding:.6rem .8rem;border-radius:.5rem;border:1px solid var(--accent);background:var(--accent);color:white;font-weight:600}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* If you already define these elsewhere, keep your values; these are safe defaults */
+    --fg: #f5f5f5;
+    --muted: #b9b9b9;
+  }
+
+  .site-footer { border-top-color: #333; color: var(--muted); }
+  .site-footer .footer-links { color: var(--fg); } /* icons default to light in dark mode */
+  /* Hover colors are bright enough to keep; no change needed */
+}
