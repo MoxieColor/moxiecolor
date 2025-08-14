@@ -1,0 +1,30 @@
+footer:
+  - label: Etsy
+    url: "https://www.etsy.com/shop/moxiecolor"
+    icon: etsy
+  - label: Instagram
+    url: "https://instagram.com/moxiecolor"
+    icon: instagram
+  - label: Newsletter
+    url: "/newsletter/"
+    icon: mail
+  - label: Link hub (Linktree)
+    url: "https://linktr.ee/moxiecolor"
+    icon: linktree
+
+page:
+  - label: Shop on Etsy
+    url: "https://www.etsy.com/shop/moxiecolor"
+    icon: etsy
+  - label: Portfolio & Blog
+    url: "/"
+    icon: globe
+  - label: Newsletter
+    url: "/newsletter/"
+    icon: mail
+  - label: Instagram
+    url: "https://instagram.com/moxiecolor"
+    icon: instagram
+  - label: Link hub (Linktree)
+    url: "https://linktr.ee/moxiecolor"
+    icon: linktree
