@@ -1,24 +1,45 @@
 ---
 layout: default
-title: "Hue & Tell | Newsletter"
+title: Hue & Tell — Newsletter
 permalink: /newsletter/
 description: "Short studio stories + a quick Moxie Lab Minute. 1–2×/month. No spam."
 ---
 
+{% assign sample = site.data.issues | first %}
+
 <section class="nl-hero">
-  <h1>Hue & Tell</h1>
-  <p class="lead">Short studio stories + a quick <strong>Moxie Lab Minute</strong>. 1–2×/month. No spam.</p>
+  <div class="nl-hero-grid">
+    <!-- Left: sample issue card -->
+    <a class="sample-card"
+       href="{{ sample.url }}?utm_source=site&utm_medium=sample_card&utm_campaign=hue_and_tell"
+       aria-label="Read a sample: {{ sample.title }}">
+      <img
+        src="{{ sample.image | default: '/assets/newsletter/sample-placeholder.jpg' }}"
+        alt="{{ sample.title }} cover"
+        loading="lazy">
+      <span class="sample-badge">Read a sample →</span>
+    </a>
 
-  <a class="nl-cta"
-     href="https://mailchi.mp/d9fccc887890/join-hue-and-tell?utm_source=site&utm_medium=newsletter_page&utm_campaign=hue_and_tell"
-     target="_blank" rel="noopener noreferrer">Subscribe free</a>
+    <!-- Right: copy + CTA -->
+    <div class="hero-copy">
+      <h1>Hue & Tell</h1>
+      <p class="lead">
+        Short studio stories + a quick <strong>Moxie Lab Minute</strong>. 1–2×/month. No spam.
+      </p>
 
-  <ul class="nl-benefits">
-    <li>Studio peeks & process notes</li>
-    <li>Tiny tests → bold results (Moxie Lab Minute)</li>
-    <li>Early dibs & occasional exclusives</li>
-    <li>Occasional freebies, discounts, and exclusives</li>
-  </ul>
+      <a class="nl-cta"
+         href="https://mailchi.mp/d9fccc887890/join-hue-and-tell?utm_source=site&utm_medium=newsletter_page&utm_campaign=hue_and_tell"
+         target="_blank" rel="noopener noreferrer">
+        Subscribe free
+      </a>
+
+      <ul class="nl-benefits">
+        <li>Studio peeks & process notes</li>
+        <li>Tiny tests → bold results (Moxie Lab Minute)</li>
+        <li>Early dibs & occasional exclusives</li>
+      </ul>
+    </div>
+  </div>
 </section>
 
 <section class="nl-issues">
