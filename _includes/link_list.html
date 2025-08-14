@@ -15,10 +15,11 @@
           <use href="{{ sprite }}#{{ icon_id }}"></use>
           <use xlink:href="{{ sprite }}#{{ icon_id }}"></use>  <!-- old Safari -->
         </svg>
-        {% if include.show_text != false %}
-          <span class="label">{{ item.label }}</span>
-        {% else %}
+        {% assign show = include.show_text %}
+        {% if show == false or show == 'false' %}
           <span class="sr-only">{{ item.label }}</span>
+        {% else %}
+          <span class="label">{{ item.label }}</span>
         {% endif %}
       </a>
     </li>
