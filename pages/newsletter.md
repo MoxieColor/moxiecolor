@@ -14,7 +14,7 @@ description: "Short studio stories + a quick Moxie Lab Minute. 1–2×/month. No
        href="{{ sample.url }}?utm_source=site&utm_medium=sample_card&utm_campaign=hue_and_tell"
        aria-label="Read a sample: {{ sample.title }}">
       <img
-        src="{{ sample.image | default: '/assets/newsletter/sample-placeholder.jpg' }}"
+        src="{{ (sample.image | default: '/assets/newsletter/placeholder.jpg') | relative_url }}"
         alt="{{ sample.title }} cover"
         loading="lazy">
       <span class="sample-badge">Read a sample →</span>
