@@ -182,7 +182,9 @@ h1,h2,h3{line-height:1.2}
     margin-left: auto;              /* pushes it to the far right */
     display: flex;                  /* centers the bars inside */
     align-items: center;
+    flex-direction: column;
     justify-content: center;
+    gap: 4px;
     width: 40px;
     height: 36px;
     padding: 0;                     /* remove extra vertical padding */
@@ -194,5 +196,5 @@ h1,h2,h3{line-height:1.2}
   }
 
   /* Slightly tighter bars for small screens */
-  .nav-burger span{ width: 20px; height: 2px; margin: 3px 0; }
+  .nav-burger span{ display: block; width: 22px; height: 2px; background: currentColor; border-radius: 2px; }
 }
