@@ -4,6 +4,8 @@
 
   {% for item in items %}
     {% assign external = item.url contains '://' or item.url contains 'mailto:' %}
+
+    {%- comment -%} Build safe internal URL: force leading "/" then expand baseurl {%- endcomment -%}
     {% assign url = item.url %}
     {% unless external %}
       {% unless url | slice: 0, 1 == '/' %}{% assign url = '/' | append: url %}{% endunless %}
@@ -31,3 +33,4 @@
     </li>
   {% endfor %}
 </ul>
+
