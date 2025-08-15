@@ -17,7 +17,7 @@ description: "Short studio stories + a quick Moxie Lab Minute. 1–2×/month. No
         src="{{ (sample.image | default: '/assets/newsletter/placeholder.jpg') | relative_url }}"
         alt="{{ sample.title }} cover"
         loading="lazy">
-      <span class="btn btn-ghost btn-sm sample-badge">Read a sample →</span>
+      <span class="sample-link">Read a sample →</span>
     </a>
 
     <!-- Right: copy + CTA -->
