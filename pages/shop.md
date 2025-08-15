@@ -16,11 +16,23 @@ Original art, prints, and other merch to delight you.
 ## Spoonflower
 Artufull distillation of my work into repeat patterns - fabric yardage, wall paper, and home decor; made on demand for you.  
 <a class="btn" href="https://www.spoonflower.com/profiles/moxiecolor" target="_blank" rel="noopener">Fabric and Home Decor</a>
-<p>
-    <img src="/assets/images/stores/Spoonflower1.png" width="200" height=auto />
-    <img src="/assets/images/stores/Spoonflower2.png" width="200" height=auto />
-    <img src="/assets/images/stores/Spoonflower3.png" width="200" height=auto />
-</p>
+<div class="about-photo">
+    <img src="{{ '/assets/images/stores/Spoonflower1.png') | relative_url }}" 
+         alt="Wallpaper"
+         width="200"
+         height=auto
+         loading="lazy">
+    <img src="{{ '/assets/images/stores/Spoonflower2.png') | relative_url }}" 
+         alt="Curtains"
+         width="200"
+         height=auto
+         loading="lazy">
+     <img src="{{ '/assets/images/stores/Spoonflower3.png') | relative_url }}" 
+         alt="Napkins"
+         width="200"
+         height=auto
+         loading="lazy">   
+</div>
 
 ## Gumroad
 Instantly downloadable awesome  
