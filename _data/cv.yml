@@ -1,22 +1,111 @@
 solo:
   - year: 2023
+    end: 2024
     entries:
       - title: "Throughline"
         venue: "Link Community Clinic"
         location: "Tacoma, WA"
   - year: 2020
+    end: 2022
     entries:
       - title: "My Dreams Are Blue"
         venue: "Sig Brewing Company"
         location: "Tacoma, WA"
+    - year: 2018
+      end: 
+      entries:
+        - title: "She's Had Enough"
+          url: "https://www.spaceworkstacoma.com/projects/jennifer-chin-shes-had-enough/"
+          venue: "Spaceworks ArtScapes"
+          location: "Tacoma, WA"
+        - title: "April Featured Artist"
+          venue: "The Swiss Pub"
+          location: "Tacoma, WA"
+    - year: 2016
+      end: 
+      entries:
+        - title: "August Featured Artist"
+          venue: "The Swiss Pub"
+          location: "Tacoma, WA"
+    - year: 2015
+      end: 
+      entries:
+        - title: "Sept Featured Artist"
+          venue: "The Swiss Pub"
+          location: "Tacoma, WA"
+        - title: "August Featured Artist"
+          venue: "West Seattle Wine Cellar"
+          location: "SEattle, WA"
+    - year: 2014
+      end: 
+      entries:
+        - title: "MicroZoo"
+          venue: "Spaceworks Artscapes"
+          location: "Tacoma, WA"
+        - title: "My Dreams Are Blue"
+          venue: "Spaceworks Artscapes"
+          location: "Tacoma, WA"
+        - title: "May Featured Artist"
+          venue: "The Swiss Pub"
+          location: "Tacoma, WA"
 
 group:
   - year: 2018
+    end:
     entries:
       - title: "Tacoma Studio Tour"
         location: "Tacoma, WA"
       - title: "Black & White"
         venue: "Mary Spirito Pillitteri/Vanita and Paul Mathews Gallery"
+        location: "Seattle, WA"
+      - title: "Creativity Persists"
+        venue: "Center on Contemporary Art"
+        location: "Seattle, WA"
+  - year: 2017
+    end:
+    entries:
+      - title: "A-Mazing Art"
+        venue: "Mad Hat Tea"
+        location: "Tacoma, WA"
+  - year: 2015
+    end:
+    entries:
+      - title: "Tacoma Studio Tour"
+        location: "Tacoma, WA"
+      - title: "This is Art!"
+        venue: "Mary Spirito Pillitteri/Vanita and Paul Mathews Gallery"
+        location: "Seattle, WA"
+      - title: "Chin & De Foe"
+        venue: "Handforth Gallery"
+        location: "Tacoma, WA"
+  - year: 2014
+    end:
+    entries:
+      - title: "Who Are You?"
+        venue: "Center on Contemporary Art"
+        location: "Seattle, WA"
+      - title: "Day of the Dead"
+        venue: "Poco Wine + Spirits"
+        location: "Seattle, WA"
+      - title: "Tacoma Studio Tour"
+        location: "Tacoma, WA"
+      - title: "Lakewood Artsfest"
+        venue: "Pierce College"
+        location: "Lakewood, WA"
+      - title: "Pancakes and Booze"
+        venue: "El Corazon"
+        location: "Seattle, WA"
+      - title: "Mad Love Fest"
+        venue: "Mad Hat Tea"
+        location: "Tacoma, WA"
+      - title: "Neighborhood of Houses"
+        venue: "Shared Housing Services"
+        location: "Tacoma, WA"
+  - year: 2013
+    end:
+    entries:
+      - title: "Day of the Dead"
+        venue: "Poco Wine + Spirits"
         location: "Seattle, WA"
 
 publications:
