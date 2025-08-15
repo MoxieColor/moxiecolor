@@ -1,22 +1,49 @@
-<div class="cv-section">
-{% for e in group.entries %}
-  <div class="cv-section">
-    {% assign groups = site.data.cv[include.key] | sort: "year" | reverse %}
-    {% for group in groups %}
-      <div class="cv-row">
-        <div class="cv-year">{{ group.year }}</div>
-          <div class="cv-details">
-            {% for e in group.entries %}
-              <div class="cv-item">
-                {%- if e.title -%}<em>{{ e.title }}</em>{%- endif -%}
-                {%- if e.venue -%}{% if e.title %}, {% endif %}{{ e.venue }}{%- endif -%}
-                {%- if e.location -%}{% if e.title or e.venue %}, {% endif %}{{ e.location }}{%- endif -%}
-                {%- if e.details -%} — {{ e.details }}{%- endif -%}
-              </div>
-            {% endfor %}
+{%- comment -%}
+  Include: cv_section.html
+  Usage:
+    {% include cv_section.html title="Group Exhibitions" key="group" %}
+
+  Expects _data/cv.yml shaped like:
+    group:
+      - year: 2023
+        entries:
+          - title: "Show Title"
+            url: "https://link-optional.com"
+            venue: "Gallery Name"
+            location: "City, ST"
+            details: "juried by X, catalog, etc."
+            note: "forthcoming"
+          - "You can also use a plain string entry if you want."
+{%- endcomment -%}
+
+<div class="cv-section{% if include.class %} {{ include.class }}{% endif %}">
+  {%- if include.title -%}
+    <h2>{{ include.title }}</h2>
+  {%- endif -%}
+
+  {%- assign rows = site.data.cv[include.key] | sort: "year" | reverse -%}
+
+  {%- for row in rows -%}
+    <div class="cv-row">
+      <div class="cv-year">{{ row.year }}</div>
+
+      <div class="cv-details">
+        {%- for e in row.entries -%}
+          <div class="cv-item">
+            {%- if e.title -%}
+              {%- if e.url -%}<a href="{{ e.url }}">{%- endif -%}
+              <em>{{ e.title }}</em>
+              {%- if e.url -%}</a>{%- endif -%}
+              {%- if e.venue -%}{% if e.title %}, {% endif %}{{ e.venue }}{%- endif -%}
+              {%- if e.location -%}{% if e.title or e.venue %}, {% endif %}{{ e.location }}{%- endif -%}
+              {%- if e.details -%} — {{ e.details }}{%- endif -%}
+              {%- if e.note -%} <span class="cv-note">({{ e.note }})</span>{%- endif -%}
+            {%- else -%}
+              {{ e }}
+            {%- endif -%}
           </div>
+        {%- endfor -%}
       </div>
-    {% endfor %}
-  </div>
-{% endfor %}
+    </div>
+  {%- endfor -%}
 </div>
