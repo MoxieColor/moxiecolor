@@ -12,7 +12,7 @@
 
     <li>
       <a
-        href="{{ external | default: false | ternary: item.url, url }}"
+        href="{% if external %}{{ item.url }}{% else %}{{ url }}{% endif %}"
         class="link {{ item.icon | default: 'globe' }}"
         aria-label="{{ item.label }}"
         {% if external %}target="_blank" rel="noopener"{% endif %}
