@@ -1,31 +1,38 @@
 {%- comment -%}
   Include: cv_section.html
   Usage:
-    {% include cv_section.html title="Group Exhibitions" key="group" %}
+    {% include cv_section.html title="Solo Exhibitions" key="solo" %}
 
-  Expects _data/cv.yml shaped like:
-    group:
-      - year: 2023
+  Data shape (in _data/cv.yml):
+    solo:
+      - year: 2023           # numeric; used for sorting
+        end: 2024            # optional; display only
+        year_label: ""       # optional explicit label; overrides start/end if present
         entries:
-          - title: "Show Title"
-            url: "https://link-optional.com"
-            venue: "Gallery Name"
-            location: "City, ST"
-            details: "juried by X, catalog, etc."
-            note: "forthcoming"
-          - "You can also use a plain string entry if you want."
+          - title: "Throughline"
+            venue: "Link Community Clinic"
+            location: "Tacoma, WA"
 {%- endcomment -%}
 
 <div class="cv-section{% if include.class %} {{ include.class }}{% endif %}">
   {%- if include.title -%}
-    <h3>{{ include.title }}</h3>
+    <h2>{{ include.title }}</h2>
   {%- endif -%}
 
+  {%- comment -%} Sort by start year (descending) {%- endcomment -%}
   {%- assign rows = site.data.cv[include.key] | sort: "year" | reverse -%}
 
   {%- for row in rows -%}
+    {%- comment -%} Build the left-column label (supports ranges and custom text) {%- endcomment -%}
+    {%- assign year_label = row.year -%}
+    {%- if row.year_label and row.year_label != "" -%}
+      {%- assign year_label = row.year_label -%}
+    {%- elsif row.end -%}
+      {%- assign year_label = row.year | append: "–" | append: row.end -%}
+    {%- endif -%}
+
     <div class="cv-row">
-      <div class="cv-year">{{ row.year }}</div>
+      <div class="cv-year">{{ year_label }}</div>
 
       <div class="cv-details">
         {%- for e in row.entries -%}
