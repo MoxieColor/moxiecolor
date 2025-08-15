@@ -5,8 +5,8 @@ footer:
   - label: Instagram
     url: "https://instagram.com/moxiecolor"
     icon: instagram
-  - label: Newsletter
-    url: "/newsletter/"
+  - label: Email
+    url: "mailto:jchin@moxiecolor.com"
     icon: mail
   - label: Link hub (Linktree)
     url: "https://linktr.ee/moxiecolor"
@@ -19,8 +19,8 @@ page:
   - label: Portfolio & Blog
     url: "/"
     icon: globe
-  - label: Newsletter
-    url: "/newsletter/"
+  - label: Email
+    url: "mailto:jchin@moxiecolor.com"
     icon: mail
   - label: Instagram
     url: "https://instagram.com/moxiecolor"
