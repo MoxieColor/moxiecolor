@@ -414,7 +414,7 @@ html{ color-scheme: light dark; }
 .issue-card{ background:#fff; border:1px solid #eee; border-radius:12px; padding:16px; }
 .issue-card h3{ margin:.25rem 0 .25rem; font-size:1.05rem; }
 .issue-card .meta{ font-size:.85rem; color:#667; margin:0 0 .35rem; }
-.all-issues{ text-align:center; margin-top:1rem; }
+.all-issues{ text-align:left; margin-top:1rem; }
 .small{ font-size:.93rem; color:#444; }
 
 @media (prefers-reduced-motion: reduce){
