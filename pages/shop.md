@@ -14,7 +14,7 @@ Original art, prints, and other merch to delight you.
 <a class="btn" href="https://moxiecolor.etsy.com" target="_blank" rel="noopener">Originals & Merch</a>
 
 ## Spoonflower
-Artufull distillation of my work into repeat patterns - fabric yardage, wall paper, and home decor; made on demand for you.  
+Distillation of my originals into repeat patterns - fabric yardage, wall paper, and home decor; made on demand for you.  
 <a class="btn" href="https://www.spoonflower.com/profiles/moxiecolor" target="_blank" rel="noopener">Fabric and Home Decor</a>
 <p float="left">
   <img src="{{ '/assets/images/stores/Spoonflower1.png') | relative_url }}"  width=auto height="200"/>
