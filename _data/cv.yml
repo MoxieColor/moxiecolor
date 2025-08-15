@@ -41,9 +41,11 @@ solo:
   - year: 2014
     entries:
       - title: "MicroZoo"
+        url: "https://spaceworkstacoma.wordpress.com/2014/12/"
         venue: "Spaceworks Artscapes"
         location: "Tacoma, WA"
       - title: "My Dreams Are Blue"
+        url: "https://spaceworkstacoma.wordpress.com/2014/12/"
         venue: "Spaceworks Artscapes"
         location: "Tacoma, WA"
       - title: "May Featured Artist"
