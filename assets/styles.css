@@ -133,7 +133,7 @@ h1,h2,h3{line-height:1.2}
 
 /* === Sitewide Buttons === */
 :root{
-  ---bg:#111;           /* primary background */
+  --btn-bg:#111;           /* primary background */
   --btn-fg:#fff;           /* primary text       */
   --btn-border:#111;
   --btn-bg-hover:#000;
@@ -540,4 +540,115 @@ html{ color-scheme: light dark; }
 @media (max-width: 760px){
   .about-grid{ grid-template-columns: 1fr; }
   .about-photo{ order:-1; justify-self:center; max-width: 320px; }
+}
+/* ===== Button theming (light + dark) ===== */
+
+/* Light defaults */
+:root{
+  /* primary */
+  --btn-bg:#111;
+  --btn-fg:#fff;
+  --btn-border:#111;
+  --btn-bg-hover:#000;
+  --btn-border-hover:#000;
+
+  /* ghost */
+  --btn-ghost-bg:#fff;
+  --btn-ghost-fg:#111;
+  --btn-ghost-border:#d4d4d8;
+  --btn-ghost-bg-hover:#f4f4f5;
+  --btn-ghost-border-hover:#bdbdc2;
+
+  /* motion + shadows */
+  --shadow-1: 0 2px 6px rgba(0,0,0,.08);
+  --shadow-2: 0 10px 24px rgba(0,0,0,.18);
+
+  --focus-ring:#4c9ffe;
+}
+
+/* Dark overrides (works with system dark OR a manual .dark / [data-theme=dark]) */
+@media (prefers-color-scheme: dark){
+  :root{
+    /* flip primary so it’s visible on dark surfaces */
+    --btn-bg:#fff;
+    --btn-fg:#111;
+    --btn-border:#fff;
+    --btn-bg-hover:#eaeaea;
+    --btn-border-hover:#eaeaea;
+
+    /* ghost: subtle outline on dark */
+    --btn-ghost-bg:transparent;
+    --btn-ghost-fg:#f3f3f3;
+    --btn-ghost-border:#3b3b3f;
+    --btn-ghost-bg-hover:#1f1f23;
+    --btn-ghost-border-hover:#5a5a60;
+
+    --shadow-1: 0 2px 6px rgba(0,0,0,.55);
+    --shadow-2: 0 12px 28px rgba(0,0,0,.7);
+    --focus-ring:#7db3ff;
+  }
+}
+.dark, [data-theme="dark"]{
+  /* allow a manual theme toggle if you add one later */
+  --btn-bg:#fff;
+  --btn-fg:#111;
+  --btn-border:#fff;
+  --btn-bg-hover:#eaeaea;
+  --btn-border-hover:#eaeaea;
+
+  --btn-ghost-bg:transparent;
+  --btn-ghost-fg:#f3f3f3;
+  --btn-ghost-border:#3b3b3f;
+  --btn-ghost-bg-hover:#1f1f23;
+  --btn-ghost-border-hover:#5a5a60;
+
+  --shadow-1: 0 2px 6px rgba(0,0,0,.55);
+  --shadow-2: 0 12px 28px rgba(0,0,0,.7);
+  --focus-ring:#7db3ff;
+}
+
+/* Universal button (uses the vars above) */
+.btn, button.btn, input[type="submit"].btn{
+  display:inline-flex; align-items:center; justify-content:center; gap:.45rem;
+  padding:.6rem .95rem; border-radius:.6rem;
+  border:1px solid var(--btn-border);
+  background:var(--btn-bg); color:var(--btn-fg);
+  text-decoration:none; font-weight:600; line-height:1; cursor:pointer;
+  box-shadow:var(--shadow-1);
+  transform: translateY(0);
+  transition: transform .12s ease-out, box-shadow .12s ease-out,
+              background .15s, border-color .15s, color .15s;
+  -webkit-appearance: none; appearance: none;
+  outline-color: var(--focus-ring);
+}
+.btn:hover{ transform: translateY(-2px); box-shadow:var(--shadow-2); background:var(--btn-bg-hover); border-color:var(--btn-border-hover); }
+.btn:active{ transform: translateY(0); box-shadow:var(--shadow-1); }
+
+/* Ghost/secondary */
+.btn-ghost, button.btn-ghost, input[type="submit"].btn-ghost{
+  background: var(--btn-ghost-bg);
+  color: var(--btn-ghost-fg);
+  border-color: var(--btn-ghost-border);
+}
+.btn-ghost:hover{
+  background: var(--btn-ghost-bg-hover);
+  border-color: var(--btn-ghost-border-hover);
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce){
+  .btn, button.btn, input[type="submit"].btn{
+    transition: background .15s, border-color .15s, color .15s;
+  }
+  .btn:hover, .btn:active{ transform:none; box-shadow:var(--shadow-1); }
+}
+
+/* Make text overlays follow theme (your “Read a sample →”/link-ctas) */
+.link-cta, .sample-link{ color: inherit; font-weight:700; text-decoration:none; }
+.link-cta:hover, .sample-link:hover{ text-decoration:underline; text-underline-offset:2px; }
+
+/* Help the overlay text stay legible on images */
+.sample-link{ text-shadow: 0 1px 2px rgba(255,255,255,.65); }
+@media (prefers-color-scheme: dark){
+  .sample-link{ text-shadow: 0 1px 2px rgba(0,0,0,.7); }
 }
