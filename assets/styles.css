@@ -380,3 +380,29 @@ h1,h2,h3{line-height:1.2}
 .nl-benefits { margin-left: 0; }
 
 .cv-item + .cv-item{ margin-top:.35rem; }
+
+/* Two-column year | details layout */
+.cv-row{
+  display:grid;
+  grid-template-columns: 5ch 1fr;  /* adjust 5–7ch to taste */
+  column-gap: 1rem;
+  align-items: start;              /* top-align first lines */
+}
+
+.cv-year{
+  text-align: right;
+  font-weight: 600;
+  opacity: .8;
+}
+
+.cv-details{ min-width:0; }        /* allows long lines to wrap cleanly */
+
+.cv-item{ margin:0; line-height:1.5; }
+.cv-item + .cv-item{ margin-top:.35rem; }
+
+/* Optional: tighter look on very small screens */
+@media (max-width: 480px){
+  .cv-row{ grid-template-columns: 1fr; }
+  .cv-year{ text-align:left; margin-bottom:.25rem; }
+}
+
