@@ -3,7 +3,7 @@
   {% assign sprite = '/assets/icons.svg?v=2' | relative_url %}
 
   {% for item in items %}
-    {% assign external = item.url contains '://' %}
+    {% assign external = item.url contains '://' or item.url contains 'mailto:' %}
     {% assign icon_id  = item.icon | default: 'globe' %}
 
     {%- comment -%} Build a safe href {%- endcomment -%}
@@ -12,15 +12,15 @@
       {% unless href | slice: 0, 1 == '/' %}
         {% assign href = '/' | append: href %}
       {% endunless %}
-      {% assign href = href | relative_url %}
+      {% assign href = href | absolute_url %}
     {% endunless %}
 
     <li>
       <a
-        href="{{ href }}"
-        {% if external %}target="_blank" rel="noopener"{% endif %}
+        href="{{ external | default: false  | if: href, item.url }}"
         class="link {{ icon_id }}"
         aria-label="{{ item.label }}"
+        {% if external %}target="_blank" rel="noopener"{% endif %}
       >
         <svg class="icon" width="20" height="20" aria-hidden="true">
           <use href="{{ sprite }}#{{ icon_id }}"></use>
