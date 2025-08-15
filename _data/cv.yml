@@ -5,53 +5,53 @@ solo:
       - title: "Throughline"
         venue: "Link Community Clinic"
         location: "Tacoma, WA"
+
   - year: 2020
     end: 2022
     entries:
       - title: "My Dreams Are Blue"
         venue: "Sig Brewing Company"
         location: "Tacoma, WA"
-    - year: 2018
-      end: 
-      entries:
-        - title: "She's Had Enough"
-          url: "https://www.spaceworkstacoma.com/projects/jennifer-chin-shes-had-enough/"
-          venue: "Spaceworks ArtScapes"
-          location: "Tacoma, WA"
-        - title: "April Featured Artist"
-          venue: "The Swiss Pub"
-          location: "Tacoma, WA"
-    - year: 2016
-      end: 
-      entries:
-        - title: "August Featured Artist"
-          venue: "The Swiss Pub"
-          location: "Tacoma, WA"
-    - year: 2015
-      end: 
-      entries:
-        - title: "Sept Featured Artist"
-          venue: "The Swiss Pub"
-          location: "Tacoma, WA"
-        - title: "August Featured Artist"
-          venue: "West Seattle Wine Cellar"
-          location: "SEattle, WA"
-    - year: 2014
-      end: 
-      entries:
-        - title: "MicroZoo"
-          venue: "Spaceworks Artscapes"
-          location: "Tacoma, WA"
-        - title: "My Dreams Are Blue"
-          venue: "Spaceworks Artscapes"
-          location: "Tacoma, WA"
-        - title: "May Featured Artist"
-          venue: "The Swiss Pub"
-          location: "Tacoma, WA"
+
+  - year: 2018
+    entries:
+      - title: "She's Had Enough"
+        url: "https://www.spaceworkstacoma.com/projects/jennifer-chin-shes-had-enough/"
+        venue: "Spaceworks ArtScapes"
+        location: "Tacoma, WA"
+      - title: "April Featured Artist"
+        venue: "The Swiss Pub"
+        location: "Tacoma, WA"
+
+  - year: 2016
+    entries:
+      - title: "August Featured Artist"
+        venue: "The Swiss Pub"
+        location: "Tacoma, WA"
+
+  - year: 2015
+    entries:
+      - title: "Sept Featured Artist"
+        venue: "The Swiss Pub"
+        location: "Tacoma, WA"
+      - title: "August Featured Artist"
+        venue: "West Seattle Wine Cellar"
+        location: "Seattle, WA"
+
+  - year: 2014
+    entries:
+      - title: "MicroZoo"
+        venue: "Spaceworks Artscapes"
+        location: "Tacoma, WA"
+      - title: "My Dreams Are Blue"
+        venue: "Spaceworks Artscapes"
+        location: "Tacoma, WA"
+      - title: "May Featured Artist"
+        venue: "The Swiss Pub"
+        location: "Tacoma, WA"
 
 group:
   - year: 2018
-    end:
     entries:
       - title: "Tacoma Studio Tour"
         location: "Tacoma, WA"
@@ -61,14 +61,14 @@ group:
       - title: "Creativity Persists"
         venue: "Center on Contemporary Art"
         location: "Seattle, WA"
+
   - year: 2017
-    end:
     entries:
       - title: "A-Mazing Art"
         venue: "Mad Hat Tea"
         location: "Tacoma, WA"
+
   - year: 2015
-    end:
     entries:
       - title: "Tacoma Studio Tour"
         location: "Tacoma, WA"
@@ -78,8 +78,8 @@ group:
       - title: "Chin & De Foe"
         venue: "Handforth Gallery"
         location: "Tacoma, WA"
+
   - year: 2014
-    end:
     entries:
       - title: "Who Are You?"
         venue: "Center on Contemporary Art"
@@ -101,8 +101,8 @@ group:
       - title: "Neighborhood of Houses"
         venue: "Shared Housing Services"
         location: "Tacoma, WA"
+
   - year: 2013
-    end:
     entries:
       - title: "Day of the Dead"
         venue: "Poco Wine + Spirits"
@@ -113,6 +113,7 @@ publications:
     entries:
       - title: "Creative Colloquy Volume Six Collected Stories"
         details: "pgs. 20, 117"
+
   - year: 2018
     entries:
       - title: "Creative Colloquy Volume Five Collected Stories"
@@ -123,6 +124,7 @@ education:
     entries:
       - title: "Artist Trust, EDGE Professional Dev Program for Visual Artists"
         location: "Seattle, WA"
+
   - year: 1995
     entries:
       - title: "University of Washington, BA in Art"
