@@ -379,3 +379,4 @@ h1,h2,h3{line-height:1.2}
 /* Optional: tighten the bullets a hair */
 .nl-benefits { margin-left: 0; }
 
+.cv-item + .cv-item{ margin-top:.35rem; }
