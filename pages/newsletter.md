@@ -43,8 +43,8 @@ description: "Short studio stories + a quick Moxie Lab Minute. 1–2×/month. No
 </section>
 
 <section class="nl-issues">
-  <h2>Back Issues <p class="all-issues"><a href="{{ '/newsletter/archive/' | relative_url }}">View all →</a></p> </h2>  
-  
+  <h2>Back Issues</h2>  
+  <p class="all-issues"><a href="{{ '/newsletter/archive/' | relative_url }}">View all →</a></p> 
   <div class="issues-grid">
     {% assign latest = site.data.issues | slice: 0, 6 %}
     {% for i in latest %}
