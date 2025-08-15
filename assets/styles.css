@@ -131,13 +131,59 @@ h1,h2,h3{line-height:1.2}
   .hero{ display:grid; grid-template-columns:1.1fr .9fr; gap:1.5rem; align-items:center; }
 }
 
-/* Buttons */
-.button{
-  display:inline-block; padding:.6rem 1rem; border-radius:var(--radius);
-  font-weight:600; text-decoration:none; border:1px solid var(--accent);
-  background:var(--accent); color:#fff; margin-right:.5rem;
+/* === Sitewide Buttons === */
+:root{
+  --btn-bg:#111;           /* primary background */
+  --btn-fg:#fff;           /* primary text       */
+  --btn-border:#111;
+  --btn-bg-hover:#000;
+  --btn-border-hover:#000;
+  --btn-radius:.6rem;
 }
-.button.outline{ background:transparent; color:var(--accent); }
+
+/* Works for <a>, <button>, and <input type=submit> when they have .btn */
+.btn, button.btn, input[type="submit"].btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:.45rem;
+  padding:.6rem .95rem;
+  border-radius:var(--btn-radius);
+  border:1px solid var(--btn-border);
+  background:var(--btn-bg);
+  color:var(--btn-fg);
+  text-decoration:none;
+  font-weight:600;
+  line-height:1;
+  cursor:pointer;
+  box-shadow:0 1px 2px rgba(0,0,0,.05);
+  transition:background .15s, border-color .15s, color .15s, transform .02s;
+}
+.btn:hover,
+button.btn:hover,
+input[type="submit"].btn:hover{
+  background:var(--btn-bg-hover);
+  border-color:var(--btn-border-hover);
+}
+.btn:active,
+button.btn:active,
+input[type="submit"].btn:active{ transform: translateY(1px); }
+.btn:focus-visible,
+button.btn:focus-visible,
+input[type="submit"].btn:focus-visible{
+  outline:3px solid #4c9ffe; outline-offset:2px;
+}
+
+/* Ghost/secondary style (for lighter CTAs) */
+.btn-ghost, button.btn-ghost, input[type="submit"].btn-ghost{
+  background:#fff; color:#111; border-color:#ddd;
+}
+.btn-ghost:hover{ background:#f6f6f6; border-color:#bbb; }
+
+/* Optional sizes */
+.btn-sm{ padding:.45rem .75rem; font-size:.95rem; }
+.btn-lg{ padding:.75rem 1.1rem; font-size:1.05rem; }
+
 
 /* ---------- FOOTER (clean) ---------- */
 .site-footer{
@@ -437,18 +483,6 @@ h1,h2,h3{line-height:1.2}
 }
 
 .about-actions{ margin-top: 1rem; }
-
-/* Reusable button */
-.btn{
-  display:inline-block;
-  padding:.55rem .9rem;
-  border:1px solid #ddd;
-  border-radius:.55rem;
-  text-decoration:none;
-  font-weight:600;
-  line-height:1;
-}
-.btn:hover{ background:#111; color:#fff; border-color:#111; }
 
 /* Mobile: stack with photo first and centered */
 @media (max-width: 760px){
