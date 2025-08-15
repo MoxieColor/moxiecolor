@@ -380,7 +380,7 @@ h1,h2,h3{line-height:1.2}
 .nl-benefits { margin-left: 0; }
 
 /* Two-column year | details layout */
-.cv-section{ --cv-year-col: 15ch; }      /* try 10–12ch if you’ll use “present” */
+.cv-section{ --cv-year-col: 15ch; --cv-year-gap: 1rem; }      /* try 10–12ch if you’ll use “present” */
 .cv-row{
   display:grid;
   grid-template-columns: var(--cv-year-col) 1fr;
