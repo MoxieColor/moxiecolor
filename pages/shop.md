@@ -18,5 +18,5 @@ Original art, prints, and other merch to delight you.
 <a class="btn" href="https://moxiecolor.etsy.com" target="_blank" rel="noopener">Shop Originals & Merch</a>
 
 ## Spoonflower
-Artufull distillation of my work into repeat patterns - check out fabric and home decor; made on demand for you.
+Artufull distillation of my work into repeat patterns - check out fabric and home decor; made on demand for you.  
 <a class="btn" href="https://www.spoonflower.com/profiles/moxiecolor" target="_blank" rel="noopener">Explore Patterns</a>
