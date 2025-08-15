@@ -13,7 +13,7 @@ permalink: /
     <p>Bold, conceptual, and layered artworks for curious minds.</p>
     <div class="cta">
       <a class="btn" href="{{ '/shop/' | relative_url }}">Shop My Art</a>
-      <a class="btn" href="{{ '/newsletter/' | relative_url }}">Join My Studio List</a>
+      <a class="btn" href="{{ '/newsletter/' | relative_url }}">Subscribe to Hue & Tell</a>
     </div>
   </div>
   <div class="hero-image">
