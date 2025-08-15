@@ -6,18 +6,18 @@
     {% assign external = item.url contains '://' or item.url contains 'mailto:' %}
     {% assign icon_id  = item.icon | default: 'globe' %}
 
-    {%- comment -%} Build a safe href {%- endcomment -%}
+    {%- comment -%} Build a safe href for internal links {%- endcomment -%}
     {% assign href = item.url %}
     {% unless external %}
       {% unless href | slice: 0, 1 == '/' %}
         {% assign href = '/' | append: href %}
       {% endunless %}
-      {% assign href = href | absolute_url %}
+      {% assign href = href | relative_url %}  {# -> /moxiecolor/... #}
     {% endunless %}
 
     <li>
       <a
-        href="{{ external | default: false  | if: href, item.url }}"
+        href="{% if external %}{{ item.url }}{% else %}{{ href }}{% endif %}"
         class="link {{ icon_id }}"
         aria-label="{{ item.label }}"
         {% if external %}target="_blank" rel="noopener"{% endif %}
