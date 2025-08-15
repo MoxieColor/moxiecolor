@@ -6,16 +6,25 @@
     {% assign external = item.url contains '://' %}
     {% assign icon_id  = item.icon | default: 'globe' %}
 
+    {%- comment -%} Build a safe href {%- endcomment -%}
+    {% assign href = item.url %}
+    {% unless external %}
+      {% unless href | slice: 0, 1 == '/' %}
+        {% assign href = '/' | append: href %}
+      {% endunless %}
+      {% assign href = href | relative_url %}
+    {% endunless %}
+
     <li>
       <a
-        href="{% if external %}{{ item.url }}{% else %}{{ item.url | relative_url }}{% endif %}"
+        href="{{ href }}"
         {% if external %}target="_blank" rel="noopener"{% endif %}
         class="link {{ icon_id }}"
         aria-label="{{ item.label }}"
       >
         <svg class="icon" width="20" height="20" aria-hidden="true">
           <use href="{{ sprite }}#{{ icon_id }}"></use>
-          <use xlink:href="{{ sprite }}#{{ icon_id }}"></use>  <!-- old Safari -->
+          <use xlink:href="{{ sprite }}#{{ icon_id }}"></use>
         </svg>
 
         {% assign show = include.show_text %}
