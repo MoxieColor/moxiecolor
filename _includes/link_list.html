@@ -4,31 +4,25 @@
 
   {% for item in items %}
     {% assign external = item.url contains '://' or item.url contains 'mailto:' %}
-    {% assign icon_id  = item.icon | default: 'globe' %}
-
-    {%- comment -%} Build href for internal links by hand: baseurl + path {%- endcomment -%}
-    {% assign href = item.url %}
+    {% assign url = item.url %}
     {% unless external %}
-      {%- unless href | slice: 0, 1 == '/' -%}
-        {% assign href = '/' | append: href %}
-      {%- endunless -%}
-      {% assign href = site.baseurl | append: href %}  {# -> "/moxiecolor/newsletter/" #}
+      {% unless url | slice: 0, 1 == '/' %}{% assign url = '/' | append: url %}{% endunless %}
+      {% assign url = url | relative_url %}  {# -> /moxiecolor/newsletter/ on GH Pages #}
     {% endunless %}
 
     <li>
       <a
-        href="{% if external %}{{ item.url }}{% else %}{{ href }}{% endif %}"
-        class="link {{ icon_id }}"
+        href="{{ external | default: false | ternary: item.url, url }}"
+        class="link {{ item.icon | default: 'globe' }}"
         aria-label="{{ item.label }}"
         {% if external %}target="_blank" rel="noopener"{% endif %}
       >
         <svg class="icon" width="20" height="20" aria-hidden="true">
-          <use href="{{ sprite }}#{{ icon_id }}"></use>
-          <use xlink:href="{{ sprite }}#{{ icon_id }}"></use>
+          <use href="{{ sprite }}#{{ item.icon | default: 'globe' }}"></use>
+          <use xlink:href="{{ sprite }}#{{ item.icon | default: 'globe' }}"></use>
         </svg>
 
-        {% assign show = include.show_text %}
-        {% if show == false or show == 'false' %}
+        {% if include.show_text == false or include.show_text == 'false' %}
           <span class="sr-only">{{ item.label }}</span>
         {% else %}
           <span class="label">{{ item.label }}</span>
