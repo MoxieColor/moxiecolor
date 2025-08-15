@@ -403,7 +403,12 @@ h1,h2,h3{line-height:1.2}
 
 .cv-details{ min-width:0; }        /* allows long lines to wrap cleanly */
 
-.cv-item{ margin:0; line-height:1.5; }
+.cv-item{
+  margin:0;
+  line-height:1.5;
+  padding-left: 1.2rem;   /* same value as below, tweak to taste */
+  text-indent: -1.2rem;   /* makes a hanging indent */
+}
 .cv-item + .cv-item{ margin-top:.35rem; }
 
 /* Mobile stack */
@@ -412,3 +417,5 @@ h1,h2,h3{line-height:1.2}
   .cv-year{ text-align:left; margin-bottom:.25rem; }
 }
 
+.cv-item a{ color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+.cv-item a:hover{ text-decoration-thickness: 2px; }
