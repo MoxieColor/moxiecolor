@@ -382,17 +382,19 @@ h1,h2,h3{line-height:1.2}
 .cv-item + .cv-item{ margin-top:.35rem; }
 
 /* Two-column year | details layout */
+.cv-section{ --cv-year-col: 10ch; }      /* try 10–12ch if you’ll use “present” */
 .cv-row{
   display:grid;
-  grid-template-columns: 5ch 1fr;  /* adjust 5–7ch to taste */
-  column-gap: 1rem;
-  align-items: start;              /* top-align first lines */
+  grid-template-columns: var(--cv-year-col) 1fr;
+  column-gap:1rem;
+  align-items:start;
 }
-
 .cv-year{
-  text-align: right;
-  font-weight: 600;
-  opacity: .8;
+  text-align:right;
+  font-weight:600;
+  opacity:.8;
+  font-variant-numeric: tabular-nums;     /* keeps digits from “wiggling” */
+  white-space: nowrap;                     /* don’t wrap 2023–2024 */
 }
 
 .cv-details{ min-width:0; }        /* allows long lines to wrap cleanly */
@@ -400,8 +402,8 @@ h1,h2,h3{line-height:1.2}
 .cv-item{ margin:0; line-height:1.5; }
 .cv-item + .cv-item{ margin-top:.35rem; }
 
-/* Optional: tighter look on very small screens */
-@media (max-width: 480px){
+/* Mobile stack */
+@media (max-width:480px){
   .cv-row{ grid-template-columns: 1fr; }
   .cv-year{ text-align:left; margin-bottom:.25rem; }
 }
