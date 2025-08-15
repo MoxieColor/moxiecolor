@@ -61,6 +61,7 @@ group:
         venue: "Mary Spirito Pillitteri/Vanita and Paul Mathews Gallery"
         location: "Seattle, WA"
       - title: "Creativity Persists"
+        url: "https://www.cocaseattle.org/digital-archive/2016-2019"
         venue: "Center on Contemporary Art"
         location: "Seattle, WA"
 
@@ -84,6 +85,7 @@ group:
   - year: 2014
     entries:
       - title: "Who Are You?"
+        url: "https://www.cocaseattle.org/digital-archive/2010-15"
         venue: "Center on Contemporary Art"
         location: "Seattle, WA"
       - title: "Day of the Dead"
