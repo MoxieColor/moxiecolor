@@ -19,4 +19,4 @@ Artufull distillation of my work into repeat patterns - check out fabric and hom
 
 ## Gumroad
 Instantly downloadable awesome  
-<a class="btn" href="https://www.moxiecolor.gumroad.com" target="_blank" rel="noopener">Digital Downloads</a>
+<a class="btn" href="https://moxiecolor.gumroad.com/" target="_blank" rel="noopener">Digital Downloads</a>
