@@ -14,6 +14,7 @@ permalink: /
     <div class="cta">
       <a class="btn" href="{{ '/shop/' | relative_url }}">Shop My Art</a>
       <a class="btn" href="{{ '/newsletter/' | relative_url }}">Subscribe to Hue & Tell</a>
+      <a class="btn" href="{{ '/about/' | relative_url }}">About the Artist - Me</a>
     </div>
   </div>
   <div class="hero-image">
