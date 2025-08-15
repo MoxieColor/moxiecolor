@@ -57,6 +57,6 @@ description: "Short studio stories + a quick Moxie Lab Minute. 1–2×/month. No
   </div>
 </section>
 
-<section class="nl-faq small">
+<section class="nl-issues">
   <p><strong>How often?</strong> 1–2×/month. <strong>Unsubscribe?</strong> Anytime with one click. <strong>Privacy?</strong> I only use your email to send Hue & Tell.</p>
 </section>
