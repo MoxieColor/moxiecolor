@@ -12,7 +12,7 @@ permalink: /
     <h2>Finding logic in the chaos</h2>
     <p>Bold, conceptual, and layered artworks for curious minds.</p>
     <div class="cta">
-      <a class="btnn" href="{{ '/shop/' | relative_url }}">Shop My Art</a>
+      <a class="btn" href="{{ '/shop/' | relative_url }}">Shop My Art</a>
       <a class="btn" href="{{ '/newsletter/' | relative_url }}">Join My Studio List</a>
     </div>
   </div>
