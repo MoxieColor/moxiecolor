@@ -419,3 +419,39 @@ h1,h2,h3{line-height:1.2}
 
 .cv-item a{ color: inherit; text-decoration: underline; text-underline-offset: 2px; }
 .cv-item a:hover{ text-decoration-thickness: 2px; }
+
+/* === About page split layout === */
+.about-grid{
+  display: grid;
+  grid-template-columns: 1fr min(320px, 36%);
+  column-gap: 2rem;
+  row-gap: 1.25rem;
+  align-items: start;
+}
+
+.about-photo img{
+  display:block;
+  width: 100%;
+  height: auto;
+  border-radius: .5rem;
+}
+
+.about-actions{ margin-top: 1rem; }
+
+/* Reusable button */
+.btn{
+  display:inline-block;
+  padding:.55rem .9rem;
+  border:1px solid #ddd;
+  border-radius:.55rem;
+  text-decoration:none;
+  font-weight:600;
+  line-height:1;
+}
+.btn:hover{ background:#111; color:#fff; border-color:#111; }
+
+/* Mobile: stack with photo first and centered */
+@media (max-width: 760px){
+  .about-grid{ grid-template-columns: 1fr; }
+  .about-photo{ order:-1; justify-self:center; max-width: 320px; }
+}
