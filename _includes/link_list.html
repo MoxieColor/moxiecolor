@@ -6,13 +6,13 @@
     {% assign external = item.url contains '://' or item.url contains 'mailto:' %}
     {% assign icon_id  = item.icon | default: 'globe' %}
 
-    {%- comment -%} Build a safe href for internal links {%- endcomment -%}
+    {%- comment -%} Build href for internal links by hand: baseurl + path {%- endcomment -%}
     {% assign href = item.url %}
     {% unless external %}
-      {% unless href | slice: 0, 1 == '/' %}
+      {%- unless href | slice: 0, 1 == '/' -%}
         {% assign href = '/' | append: href %}
-      {% endunless %}
-      {% assign href = href | relative_url %}  {# -> /moxiecolor/... #}
+      {%- endunless -%}
+      {% assign href = site.baseurl | append: href %}  {# -> "/moxiecolor/newsletter/" #}
     {% endunless %}
 
     <li>
