@@ -11,4 +11,4 @@ In the initial creation of a composition plan, the process begins from within, e
 
 Amidst this creative process, truth emerges; an eloquent metaphor for the world that surrounds us. While on the surface, chaos may reign; deeper inspection reveals the subtle threads of logic woven into the fabric of disorder. The very essence of life's complexity finds its reflection in the interplay of pigments and pours, reminding us that even amidst turmoil, order and meaning persist, waiting to be deciphered.
 
-<a class="btn" href="/newsletter/" target="_blank" rel="noopener">Follow my journey</a>
+<a class="btn" href="{{ '/newsletter/' | relative_url }}">Follow my journey</a>
