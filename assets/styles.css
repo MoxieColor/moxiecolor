@@ -133,45 +133,51 @@ h1,h2,h3{line-height:1.2}
 
 /* === Sitewide Buttons === */
 :root{
-  --btn-bg:#111;           /* primary background */
+  ---bg:#111;           /* primary background */
   --btn-fg:#fff;           /* primary text       */
   --btn-border:#111;
   --btn-bg-hover:#000;
   --btn-border-hover:#000;
   --btn-radius:.6rem;
+
+  /* ghost variant */
+  --btn-ghost-bg:#fff; --btn-ghost-fg:#111; --btn-ghost-border:#ccc;
+  --btn-ghost-bg-hover:#f6f6f6; --btn-ghost-border-hover:#bbb;
+
+  /* shadows + focus */
+  --shadow-1: 0 2px 6px rgba(0,0,0,.08);
+  --shadow-2: 0 6px 18px rgba(0,0,0,.18);
+  --focus-ring:#4c9ffe;
 }
 
 /* Works for <a>, <button>, and <input type=submit> when they have .btn */
+/* Lifted buttons */
 .btn, button.btn, input[type="submit"].btn{
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  gap:.45rem;
-  padding:.6rem .95rem;
-  border-radius:var(--btn-radius);
-  border:1px solid var(--btn-border);
-  background:var(--btn-bg);
-  color:var(--btn-fg);
-  text-decoration:none;
-  font-weight:600;
-  line-height:1;
-  cursor:pointer;
-  box-shadow:0 1px 2px rgba(0,0,0,.05);
-  transition:background .15s, border-color .15s, color .15s, transform .02s;
+  display:inline-flex; align-items:center; justify-content:center;
+  gap:.45rem; padding:.6rem .95rem;
+  border-radius:.6rem; border:1px solid var(--btn-border, #111);
+  background:var(--btn-bg, #111); color:var(--btn-fg, #fff);
+  text-decoration:none; font-weight:600; line-height:1; cursor:pointer;
+  box-shadow:0 2px 6px rgba(0,0,0,.08);
+  transform: translateY(0);                 /* base */
+  transition: transform .12s ease-out, box-shadow .12s ease-out,
+              background .15s, border-color .15s, color .15s;
+  will-change: transform, box-shadow;
+  -webkit-appearance: none; appearance: none; /* for <input> */
 }
+
 .btn:hover,
 button.btn:hover,
 input[type="submit"].btn:hover{
-  background:var(--btn-bg-hover);
-  border-color:var(--btn-border-hover);
+  transform: translateY(-2px);              /* the lift */
+  box-shadow:0 6px 18px rgba(0,0,0,.18);
 }
+
 .btn:active,
 button.btn:active,
-input[type="submit"].btn:active{ transform: translateY(1px); }
-.btn:focus-visible,
-button.btn:focus-visible,
-input[type="submit"].btn:focus-visible{
-  outline:3px solid #4c9ffe; outline-offset:2px;
+input[type="submit"].btn:active{
+  transform: translateY(0);                 /* press back down */
+  box-shadow:0 2px 6px rgba(0,0,0,.08);
 }
 
 /* Ghost/secondary style (for lighter CTAs) */
@@ -184,7 +190,53 @@ input[type="submit"].btn:focus-visible{
 .btn-sm{ padding:.45rem .75rem; font-size:.95rem; }
 .btn-lg{ padding:.75rem 1.1rem; font-size:1.05rem; }
 
+@media (prefers-reduced-motion: reduce){
+  .btn, button.btn, input[type="submit"].btn{
+    transition: background .15s, border-color .15s, color .15s;
+  }
+  .btn:hover, .btn:active,
+  button.btn:hover, button.btn:active,
+  input[type="submit"].btn:hover, input[type="submit"].btn:active{
+    transform:none; box-shadow:0 2px 6px rgba(0,0,0,.08);
+  }
+}
+/* Dark theme overrides — works with either a class toggle OR system dark mode */
+.dark, [data-theme="dark"],
+@media (prefers-color-scheme: dark){
+  :root{
+    /* Primary flips to light-on-dark background for contrast on dark pages */
+    --btn-bg:#fff; --btn-fg:#111; --btn-border:#fff;
+    --btn-bg-hover:#eaeaea; --btn-border-hover:#eaeaea;
 
+    /* Ghost becomes transparent with light text + subtle border */
+    --btn-ghost-bg: transparent; --btn-ghost-fg:#f3f3f3; --btn-ghost-border:#444;
+    --btn-ghost-bg-hover:#1b1b21; --btn-ghost-border-hover:#666;
+
+    --shadow-1: 0 2px 6px rgba(0,0,0,.6);
+    --shadow-2: 0 12px 24px rgba(0,0,0,.7);
+    --focus-ring:#7db3ff;
+  }
+}
+
+/* Make the components use those vars */
+.btn, button.btn, input[type="submit"].btn{
+  box-shadow: var(--shadow-1);
+  outline-color: var(--focus-ring);
+}
+.btn:hover{ box-shadow: var(--shadow-2); }
+
+.btn-ghost, button.btn-ghost, input[type="submit"].btn-ghost{
+  background: var(--btn-ghost-bg);
+  color: var(--btn-ghost-fg);
+  border-color: var(--btn-ghost-border);
+}
+.btn-ghost:hover{
+  background: var(--btn-ghost-bg-hover);
+  border-color: var(--btn-ghost-border-hover);
+}
+
+/* Helps native controls pick the right palette */
+html{ color-scheme: light dark; }
 /* ---------- FOOTER (clean) ---------- */
 .site-footer{
   border-top:1px solid #eee;
