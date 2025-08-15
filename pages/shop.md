@@ -21,9 +21,13 @@ Artufull distillation of my work into repeat patterns - fabric yardage, wall pap
         <img src="{{ '/assets/images/stores/Spoonflower1.png') | relative_url }}" 
              alt="Wallpaper"
              loading="lazy">
+    </div>
+    <div class="about-photo">
         <img src="{{ '/assets/images/stores/Spoonflower2.png') | relative_url }}" 
              alt="Curtains"
              loading="lazy">
+    </div>
+    <div class="about-photo">
          <img src="{{ '/assets/images/stores/Spoonflower3.png') | relative_url }}" 
              alt="Napkins"
              loading="lazy">   
