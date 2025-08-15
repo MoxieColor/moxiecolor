@@ -379,10 +379,8 @@ h1,h2,h3{line-height:1.2}
 /* Optional: tighten the bullets a hair */
 .nl-benefits { margin-left: 0; }
 
-.cv-item + .cv-item{ margin-top:.35rem; }
-
 /* Two-column year | details layout */
-.cv-section{ --cv-year-col: 10ch; }      /* try 10–12ch if you’ll use “present” */
+.cv-section{ --cv-year-col: 15ch; }      /* try 10–12ch if you’ll use “present” */
 .cv-row{
   display:grid;
   grid-template-columns: var(--cv-year-col) 1fr;
@@ -396,6 +394,12 @@ h1,h2,h3{line-height:1.2}
   font-variant-numeric: tabular-nums;     /* keeps digits from “wiggling” */
   white-space: nowrap;                     /* don’t wrap 2023–2024 */
 }
+
+/* extra breathing room between year rows */
+.cv-row + .cv-row{ margin-top: var(--cv-year-gap); }
+
+/* Within a year: small spacing between entries */
+.cv-item + .cv-item{ margin-top:.35rem; }
 
 .cv-details{ min-width:0; }        /* allows long lines to wrap cleanly */
 
