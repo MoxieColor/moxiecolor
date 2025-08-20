@@ -25,6 +25,6 @@ Distillation of my originals into repeat patterns - fabric yardage, wall paper, 
   <img src="{{ '/assets/images/stores/Spoonflower3.png') | relative_url }}"  width=auto height="200"/>
 </p>
 
-## Etsy
+## Etsy - coming soom
 Original art, prints, and other merch to delight you.  
 <a class="btn" href="https://moxiecolor.etsy.com" target="_blank" rel="noopener">Originals & Merch</a>
