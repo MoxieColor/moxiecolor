@@ -1,6 +1,6 @@
 - name: Gumroad
   badge: Digital Downloads
-  blurb: "Instant digital downloads — printables, stickers, assets."
+  blurb: "Instant downloads—printables and assets. Great for teachers, puzzle lovers, and makers."
   url: "moxiecolor.gumroad.com"
   image: "/assets/images/stores/Word Search Trivia Square.png"
   featured:
@@ -20,14 +20,14 @@
 
 - name: Amazon KDP
   badge: Paperbacks (soon)
-  blurb: "Puzzle books & journals — paperback."
+  blurb: "Paperbacks in review. Join the list and I’ll email you the moment it’s live."
   status: waitlist
   waitlist_url: "/newsletter/"
   image: "/assets/images/stores/Word Search Trivia Square.png"
 
 - name: Etsy
   badge: Originals & Merch
-  blurb: "Original art, prints, and small-batch merch."
+  blurb: "Originals & small-batch merch + limited drops. Be first to know."
   status: waitlist
   waitlist_url: "/newsletter/"
   image: "/assets/images/stores/Etsy Parked Storefront.png"
