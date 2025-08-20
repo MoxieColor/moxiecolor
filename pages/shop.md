@@ -14,10 +14,12 @@ permalink: /shop/
        {% if s.url %}href="{{ s.url }}"{% endif %}
        {% if s.status != 'waitlist' %}target="_blank" rel="noopener"{% endif %}>
       <img src="{{ s.image | relative_url }}" alt="{{ s.name }} preview">
+      {% if s.badge %}
+        <span class="badge badge--overlay">{{ s.badge }}</span>
+      {% endif %}
     </a>
 
     <h3>{{ s.name }}</h3>
-    <span class="badge">{{ s.badge }}</span>
     <p>{{ s.blurb }}</p>
 
     {% if s.status == 'waitlist' %}
