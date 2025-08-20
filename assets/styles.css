@@ -388,6 +388,14 @@ html{ color-scheme: light dark; }
 .footer-links a.mail:focus-visible{       color:var(--accent); } /* your accent */
 .footer-links a.linktree:hover,
 .footer-links a.linktree:focus-visible{   color:#39E09B; } /* Linktree green */
+.footer-links a.gumroad:hover,
+.footer-links a.gumroad:focus-visible{   color:#FF90E8; } /* Gumroad pink */
+.footer-links a.amazon:hover,
+.footer-links a.amazon:focus-visible{   color:var(--accent); } /* Amazon Orange */
+.footer-links a.facebook:hover,
+.footer-links a.facebook:focus-visible{   color:#0866FF; } /* Facebook blue */
+.footer-links a.spoonflower:hover,
+.footer-links a.spoonflower:focus-visible{   color:var(--accent); } /* Spoonflower green */
 
 /* the SVGs use currentColor, so make sure this is set (you already have this) */
 .site-footer .footer-links .icon{ fill: currentColor; }
