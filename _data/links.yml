@@ -1,7 +1,7 @@
 footer:
-  - label: Etsy
-    url: "https://www.etsy.com/shop/moxiecolor"
-    icon: etsy
+  - label: Facebook
+    url: "https://www.facebook.com/MoxieColor/"
+    icon: facebook
   - label: Instagram
     url: "https://instagram.com/moxiecolor"
     icon: instagram
@@ -13,9 +13,9 @@ footer:
     icon: linktree
 
 page:
-  - label: Shop on Etsy
-    url: "https://www.etsy.com/shop/moxiecolor"
-    icon: etsy
+  - label: Facebook
+    url: "https://www.facebook.com/MoxieColor/"
+    icon: facebook
   - label: Portfolio & Blog
     url: "/"
     icon: globe
