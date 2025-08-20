@@ -695,3 +695,20 @@ html{ color-scheme: light dark; }
 
 /* If your generic .badge was full-width anywhere, un-stretch it */
 .badge{ display:inline-flex; width:auto; max-width:max-content; }
+
+.img-wrap{ position: relative; }
+.img-wrap .badge--overlay{
+  position:absolute; top:.5rem; left:.5rem;
+  background:rgba(255,255,255,.78);
+  border:1px solid rgba(0,0,0,.15);
+  border-radius:999px; padding:.22rem .6rem; line-height:1.1;
+  font-size:.8rem; backdrop-filter:blur(4px);
+}
+@media (prefers-color-scheme: dark){
+  .img-wrap .badge--overlay{
+    background:rgba(0,0,0,.45);
+    border-color:rgba(255,255,255,.25);
+    color:#fff;
+  }
+}
+
