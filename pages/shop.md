@@ -37,6 +37,8 @@ permalink: /shop/
         {% endfor %}
       </ul>
     {% endif %}
+
+    <p>{{ s.trust }}</p>
   </article>
   {% endfor %}
 </div>
