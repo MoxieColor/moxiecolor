@@ -1,0 +1,33 @@
+- name: Gumroad
+  badge: Digital Downloads
+  blurb: "Instant downloads—printables, stickers, assets."
+  url: "moxiecolor.gumroad.com"
+  image: "/assets/images/stores/Gumroad_wordsearchtrivia.png"
+  featured:
+    - title: "Word Search Trivia (Printable PDF)"
+      url: "https://moxiecolor.gumroad.com/l/xjmqof"
+      image: "/assets/images/stores/Gumroad_wordsearchtrivia.png"
+
+- name: Spoonflower
+  badge: Fabric & Home Decor
+  blurb: "Fabric, wallpaper & home decor—made to order."
+  url: "https://www.spoonflower.com/profiles/moxiecolor"
+  image: "/assets/images/stores/Spoonflower1.png"
+  featured:
+    - title: "Meditations Collection"
+      url: "https://www.spoonflower.com/en/collections/759238-meditations-by-moxiecolor?productType=HOME_GOOD_COCKTAIL_NAPKIN"
+      image: "/assets/images/stores/Spoonflower3.png"
+
+- name: Amazon KDP
+  badge: Paperbacks (soon)
+  blurb: "Puzzle books & journals—paperback."
+  status: waitlist
+  waitlist_url: "/newsletter/"
+  image: "/assets/images/stores/Word Search Trivia Square.png"
+
+- name: Etsy
+  badge: Originals & Merch
+  blurb: "Original art, prints, and small-batch merch."
+  status: waitlist
+  waitlist_url: "/newsletter/"
+  image: "/assets/images/stores/Etsy Parked Storefront.png"
