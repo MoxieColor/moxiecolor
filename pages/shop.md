@@ -30,6 +30,7 @@ permalink: /shop/
       <ul class="featured">
         {% for f in s.featured %}
           <li>
+            <p>{{ s.trust }}</p>
             <a href="{{ f.url }}" target="_blank" rel="noopener">
               {{ f.title }} ↗
             </a>
@@ -37,8 +38,6 @@ permalink: /shop/
         {% endfor %}
       </ul>
     {% endif %}
-
-    <p>{{ s.trust }}</p>
   </article>
   {% endfor %}
 </div>
