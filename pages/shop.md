@@ -10,14 +10,16 @@ permalink: /shop/
 <div class="shop-grid">
   {% for s in site.data.storefronts %}
   <article class="shop-card">
-    <a class="img-link" aria-label="Shop {{ s.name }}"
-       {% if s.url %}href="{{ s.url }}"{% endif %}
-       {% if s.status != 'waitlist' %}target="_blank" rel="noopener"{% endif %}>
-      <img src="{{ s.image | relative_url }}" alt="{{ s.name }} preview">
+    <div class="img-wrap">
+      <a class="img-link" aria-label="Shop {{ s.name }}"
+         {% if s.url %}href="{{ s.url }}"{% endif %}
+         {% if s.status != 'waitlist' %}target="_blank" rel="noopener"{% endif %}>
+        <img src="{{ s.image | relative_url }}" alt="{{ s.name }} preview">
+      </a>
       {% if s.badge %}
         <span class="badge badge--overlay">{{ s.badge }}</span>
       {% endif %}
-    </a>
+    </div>
 
     <h3>{{ s.name }}</h3>
     <p>{{ s.blurb }}</p>
