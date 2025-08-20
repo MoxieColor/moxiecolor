@@ -30,11 +30,14 @@ permalink: /shop/
       <a class="btn" href="{{ s.url }}" target="_blank" rel="noopener">Shop {{ s.name }} ↗</a>
     {% endif %}
 
+    {% if s.trust %}
+  <p class="trust">{{ s.trust }}</p>
+{% endif %}
+
     {% if s.featured %}
       <ul class="featured">
         {% for f in s.featured %}
           <li>
-            <p>{{ s.trust }}</p>
             <a href="{{ f.url }}" target="_blank" rel="noopener">
               {{ f.title }} ↗
             </a>
