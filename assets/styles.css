@@ -660,3 +660,7 @@ html{ color-scheme: light dark; }
 .btn{display:inline-block;margin-top:.5rem;padding:.6rem .9rem;border-radius:10px;border:1px solid currentColor;text-decoration:none}
 .featured{margin:.75rem 0 0;padding-left:1rem}
 .featured li{margin:.25rem 0}
+.shop-card{display:flex;flex-direction:column}
+.shop-card .btn{margin-top:.25rem}
+.shop-card .featured{margin-top:.5rem}
+
