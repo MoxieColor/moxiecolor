@@ -1,6 +1,7 @@
 - name: Gumroad
   badge: Digital Downloads
   blurb: "Instant downloads—printables and assets. Great for teachers, puzzle lovers, and makers."
+  trust: "Secure checkout on Gumroad"
   url: "moxiecolor.gumroad.com"
   image: "/assets/images/stores/Word Search Trivia Square.png"
   featured:
@@ -11,6 +12,7 @@
 - name: Spoonflower
   badge: Fabric & Home Decor
   blurb: "Fabric, wallpaper & home decor — made to order."
+  trust: "Secure checkout on Spoonflower"
   url: "https://www.spoonflower.com/profiles/moxiecolor"
   image: "/assets/images/stores/Spoonflower3.png"
   featured:
@@ -21,6 +23,7 @@
 - name: Amazon KDP
   badge: Paperbacks (soon)
   blurb: "Paperbacks in review. Join the list and I’ll email you the moment it’s live."
+  trust: "Secure checkout on Amazon"
   status: waitlist
   waitlist_url: "/newsletter/"
   image: "/assets/images/stores/Word Search Trivia Square.png"
@@ -28,6 +31,7 @@
 - name: Etsy
   badge: Originals & Merch
   blurb: "Originals & small-batch merch + limited drops. Be first to know."
+  trust: "Secure checkout on Etsy"
   status: waitlist
   waitlist_url: "/newsletter/"
   image: "/assets/images/stores/Etsy Parked Storefront.png"
