@@ -13,7 +13,7 @@ You can now collect my art in digital or physical form.
 Instantly downloadable awesome  
 <a class="btn" href="https://moxiecolor.gumroad.com/" target="_blank" rel="noopener">Digital Downloads</a>
 <p float="left">
-  <img src="{{ '/assets/images/stores/Spoonflower1.png') | relative_url }}"  width=auto height="200"/>
+  <img src="{{ 'assets/images/stores/Gumroad_wordsearchtrivia.png') | relative_url }}"  width=auto height="200"/>
 </p>
 
 ## Spoonflower
