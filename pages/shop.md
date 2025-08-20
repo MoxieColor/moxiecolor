@@ -4,27 +4,44 @@ title: "Moxie Color | Shop"
 permalink: /shop/
 ---
 
-# Shop My Work
+<p class="lede">Collect my art in digital or physical form.
+<strong>Instant downloads</strong> for the impatient. <strong>Fabric & decor</strong> for the dreamers.</p>
 
-You can now collect my art in digital or physical form.  
-**Instant downloads** for the impatient. **Prints & decor** for the dreamers.
+<div class="shop-grid">
+  {% for s in site.data.storefronts %}
+  <article class="shop-card">
+    <a class="img-link" aria-label="Shop {{ s.name }}"
+       {% if s.url %}href="{{ s.url }}"{% endif %}
+       {% if s.status != 'waitlist' %}target="_blank" rel="noopener"{% endif %}>
+      <img src="{{ s.image | relative_url }}" alt="{{ s.name }} preview">
+    </a>
 
-## Gumroad
-Instantly downloadable awesome  
-<a class="btn" href="https://moxiecolor.gumroad.com/" target="_blank" rel="noopener">Digital Downloads</a>
-<p float="left">
-  <img src="{{ 'assets/images/stores/Gumroad_wordsearchtrivia.png') | relative_url }}"  width=auto height="200"/>
-</p>
+    <h3>{{ s.name }}</h3>
+    <span class="badge">{{ s.badge }}</span>
+    <p>{{ s.blurb }}</p>
 
-## Spoonflower
-Distillation of my originals into repeat patterns - fabric yardage, wall paper, and home decor; made on demand for you.  
-<a class="btn" href="https://www.spoonflower.com/profiles/moxiecolor" target="_blank" rel="noopener">Fabric and Home Decor</a>
-<p float="left">
-  <img src="{{ '/assets/images/stores/Spoonflower1.png') | relative_url }}"  width=auto height="200"/>
-  <img src="{{ '/assets/images/stores/Spoonflower2.png') | relative_url }}"  width=auto height="200"/>
-  <img src="{{ '/assets/images/stores/Spoonflower3.png') | relative_url }}"  width=auto height="200"/>
-</p>
+    {% if s.status == 'waitlist' %}
+      <a class="btn" href="{{ s.waitlist_url | relative_url }}">Notify me</a>
+    {% else %}
+      <a class="btn" href="{{ s.url }}" target="_blank" rel="noopener">Shop {{ s.name }} ↗</a>
+    {% endif %}
 
-## Etsy - coming soom
-Original art, prints, and other merch to delight you.  
-<a class="btn" href="https://moxiecolor.etsy.com" target="_blank" rel="noopener">Originals & Merch</a>
+    {% if s.featured %}
+      <ul class="featured">
+        {% for f in s.featured %}
+          <li>
+            <a href="{{ f.url }}" target="_blank" rel="noopener">
+              {{ f.title }} ↗
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </article>
+  {% endfor %}
+</div>
+
+<p class="fineprint">Questions about usage or returns? See
+  <a href="{{ '/licensing/' | relative_url }}">Licensing</a> and
+  <a href="{{ '/faq/' | relative_url }}">FAQ</a>.
+  Purchases are handled securely by each storefront.</p>
