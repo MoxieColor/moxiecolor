@@ -19,7 +19,7 @@ permalink: /
   </div>
   <div class="hero-image">
     <!-- Replace with your strongest piece -->
-    <img src="{{ '/assets/hero-placeholder.jpg' | relative_url }}" alt="Featured artwork by Jennifer Chin">
+    <img src="{{ 'assets/images/portfolio/meditations/StargazingIntoTheBlue.jpeg' | relative_url }}" alt="Stargazing into the Blue, Original acrylic painting, 42&quot;x60&quot; ">
   </div>
 </section>
 
