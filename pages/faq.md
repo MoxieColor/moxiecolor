@@ -5,7 +5,7 @@ description: Answers about digital downloads, Spoonflower orders, licensing, ref
 permalink: /faq/
 ---
 
-> Don’t see your question? Ping me via the **About** page and I’ll add it here.
+> Don’t see your question? Ping me via the **[About]({{ '/about/' | relative_url }})** page and I’ll add it here.
 
 _Last updated: <time datetime="2025-08-20">August 20, 2025</time>_
 
@@ -19,7 +19,7 @@ _Last updated: <time datetime="2025-08-20">August 20, 2025</time>_
 ### I bought a **digital download**. Where’s my file?
 After checkout, Gumroad shows a download button **and** emails you a receipt with a download link.
 - Can’t find it? Check spam/promotions and make sure you used the right email.
-- Still stuck? Log into your **Gumroad Library** (the email you used at checkout) or contact me via **About** with your order email.
+- Still stuck? Log into your **Gumroad Library** (the email you used at checkout) or contact me via **[About]({{ '/about/' | relative_url }})** with your order email.
 
 ### Can I use your **digital files commercially**?
 Not at launch. Digital downloads are **non-commercial** (see [Licensing]({{ '/licensing/' | relative_url }})). Personal, Classroom (1 teacher), and School/Org uses are fine.
@@ -28,7 +28,7 @@ Not at launch. Digital downloads are **non-commercial** (see [Licensing]({{ '/li
 Yes—if you’re a solo or ≤3-person team, producing **≤100 units per design per year**, and selling direct-to-consumer. No scanning/redistributing the digital pattern, and no wholesale. (Full details in [Licensing]({{ '/licensing/' | relative_url }}).)
 
 ### What if I’m a **brand/retailer** or need **wholesale**?
-You’ll need a **Brand License**. Tell me your product, unit estimate, and channels via **About** and I’ll quote quickly.
+You’ll need a **Brand License**. Tell me your product, unit estimate, and channels via **[About]({{ '/about/' | relative_url }})** and I’ll quote quickly.
 
 ---
 
@@ -54,7 +54,7 @@ Your links don’t intentionally expire, but platforms sometimes rotate links. K
 **Spoonflower** prints and ships made-to-order. Questions about shipping, swatches, and returns go through Spoonflower support.
 
 ### Can I change the **scale** or request a **color tweak**?
-Often yes—message me via **About** with the design name and what you need (e.g., “50% smaller,” “more teal”). If feasible, I’ll add an alternate listing on Spoonflower.
+Often yes—message me via **[About]({{ '/about/' | relative_url }})** with the design name and what you need (e.g., “50% smaller,” “more teal”). If feasible, I’ll add an alternate listing on Spoonflower.
 
 ### Can I sell items I make?
 Small makers: yes (see limits above). Brands/wholesale: request a **Brand License**.
@@ -93,7 +93,7 @@ No use of any assets to train ML/AI models or datasets.
 ## Orders, refunds, and receipts
 
 ### Refunds on digital items?
-If a file is corrupted or you bought the wrong license by accident, reply to your receipt or contact me via **About**—I’m human and reasonable.
+If a file is corrupted or you bought the wrong license by accident, reply to your receipt or contact me via **[About]({{ '/about/' | relative_url }})**—I’m human and reasonable.
 
 ### Refunds on Spoonflower or KDP?
 Handled by those platforms under their policies.
@@ -123,7 +123,7 @@ Screens are backlit; paper isn’t. For best results: print at 100% scale, “Ac
 
 ---
 
-If you’re still stuck, reach me via the **About** page. I’ll get you sorted fast.
+If you’re still stuck, reach me via the **[About]({{ '/about/' | relative_url }})** page. I’ll get you sorted fast.
 
 <script type="application/ld+json">
 {
