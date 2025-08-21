@@ -30,7 +30,7 @@ permalink: /shop/
       <a class="btn" href="{{ s.url }}" target="_blank" rel="noopener">Shop {{ s.name }} ↗</a>
     {% endif %}
 
-    {% if s.trust %}
+    {% if s.trust and s.status != 'waitlist' %}
   <p class="trust">{{ s.trust }}</p>
 {% endif %}
 
