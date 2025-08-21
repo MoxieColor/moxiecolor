@@ -1,7 +1,8 @@
-
-
-
-
+---
+layout: default
+title: "Moxie Color | She’s Had Enough"
+permalink: 
+---
 
 # She’s Had Enough
 Five female figures are measured, judged, put on a saintly pedestal, sexually objectified, and burn a multitude of candles at both ends. It is tiring. They’ve had enough. It is time for a change now.
