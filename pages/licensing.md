@@ -99,7 +99,7 @@ You may **make and sell physical items** using my Spoonflower fabric/wallpaper *
 - No wholesale to retailers; no retail chains; no licensed packaging.
 
 **You may:**
-- Photograph/market your finished physical goods.
+- Photograph/market your finished physical goods - please tag me, I'd love to see what you make!
 - Please state the material source (e.g., “surface design by Jennifer Chin, fabric by Spoonflower”). mutual support is a wonderful thing!
 
 **You may not:**
