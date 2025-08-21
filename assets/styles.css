@@ -712,3 +712,5 @@ html{ color-scheme: light dark; }
   }
 }
 
+.content table{display:block; overflow-x:auto; -webkit-overflow-scrolling:touch}
+.content table th, .content table td{white-space:nowrap}
