@@ -3,6 +3,8 @@ description: "Bold, conceptual, and layered artworks for curious minds."
 baseurl: "/moxiecolor" # the subpath of your site, e.g. /blog
 url: "https://moxiecolor.github.io" # your site URL (set this after connecting a custom domain)
 theme: minima
+brand: "Moxie Color"
+author_name: "Jennifer Chin"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
