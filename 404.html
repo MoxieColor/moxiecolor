@@ -1,0 +1,52 @@
+---
+layout: page
+title: "Ruh-roh! 404"
+sitemap: false
+---
+
+<section class="not-found" aria-labelledby="ruhroh">
+  <div class="paw-trail" aria-hidden="true">
+    <span>🐾</span><span>🐾</span><span>🐾</span><span>👻</span><span>🐾</span><span>🐾</span>
+  </div>
+
+  <h1 id="ruhroh">Ruh-roh! Page not found.</h1>
+  <p>
+    We pulled off the mask and—zoinks!—it’s a <strong>404</strong>.
+    This page would’ve been here if it weren’t for those <em>meddling kids</em>
+    (or a wonky link).
+  </p>
+
+  <nav class="actions" aria-label="Popular places">
+    <a class="btn" href="{{ '/' | relative_url }}">Home</a>
+    <a class="btn" href="{{ '/shop/' | relative_url }}">Shop</a>
+    <a class="btn" href="{{ '/newsletter/' | relative_url }}">Newsletter</a>
+    <a class="btn" href="{{ '/about/' | relative_url }}">About</a>
+    <a class="btn btn-ghost" href="#" onclick="history.back(); return false;">Go back</a>
+  </nav>
+
+  <details class="tip">
+    <summary>Why am I seeing this?</summary>
+    <ul>
+      <li>The link is old (we just moved some things).</li>
+      <li>There’s a tiny typo in the URL.</li>
+      <li>It’s hiding in a closet with a fog machine.</li>
+    </ul>
+  </details>
+</section>
+
+<!-- Inline styles so it still looks nice even if main CSS fails -->
+<style>
+  .not-found{max-width:58rem;margin:2rem auto;padding:1rem 1.25rem;text-align:center}
+  .not-found h1{font-size:clamp(2rem,5vw,3rem);margin:.25rem 0 .5rem}
+  .not-found p{margin:0 auto 1rem;max-width:42rem}
+  .actions{display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;margin:.75rem 0 1.25rem}
+  .actions .btn{border:1px solid currentColor;padding:.55rem .9rem;border-radius:.75rem;text-decoration:none}
+  .actions .btn-ghost{background:transparent}
+  .paw-trail{display:flex;gap:.35rem;justify-content:center;align-items:center;font-size:1.25rem;opacity:.35}
+  .paw-trail span{transform:rotate(-10deg)}
+  @media (prefers-reduced-motion: no-preference){
+    @keyframes scoot{0%{transform:translateX(-20vw)}100%{transform:translateX(20vw)}}
+    .paw-trail{animation:scoot 8s linear infinite alternate}
+  }
+  .tip{font-size:.95rem;opacity:.85;text-align:left;margin:0 auto;max-width:34rem}
+</style>
