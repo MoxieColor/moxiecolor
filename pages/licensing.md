@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Licensing & Usage
-description: Plain-English licensing for MoxieColor Studio. Small makers welcome on Spoonflower; brands need a license.
+description: Plain-English licensing for Moxie Color. Small makers welcome on Spoonflower; brands need a license.
 permalink: /licensing/
 ---
 
@@ -18,7 +18,7 @@ _Last updated: August 20, 2025_
 ---
 
 ## What this covers
-This page explains how you can use **Moxie Color** downloads (printables, textures, stickers, pattern assets) and what you can do with items purchased via **Spoonflower** and **Amazon/KDP**. Copyright always remains with **Jennifer Chin / MoxieColor Studio**.
+This page explains how you can use **Moxie Color** downloads (printables, textures, stickers, pattern assets) and what you can do with items purchased via **Spoonflower** and **Amazon/KDP**. Copyright always remains with **Jennifer Chin / Moxie Color**.
 
 ---
 
