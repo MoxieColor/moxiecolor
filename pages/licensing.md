@@ -149,6 +149,7 @@ If a file is corrupted or you chose the wrong license, reply to your receipt or 
 ---
 
 ## The legal-ish bit
-This page is a plain-English summary. The **full license text** inside each download (and your receipt) is the binding version. Copyright remains with **Jennifer Chin / Moxie Color**. Licenses are non-exclusive and non-transferable. **No use of any asset to train ML/AI models or datasets.**
+This page is a plain-English summary. The **full license text** inside each download (and your receipt) is the binding version. Copyright remains with **Jennifer Chin / Moxie Color**. Licenses are non-exclusive and non-transferable. **No use of any asset to train ML/AI models or datasets.**  
 
+### **Mutual Support** - Attribution not required, but very much appreciated (e.g., Design by Jennifer Chin / Moxie Color)
 ---
