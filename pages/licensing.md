@@ -10,8 +10,9 @@ permalink: /licensing/
 > - **Classroom (1 teacher)** = for you + your students.
 > - **School / Org** = share with staff at one school/site.
 > - **Digital downloads**: **no commercial use** at launch (no selling products made from the files).
-> - **Spoonflower fabric/wallpaper**: **small makers may sell physical items** they make. **Brands/wholesale need a Brand License**.
-> When in doubt, [ask me]({{ '/about/' | relative_url }}).
+> - **Spoonflower fabric/wallpaper**: **small makers may sell physical items** they make. **Brands/wholesale need a Brand License**.  
+> 
+**When in doubt, [ask me]({{ '/about/' | relative_url }}).**
 
 _Last updated: August 20, 2025_
 
@@ -99,7 +100,7 @@ You may **make and sell physical items** using my Spoonflower fabric/wallpaper *
 
 **You may:**
 - Photograph/market your finished physical goods.
-- State the material source (e.g., “surface design by Jennifer Chin, fabric by Spoonflower”).
+- Please state the material source (e.g., “surface design by Jennifer Chin, fabric by Spoonflower”). mutual support among makers and artist is a wonderful thing!
 
 **You may not:**
 - Scan/recreate/trace the pattern digitally.
