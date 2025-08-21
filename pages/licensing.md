@@ -100,7 +100,7 @@ You may **make and sell physical items** using my Spoonflower fabric/wallpaper *
 
 **You may:**
 - Photograph/market your finished physical goods.
-- Please state the material source (e.g., “surface design by Jennifer Chin, fabric by Spoonflower”). mutual support among makers and artist is a wonderful thing!
+- Please state the material source (e.g., “surface design by Jennifer Chin, fabric by Spoonflower”). mutual support is a wonderful thing!
 
 **You may not:**
 - Scan/recreate/trace the pattern digitally.
