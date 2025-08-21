@@ -37,7 +37,7 @@ This page explains how you can use **Moxie Color** downloads (printables, textur
 ## Licenses in detail
 
 ### Personal
-**Best for:** puzzle lovers, hobbyists, families.  
+**Best for:** art lovers, hobbyists, families.  
 **You may:**
 - Print unlimited copies for personal use at home.
 - Use on your personal devices.
@@ -80,7 +80,7 @@ This page explains how you can use **Moxie Color** downloads (printables, textur
 
 ---
 
-## Digital downloads (Gumroad) — commercial use at launch
+## Digital downloads (Gumroad) — no commercial use at launch
 To keep things simple at launch, **digital downloads are non-commercial**.  
 That means: **no selling** products that incorporate the digital files, even if modified. Please use them for Personal/Classroom/School as above. If you’re a business and want to discuss a commercial use, reach out for a tailored license.
 
