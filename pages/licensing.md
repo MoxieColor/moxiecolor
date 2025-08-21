@@ -14,7 +14,7 @@ permalink: /licensing/
 > 
 **When in doubt, [ask me]({{ '/about/' | relative_url }}).**
 
-_Last updated: August 20, 2025_
+<p>Last updated: <time datetime="2025-08-20">August 20, 2025</time></p>
 
 ---
 
@@ -109,6 +109,7 @@ You may **make and sell physical items** using my Spoonflower fabric/wallpaper *
 - Upload the design to third-party POD/stock sites as an asset.
 
 ### Brands / wholesale / large runs (Brand License required)
+<p><a class="btn" href="{{ '/about/' | relative_url }}">Request a Brand License</a></p>
 If **any** of the following apply, please request a **Brand License**:
 - Team size **> 3** or company-run production.
 - **> 100 units per design per year**, or any wholesale.
