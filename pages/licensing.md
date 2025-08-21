@@ -19,7 +19,7 @@ permalink: /licensing/
 ---
 
 ## What this covers
-This page explains how you can use **Moxie Color** downloads (printables, textures, stickers, pattern assets) and what you can do with items purchased via **Spoonflower** and **Amazon/KDP**. Copyright always remains with **Jennifer Chin / Moxie Color**.
+This page explains how you can use **{{ site.brand }}** downloads (printables, textures, stickers, pattern assets) and what you can do with items purchased via **Spoonflower** and **Amazon/KDP**. Copyright always remains with **{{ site.author_name }} / {{ site.brand }}**.
 
 ---
 
@@ -100,7 +100,7 @@ You may **make and sell physical items** using my Spoonflower fabric/wallpaper *
 
 **You may:**
 - Photograph/market your finished physical goods - please tag me, I'd love to see what you make!
-- Please state the material source (e.g., “surface design by Jennifer Chin, fabric by Spoonflower”). mutual support is a wonderful thing!
+- Please state the material source (e.g., “surface design by {{ site.author_name }}, fabric by Spoonflower”). mutual support is a wonderful thing!
 
 **You may not:**
 - Scan/recreate/trace the pattern digitally.
@@ -150,7 +150,7 @@ If a file is corrupted or you chose the wrong license, reply to your receipt or 
 ---
 
 ## The legal-ish bit
-This page is a plain-English summary. The **full license text** inside each download (and your receipt) is the binding version. Copyright remains with **Jennifer Chin / Moxie Color**. Licenses are non-exclusive and non-transferable. **No use of any asset to train ML/AI models or datasets.**  
+This page is a plain-English summary. The **full license text** inside each download (and your receipt) is the binding version. Copyright remains with **{{ site.author_name }} / {{ site.brand }}**. Licenses are non-exclusive and non-transferable. **No use of any asset to train ML/AI models or datasets.**  
 
-### **Mutual Support** - Attribution not required, but very much appreciated (e.g., Design by Jennifer Chin / Moxie Color)
+### **Mutual Support** - Attribution not required, but very much appreciated (e.g., Design by {{ site.author_name }} /{{ site.brand }})
 ---
