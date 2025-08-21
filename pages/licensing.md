@@ -154,3 +154,43 @@ This page is a plain-English summary. The **full license text** inside each down
 
 ### **Mutual Support** - Attribution not required, but very much appreciated (e.g., Design by {{ site.author_name }} /{{ site.brand }})
 ---
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
+    {
+      "@type":"Question",
+      "name":"Can small makers sell items made from your Spoonflower fabric or wallpaper?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"Yes. If you are a solo maker or a team of up to 3 people, produce no more than 100 units per design per year, and sell direct-to-consumer (no wholesale), you may sell physical goods made from my Spoonflower fabric/wallpaper."
+      }
+    },
+    {
+      "@type":"Question",
+      "name":"Do brands, retailers, or wholesale orders need a license?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"Yes. Any team larger than 3 people, production over 100 units per design per year, wholesale or retail distribution, packaging, or co-branded collaborations require a Brand License. Contact me for a quote."
+      }
+    },
+    {
+      "@type":"Question",
+      "name":"Are digital downloads commercial-use at launch?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"No. Digital downloads are non-commercial at launch. They’re permitted for Personal, Classroom (1 teacher), and School/Organization use as described on the page."
+      }
+    },
+    {
+      "@type":"Question",
+      "name":"Can two teachers share one Classroom license?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"No. One Classroom license per teacher. For team sharing at one site, choose the School/Organization option."
+      }
+    }
+  ]
+}
+</script>
