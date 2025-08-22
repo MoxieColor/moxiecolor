@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Moxie Color | She’s Had Enough"
-permalink: 
+permalink: /sheshadenough/
 ---
 
 # She’s Had Enough
