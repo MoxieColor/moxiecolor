@@ -40,10 +40,10 @@ Aug 16 – Nov 15, 2018
          alt="Wallpaper repeat: ERA text with repeating 1970s-style silhouette." loading="lazy" decoding="async">
     <span class="badge--overlay">Free download</span>
   </div>
-  <img src="{{ '/assets/images/portfolio/shes-had-enough/detail-3.webp' | relative_url }}"
-       alt="Close-up: figure with 'Pink Tax' symbol over ERA text wallpaper." loading="lazy" decoding="async">
   <img src="{{ '/assets/images/portfolio/shes-had-enough/detail-0.png' | relative_url }}"
        alt="Close-up: figure with wage comparisons over ERA text wallpaper." loading="lazy" decoding="async">
+  <img src="{{ '/assets/images/portfolio/shes-had-enough/detail-3.webp' | relative_url }}"
+       alt="Close-up: figure with 'Pink Tax' symbol over ERA text wallpaper." loading="lazy" decoding="async">
 </div>
 
 <p><a class="btn" href="https://moxiecolor.gumroad.com/l/musqi" target="_blank" rel="noopener">Get the free poster & wallpapers on Gumroad</a></p>
