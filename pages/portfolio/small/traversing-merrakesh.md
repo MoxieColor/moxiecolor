@@ -10,24 +10,46 @@ date: 2013-10-01 08:00:00 -0700
 # Traversing Marrakesh  
 Completed October 2013  
 
-<img src="{{ '/assets/images/portfolio/Traversing Marrakesh/Once You Find Koutoubia You Know Your Way Home.svg' | relative_url }}"
-         alt="Once You Find Koutoubia You Know Your Way Home"
-         loading="lazy">
-<img src="{{ '/assets/images/portfolio/Traversing Marrakesh/Getting Lost on the Way to KifKaf.svg' | relative_url }}"
-         alt="Getting Lost on the Way to KifKaf"
-         loading="lazy">
-<img src="{{ '/assets/images/portfolio/Traversing Marrakesh/The Route Not Taken.svg' | relative_url }}"
-         alt="The Route Not Taken"
-         loading="lazy">
-<img src="{{ '/assets/images/portfolio/Traversing Marrakesh/Oasis of Jardin Majorelle.svg' | relative_url }}"
-         alt="Oasis of Jardin Majorelle"
-         loading="lazy">
-<img src="{{ '/assets/images/portfolio/Traversing Marrakesh/Walking to Medersa Ben.svg' | relative_url }}"
-         alt="Walking to Medersa Ben"
-         loading="lazy">
-<img src="{{ '/assets/images/portfolio/Traversing Marrakesh/Searching for Tombeaux.svg' | relative_url }}"
-         alt="Searching for Tombeaux"
-         loading="lazy">
+<div class="container">
+         <div class="photo-gallery">
+                  <div class="column>
+                           <div class="photo">
+                                    <img src="{{ '/assets/images/portfolio/Traversing Marrakesh/Once You Find Koutoubia You Know Your Way Home.svg' | relative_url }}"
+                                             alt="Once You Find Koutoubia You Know Your Way Home"
+                                             loading="lazy">
+                           </div>
+                           <div class="photo">
+                                    <img src="{{ '/assets/images/portfolio/Traversing Marrakesh/Getting Lost on the Way to KifKaf.svg' | relative_url }}"
+                                             alt="Getting Lost on the Way to KifKaf"
+                                             loading="lazy">
+                           </div>
+                  </div>
+                  <div class="column>
+                           <div class="photo">
+                                    <img src="{{ '/assets/images/portfolio/Traversing Marrakesh/The Route Not Taken.svg' | relative_url }}"
+                                             alt="The Route Not Taken"
+                                             loading="lazy">
+                           </div>
+                           <div class="photo">
+                                    <img src="{{ '/assets/images/portfolio/Traversing Marrakesh/Oasis of Jardin Majorelle.svg' | relative_url }}"
+                                             alt="Oasis of Jardin Majorelle"
+                                             loading="lazy">
+                           </div>
+                  </div>
+                  <div class="column>
+                           <div class="photo">
+                                    <img src="{{ '/assets/images/portfolio/Traversing Marrakesh/Walking to Medersa Ben.svg' | relative_url }}"
+                                             alt="Walking to Medersa Ben"
+                                             loading="lazy">
+                           </div>
+                           <div class="photo">
+                                    <img src="{{ '/assets/images/portfolio/Traversing Marrakesh/Searching for Tombeaux.svg' | relative_url }}"
+                                             alt="Searching for Tombeaux"
+                                             loading="lazy">
+                           </div>
+                  </div>
+          </div>
+  </div>
 
 "Traversing Marrakesh" encapsulates a transformative journey in June 2013. This wandering took on an extraordinary dimension, amplified by the absence of data on my phone, rendering my usual turn-by-turn directions ineffective, except for occasional moments of relief through free Wi-Fi connections. As I navigated the bustling streets, simple instructions that appeared straightforward at the riad dissolved amidst the lively choreography of donkey-drawn carts and zipping mopeds.
 
