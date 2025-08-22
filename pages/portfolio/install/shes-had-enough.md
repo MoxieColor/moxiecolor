@@ -14,17 +14,10 @@ Woolworth Window #1, 11th & Commerce, Tacoma WA
 Aug 16 – Nov 15, 2018  
 
 <style>
-  .gallery-justified{
-    display:flex;
-    flex-wrap:wrap;
-    gap:1rem;                 /* space between images */
-    align-items:flex-start;   /* keeps rows tidy */
-  }
-  .gallery-justified img{
-    height: clamp(150px, 22vw, 240px);  /* same visual height; responsive */
-    width:auto;                         /* width varies by aspect ratio */
-    display:block;
-    border-radius:12px;                 /* matches your rounded look */
+  .gallery-justified{ display:flex; flex-wrap:wrap; gap:1rem; align-items:flex-start; margin:1rem 0 2rem; }
+  .gallery-justified img{ height:clamp(150px,22vw,240px); width:auto; display:block; border-radius:12px; }
+  @media (min-width: 900px){
+    .gallery-justified{ justify-content:center; }
   }
 </style>
 
@@ -35,24 +28,15 @@ Aug 16 – Nov 15, 2018
        alt="Installation view: silhouettes with stripes and flowers against ERA text." loading="lazy" decoding="async">
   <img src="{{ '/assets/images/portfolio/shes-had-enough/shes-had-enough.webp' | relative_url }}"
        alt="Wallpaper repeat: ERA text with repeating 1970s-style silhouette." loading="lazy" decoding="async">
-
-  <style>
-  .gallery-justified{ display:flex; flex-wrap:wrap; gap:1rem; align-items:flex-start; margin:1rem 0 2rem; }
-  .gallery-justified img{ height:clamp(150px,22vw,240px); width:auto; display:block; border-radius:12px; }
- 
-    <div class="img-wrap about-photo">
-      <img src="{{ '/assets/images/portfolio/shes-had-enough/shes-had-enough-wallpaper.svg' | relative_url }}"
-           alt="Wallpaper repeat: ERA text with repeating 1970s-style silhouette." loading="lazy" decoding="async">
-      <span class="badge--overlay">Free download</span>
-    </div>
-    <img src="{{ '/assets/images/portfolio/shes-had-enough/detail-0.png' | relative_url }}"
-         alt="Close-up: figure with wage comparisons over ERA text wallpaper." loading="lazy" decoding="async">
-    <img src="{{ '/assets/images/portfolio/shes-had-enough/detail-3.webp' | relative_url }}"
-         alt="Close-up: figure with 'Pink Tax' symbol over ERA text wallpaper." loading="lazy" decoding="async">
-      @media (min-width: 900px){
-      .gallery-justified{ justify-content:center; }
-    }
-  </style>
+  <div class="img-wrap about-photo">
+    <img src="{{ '/assets/images/portfolio/shes-had-enough/shes-had-enough-wallpaper.svg' | relative_url }}"
+         alt="Wallpaper repeat: ERA text with repeating 1970s-style silhouette." loading="lazy" decoding="async">
+    <span class="badge--overlay">Free download</span>
+  </div>
+  <img src="{{ '/assets/images/portfolio/shes-had-enough/detail-0.png' | relative_url }}"
+       alt="Close-up: figure with wage comparisons over ERA text wallpaper." loading="lazy" decoding="async">
+  <img src="{{ '/assets/images/portfolio/shes-had-enough/detail-3.webp' | relative_url }}"
+       alt="Close-up: figure with 'Pink Tax' symbol over ERA text wallpaper." loading="lazy" decoding="async">
 </div>
 
 <p><a class="btn" href="https://moxiecolor.gumroad.com/l/musqi" target="_blank" rel="noopener">Get the free poster & wallpapers on Gumroad</a></p>
