@@ -35,16 +35,18 @@ Aug 16 – Nov 15, 2018
        alt="Installation view: silhouettes with stripes and flowers against ERA text." loading="lazy" decoding="async">
   <img src="{{ '/assets/images/portfolio/shes-had-enough/detail-3.webp' | relative_url }}"
        alt="Close-up: figure with 'Pink Tax' symbol over ERA text wallpaper." loading="lazy" decoding="async">
-  <img src="{{ '/assets/images/portfolio/shes-had-enough/shes-had-enough-wallpaper.svg' | relative_url }}"
-       alt="Wallpaper repeat: ERA text with repeating 1970s-style silhouette." loading="lazy" decoding="async">
+  <div class="img-wrap about-photo">
+    <img src="{{ '/assets/images/portfolio/shes-had-enough/shes-had-enough-wallpaper.svg' | relative_url }}"
+         alt="Wallpaper repeat: ERA text with repeating 1970s-style silhouette." loading="lazy" decoding="async">
+    <span class="badge--overlay">Free download</span>
+  </div>
   <img src="{{ '/assets/images/portfolio/shes-had-enough/shes-had-enough.webp' | relative_url }}"
        alt="Wallpaper repeat: ERA text with repeating 1970s-style silhouette." loading="lazy" decoding="async">
   <img src="{{ '/assets/images/portfolio/shes-had-enough/detail-0.png' | relative_url }}"
        alt="Close-up: figure with wage comparisons over ERA text wallpaper." loading="lazy" decoding="async">
 </div>
 
-> **Free download:** Poster + wallpapers on Gumroad.  
-<p><a class="btn" href="https://moxiecolor.gumroad.com/l/musqi" target="_blank" rel="noopener">Get the free poster</a></p>
+<p><a class="btn" href="https://moxiecolor.gumroad.com/l/musqi" target="_blank" rel="noopener">Get the free poster & wallpapers on Gumroad</a></p>
 
 ## Statement:  
 Intriguingly, we find ourselves in a time reminiscent of the Dickensian era – a paradoxical blend of the finest and the direst. Our current juncture seems poised for transformative change, carrying an air of unprecedented shift. Yet, amid this promise, there simmers a noxious blend of resentment and despondency, fueled by the injustices that persist in our societal fabric. Let us pause and cast a eye upon a fundamental necessity, and the intricate complexities that encircle it.
