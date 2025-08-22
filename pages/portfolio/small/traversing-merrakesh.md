@@ -31,8 +31,8 @@ Completed October 2013
                                              loading="lazy">
 			</div>
 			<div class="photo">
-				<img src="{{ '/assets/images/portfolio/Traversing Marrakesh/Oasis of Jardin Majorelle.svg' | relative_url }}"
-                                             alt="Oasis of Jardin Majorelle"
+				<img src="{{ '/assets/images/portfolio/Traversing Marrakesh/Searching for Tombeaux.svg' | relative_url }}"
+                                             alt="Searching for Tombeaux"
                                              loading="lazy">
 			</div>
 		</div>
@@ -43,8 +43,8 @@ Completed October 2013
                                              loading="lazy">
 			</div>
 			<div class="photo">
-				<img src="{{ '/assets/images/portfolio/Traversing Marrakesh/Searching for Tombeaux.svg' | relative_url }}"
-                                             alt="Searching for Tombeaux"
+				<img src="{{ '/assets/images/portfolio/Traversing Marrakesh/Oasis of Jardin Majorelle.svg' | relative_url }}"
+                                             alt="Oasis of Jardin Majorelle"
                                              loading="lazy">
 			</div>
 		</div>
