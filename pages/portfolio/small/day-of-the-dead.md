@@ -2,6 +2,9 @@
 layout: default
 title: "Moxie Color | Day of the Dead"
 permalink: 
+description: ""
+image: 
+date: 2014-09-01 08:00:00 -0700
 ---
 
 # Day of the Dead  
