@@ -8,8 +8,14 @@ date: 2014-12-01 08:00:00 -0700
 ---
 
 # MicroZoo  
-Completed December 2014
+**Completed December 2014**  
 
-“MicroZoo” encapsulates a contemplation of our world's boundless marvels, where science has assumed the role of modern-day enchantment. Frequently, headlines are seized by monumental revelations—new galaxies unveiled, Mars traversed by rovers, and the harmonious melodies of comets heard. Yet, nestled within this grand tapestry are minuscule wonders, so infinitesimal that even if they rested before us, they would remain concealed without the aid of magnification. What if this realm of alien wonders, capable of perplexing our imaginations, existed not in distant stars, but right at our fingertips?
+*MicroZoo* celebrates the alien world hiding at our fingertips. While headlines chase galaxies and rovers, these works scale up the nearly invisible—tiny organisms, textures, and architectures—until the minuscule becomes monumental. Less Hubble, more humble.  
 
-Drawing inspiration from this notion, I've meticulously assembled a micro menagerie of terrestrial creatures. I've brought these diminutive marvels to life on a scale that defies reality. In a world often preoccupied with the vast and expansive, “MicroZoo” beckons us to recalibrate our gaze and perceive the mesmerizing spectacle of the small and overlooked. I invite you to step into a world of hidden wonders, where the minuscule becomes monumental and the intricate details of life at the microscale are unveiled before your eyes. 
+(images coming soon!)
+
+We live in an age where science feels like modern magic: new galaxies discovered, robots roaming Mars, even a comet’s “song” recorded. *MicroZoo* turns the lens the other way. Instead of the faraway, it spotlights the strange and spectacular life we pass by every day—too small to notice without help.  
+
+Inspired by microscopy, pattern study, and the unruly intelligence of nature, I build a micro-menagerie and enlarge it to human scale. The forms hover between specimen and story—grounded in biology, colored by imagination. By making the tiny impossible to ignore, the work asks us to recalibrate our gaze: to trade spectacle for attention, and wonder for wonder’s sake.  
+
+Step closer. The vast is hiding in the small. The universe is local.  
