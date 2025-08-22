@@ -2,6 +2,9 @@
 layout: default
 title: "Moxie Color | Redaction In A Minor"
 permalink: 
+description: ""
+image: 
+date: 2018-04-01 08:00:00 -0700
 ---
 
 # Redaction In A Minor  
