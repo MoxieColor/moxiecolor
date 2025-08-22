@@ -9,14 +9,13 @@ date: 2013-10-01 08:00:00 -0700
 
 # Traversing Marrakesh  
 Completed October 2013  
-<img>
+
 assets/images/portfolio/Traversing Marrakesh/Getting Lost on the Way to KifKaf.svg
 assets/images/portfolio/Traversing Marrakesh/Oasis of Jardin Majorelle.svg
 assets/images/portfolio/Traversing Marrakesh/Once You Find Koutoubia You Know Your Way Home.svg
 assets/images/portfolio/Traversing Marrakesh/Searching for Tombeaux.svg
 assets/images/portfolio/Traversing Marrakesh/The Route Not Taken.svg
 assets/images/portfolio/Traversing Marrakesh/Walking to Medersa Ben.svg
-</img>
 
 "Traversing Marrakesh" encapsulates a transformative journey in June 2013. This wandering took on an extraordinary dimension, amplified by the absence of data on my phone, rendering my usual turn-by-turn directions ineffective, except for occasional moments of relief through free Wi-Fi connections. As I navigated the bustling streets, simple instructions that appeared straightforward at the riad dissolved amidst the lively choreography of donkey-drawn carts and zipping mopeds.
 
