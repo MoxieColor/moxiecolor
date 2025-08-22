@@ -4,8 +4,8 @@ title: "Moxie Color | She’s Had Enough"
 permalink: /sheshadenough/
 description: "Installation wallpaper built from the ERA text with a repeating 'mudflap girl' silhouette."
 image: /assets/images/portfolio/shes-had-enough/shes-had-enough.webp
+date: 2018-08-16 08:00:00 -0700
 ---
-
 # She’s Had Enough
 Five female figures are measured, judged, put on a saintly pedestal, sexually objectified, and burn a multitude of candles at both ends. It is tiring. They’ve had enough. It is time for a change now.
 
