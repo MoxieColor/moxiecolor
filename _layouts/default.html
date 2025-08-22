@@ -4,8 +4,10 @@
   <meta charset="UTF-8">
   {% seo %}
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>{{ page.title | default: site.title }}</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
+
   <link rel="stylesheet" href="{{ '/assets/styles.css?v=46' | absolute_url }}">
   <link rel="icon" href="{{ '/assets/logo/moxiefavicon.ico' | absolute_url }}" sizes="any">
   <link rel="icon" type="image/png" href="{{ '/assets/logo/moxiefavicon.png' | absolute_url }}" sizes="32x32">
@@ -14,11 +16,15 @@
   <!-- (Optional polish) -->
   <meta name="theme-color" content="#111">
   <meta name="color-scheme" content="light dark">
-  <meta property="og:title" content="{{ page.title | default: site.title }}">
-  <meta property="og:description" content="{{ page.description | default: site.description }}">
+
+  <!-- Social card overrides -->
+  <meta name="twitter:card" content="summary_large_image">
   <meta property="og:image" content="{{ '/assets/social/share-image.jpg' | absolute_url }}">
-  <meta name="twitter:card" content="{{ '/assets/social/share-image.jpg' | absolute_url }}">
+  <meta name="twitter:image" content="{{ '/assets/social/share-image.jpg' | absolute_url }}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
 </head>
+
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
