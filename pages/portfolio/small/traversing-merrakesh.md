@@ -2,7 +2,7 @@
 layout: default
 title: "Moxie Color | Traversing Merrakesh"
 permalink: /TraversingMerrakesh/
-description: "Mixed-media collages born from getting lost in Marrakesh’s medina—paper map, compass, and memory weaving the city’s heat, souks, and motion."
+description: "Mixed-media collage of Marrakesh street map with hot-pink route overlay; stained washes."
 image: /assets/images/portfolio/Traversing Marrakesh/Once You Find Koutoubia You Know Your Way Home.svg
 date: 2013-10-01 08:00:00 -0700
 ---
@@ -51,7 +51,7 @@ In June 2013 I landed in Marrakesh with no phone data. Directions vanished into 
 			</div>
 		</div>
 	</div>
-</div>
-
-Traversing Marrakesh grew from a very analog adventure. With no phone data, my neat turn-by-turn plan dissolved into the everyday choreography of Marrakesh—donkey carts, mopeds, calls to prayer, sudden shade. I carried a paper map like a life preserver and learned to navigate by landmarks and the compass app on my phone. A small, memorable win was finding my way out of the souks on my own.
-Back home, I brought that experience into the studio. The original map appears throughout the work—cut, layered, and re-oriented—marking the moments between disorientation and clarity. This series is a thank-you to a city that made me look up, slow down, and find direction the long way.
+</div>  
+  
+*Traversing Marrakesh* grew from a very analog adventure. With no data, my neat turn-by-turn plan dissolved into the city’s everyday choreography—donkey carts, mopeds, calls to prayer, sudden shade. I carried a paper map like a life preserver and leaned on the compass app when Wi-Fi found me. A small, favorite win: finding my way out of the souks on my own.
+Back home I cut and layered the original map into the work—re-orienting it to mark the flip from disorientation to clarity. This series is a thank-you to a city that made me look up, slow down, and find direction the long way.
