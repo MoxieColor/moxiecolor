@@ -2,6 +2,9 @@
 layout: default
 title: "Moxie Color | My Dreams Are Blue"
 permalink: 
+description: ""
+image: 
+date: 2014-04-01 08:00:00 -0700
 ---
 
 # My Dreams Are Blue  
