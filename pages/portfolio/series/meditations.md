@@ -12,6 +12,7 @@ date: 2015-03-01 08:00:00 -0700
 
 *Meditations* blends shibori logic with Rorschach symmetry. Thin acrylic layers soak and settle as the paper hangs to dry, guided by gravity and the paper’s grain. Each pass meets the last—like easing into a yoga pose. The result: quiet, mirrored fields where control and chance share the brush.  
 
+(images coming soon!)  
 
 *Meditations* is slow looking made visible. Inspired by shibori’s resist patterns and the mirror-play of Rorschach blots, I build images in patient layers of thinned acrylic. The paper is saturated, then hung. Gravity pulls, fibers steer, and the pigment finds its own edges.
 
