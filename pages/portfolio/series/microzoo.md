@@ -2,6 +2,9 @@
 layout: default
 title: "Moxie Color | MicroZoo"
 permalink: 
+description: ""
+image: 
+date: 2014-12-01 08:00:00 -0700
 ---
 
 # MicroZoo  
