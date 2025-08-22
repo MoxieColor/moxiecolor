@@ -1,7 +1,8 @@
 title: "Moxie Color | A Creative Enterprise"
 description: "Bold, conceptual, and layered artworks for curious minds."
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://moxiecolor.com" # your site URL (set this after connecting a custom domain)
+baseurl: "" 
+url: "https://moxiecolor.com" 
+image: /assets/logo/share-image.png
 theme: minima
 brand: "Moxie Color"
 author_name: "Jennifer Chin"
