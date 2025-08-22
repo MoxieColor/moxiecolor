@@ -8,14 +8,16 @@ date: 2018-04-01 08:00:00 -0700
 ---
 
 # Redaction In A Minor  
-Completed April 2018
+**Completed April 2018**  
 
-There I sat in my studio, grappling with the current state of affairs, much like countless others in our great country. The 5th and 4th estates are in conflict, with "FAKE NEWS!!!" echoing endlessly, seemingly without resolution. Amidst the chaos, I find myself questioning whether the Twitter dialogue I'm engaged in is with a genuine individual or a mere bot. Is the story I'm perusing on Facebook a concoction of fiction, an assembly of facts, or an eccentric blend of both? Amidst these musings, my gaze falls upon an antiquated reference book I acquired many years ago.
+Start with a 1940s how-to manual. Erase every “A”—except one stubborn capital left as a witness. Text becomes constellations; meaning turns to pattern. *Redaction In A Minor* uses absence as ink: less headline noise, more quiet signal. No right-side-up; one redacted page becomes a repeating tile.   
 
-You know the type—the delightfully outdated tome that carries the lingering scent of library stacks as its pages unfold. A 1940s manual on crafting tools, a practical compendium for a world on the brink of collapse. Amidst thoughts of post-apocalyptic survival, it became evident that this book had a grander destiny. Its purpose was to be dismantled, transformed, and reimagined.
+(Images coming soon!)
 
-With resolute determination, I embarked on a mission to erase every occurrence of the letter "A" from its pages. However, a mere string of dots seemed insufficient. A desire for intricate design emerged—a pattern that could carry profound meaning, while in truth, it was guided solely by my aesthetic sensibilities. What followed was a cascade of constellations sprawled across countless pages—a creative endeavor that continues to unfold to this day. This marked the inception of the concept that would soon become the "Redaction In A Minor" series.
+Lately the feed feels like a shouting match: takes on takes, bots posing as people, “breaking” that rarely breaks new ground. I needed subtraction. So I pulled a timeworn reference book—a 1940s tool manual with that library-stack perfume—and began removing every single “A.” Not black bars, but deliberate marks following aesthetic logic.  
 
-My artistic process, ever-faithful to its roots of experimentation and free association, led me to perceive a semblance between these pages and patterns one might find on a blouse or scarf. The puzzle pieces began to align. The notion of crafting a collection of paintings that harmonize seamlessly, devoid of a defined orientation, took root. Amidst this concept, a single sheet adorned solely with the redacted "A" surfaced. This served as the cornerstone for a repeating pattern—one that drew from the same textual block, the same redaction, and the same design, interwoven time and again. The culmination of this journey stands before you today.
+The pages shifted from language to star maps: dotted fields, small galaxies of redaction. It was oddly calming—less debate, more doing—and it kept going. The patterns started reading like textiles, which clicked. I began making paintings that harmonize without a fixed orientation; turn them any direction and they hold. One sheet composed only of redacted “A” marks became the seed tile for a repeat.  
 
-In an unexpected twist, I extend gratitude to the phenomenon of "Fake News." Without its perplexing influence, the inception of "Redaction In A Minor" might never have come to fruition.
+Why “A Minor”? Because the letter is (almost) gone, the mood sits in a lower key—and one capital “A” is intentionally left unredacted. That lone major note inside a minor field keeps the key signature honest.  
+
+The work asks what remains when you strip the loudest characters away: which structures persist, what new readings appear, and who decides what gets erased. In a culture hooked on hot takes and “fake news,” this series is my cool take: fewer exclamation points, more looking. And yes—many A’s were harmed in the making.  
