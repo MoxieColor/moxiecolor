@@ -2,6 +2,9 @@
 layout: default
 title: "Moxie Color | Meditations"
 permalink: 
+description: ""
+image: 
+date: 2015-03-01 08:00:00 -0700
 ---
 
 # Meditations  
