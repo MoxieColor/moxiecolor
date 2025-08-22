@@ -7,7 +7,7 @@ image: /assets/images/portfolio/shes-had-enough/shes-had-enough-wallpaper-square
 date: 2018-08-16 08:00:00 -0700
 ---
 # She’s Had Enough
-Five female figures are measured, judged, put on a saintly pedestal, sexually objectified, and burn a multitude of candles at both ends. It is tiring. They’ve had enough. It is time for a change now.
+Five women, five boxes they never asked for: measured, graded, shamed, sexualized, taxed—and expected to keep the candles blazing at both ends. It’s exhausting. This series draws the line: they’re done performing. She’s had enough. Change starts now.
 
 **[Streetside Artscape](https://www.spaceworkstacoma.com/projects/jennifer-chin-shes-had-enough/)**  
 Woolworth Window #1, 11th & Commerce, Tacoma WA
@@ -42,12 +42,10 @@ Aug 16 – Nov 15, 2018
 > <p><a class="btn" href="https://moxiecolor.gumroad.com/l/musqi" target="_blank" rel="noopener">Get the free poster & wallpapers on Gumroad</a></p>
 
 ## Statement:  
-Intriguingly, we find ourselves in a time reminiscent of the Dickensian era – a paradoxical blend of the finest and the direst. Our current juncture seems poised for transformative change, carrying an air of unprecedented shift. Yet, amid this promise, there simmers a noxious blend of resentment and despondency, fueled by the injustices that persist in our societal fabric. Let us pause and cast a eye upon a fundamental necessity, and the intricate complexities that encircle it.
+We’re living in a split-screen moment: real progress on one side, backsliding on the other. The Equal Rights Amendment is still stalled in legal limbo. The “pink tax” keeps resurfacing under new packaging. Period products are still taxed in parts of the U.S. And the wage gap—however you slice it—remains stubborn. Different year, same markup.  
 
-Remarkably, the Equal Rights Amendment teeters on the precipice of fruition, requiring only one more state's ratification to complete its journey (Washington State having ratified it in 1973). One would assume that in this modern epoch, such a pivotal stride would be redundant, an anachronism to be relegated to history. Yet, consider the sobering testament of the late Supreme Court Justice Antonin Scalia, who affirmed the glaring gap in the Constitution's protection against gender and orientation-based discrimination. In the absence of comprehensive safeguards, insidious disparities insinuate themselves into our very neighborhoods.
+Meanwhile, women are put on pedestals and under microscopes—saint and object, caretaker and workhorse—told to “have it all” while doing it all. Gold star or scarlet letter, there’s always a test. The figures in this series carry that strain: bodies measured and mislabeled, candles burning from both ends, light turning to smoke.  
 
-A telling illustration emerges in the form of the "Pink Tax" – an insidious practice whereby countless products, functionally indistinguishable from their male counterparts, are marketed to women with a cosmetic hue change and an inflated price tag (roughly 7% more). To compound this affront, feminine hygiene products remain subjected to sales tax in most states, Washington included. The saga continues with the persistent chasm in wage parity between men and women.
+She’s Had Enough is part protest, part boundary. It refuses the old game of “shrink it and pink it,” of unpaid labor dressed up as gratitude, of value defined by someone else’s checklist. These works say: no more. No more quiet compliance. No more double standards with fine print.  
 
-A disconcerting average emerges: women earn 20% less than their white, non-Hispanic male counterparts for equivalent roles, responsibilities, and expertise. The narrative darkens further when all mothers are juxtaposed with all fathers, revealing a staggering 30% wage gap. An even graver disparity is unveiled for Latina women, who earn a mere 54 cents for every dollar a man makes. When combined with the entrenched cycle of low past wages influencing future earnings, the conundrum deepens.
-
-Amidst this vice-like grip of inequity, women endure an unceasing scrutiny – elevated to sainthood on one hand, objectified on the other, perpetually juggling roles. They burn the candle at both ends until it becomes an untenable blaze. At this juncture, she stands resolute. She has had enough. It is time for a change now.
+If you recognize yourself here, you’re not alone. This is a call and a catalyst—one more match struck. She’s had enough. It’s time for a change now.
