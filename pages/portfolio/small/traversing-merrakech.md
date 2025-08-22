@@ -2,6 +2,9 @@
 layout: default
 title: "Moxie Color | Traversing Merrakech"
 permalink: 
+description: ""
+image: 
+date: 2013-10-01 08:00:00 -0700
 ---
 
 # Traversing Marrakech  
