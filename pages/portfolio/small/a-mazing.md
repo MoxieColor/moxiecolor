@@ -2,6 +2,9 @@
 layout: default
 title: "Moxie Color | A-Mazing"
 permalink: 
+description: ""
+image: 
+date: 2017-02-01 08:00:00 -0700
 ---
 
 # A-Mazing  
