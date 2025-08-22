@@ -39,7 +39,7 @@ Aug 16 – Nov 15, 2018
        alt="Close-up: figure with 'Pink Tax' symbol over ERA text wallpaper." loading="lazy" decoding="async">
 </div>
 
-<p><a class="btn" href="https://moxiecolor.gumroad.com/l/musqi" target="_blank" rel="noopener">Get the free poster & wallpapers on Gumroad</a></p>
+> <p><a class="btn" href="https://moxiecolor.gumroad.com/l/musqi" target="_blank" rel="noopener">Get the free poster & wallpapers on Gumroad</a></p>
 
 ## Statement:  
 Intriguingly, we find ourselves in a time reminiscent of the Dickensian era – a paradoxical blend of the finest and the direst. Our current juncture seems poised for transformative change, carrying an air of unprecedented shift. Yet, amid this promise, there simmers a noxious blend of resentment and despondency, fueled by the injustices that persist in our societal fabric. Let us pause and cast a eye upon a fundamental necessity, and the intricate complexities that encircle it.
