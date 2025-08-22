@@ -2,6 +2,9 @@
 layout: default
 title: "Moxie Color | ProtoNext"
 permalink: 
+description: ""
+image: 
+date: 2015-09-01 08:00:00 -0700
 ---
 
 # ProtoNext  
