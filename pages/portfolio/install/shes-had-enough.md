@@ -13,39 +13,35 @@ Five female figures are measured, judged, put on a saintly pedestal, sexually ob
 Woolworth Window #1, 11th & Commerce, Tacoma WA
 Aug 16 – Nov 15, 2018
 
-<!-- Hero -->
-<picture>
-  <source srcset="{{ '/assets/images/portfolio/shes-had-enough/shes-had-enough.webp' | relative_url }}" type="image/webp">
-  <img src="{{ '/assets/images/portfolio/shes-had-enough/shes-had-enough.png' | relative_url }}"
-       alt="Installation wallpaper: ERA text background with repeating 1970s-style 'mudflap' silhouette."
-       loading="eager" decoding="async" style="width:100%;height:auto;">
-</picture>
-
-<div class="gallery">
-  <figure>
-    <img src="{{ '/assets/images/portfolio/shes-had-enough/shes-had-enough-wallpaper.svg' | relative_url }}"
-         alt="Vector repeat: ERA text as texture with silhouette overlay."
-         loading="lazy" decoding="async">
-  </figure>
-  <figure>
+<div class="issues-grid">
+  <figure class="about-photo">
     <img src="{{ '/assets/images/portfolio/shes-had-enough/detail-1.webp' | relative_url }}"
-         alt="Detail view of the repeating silhouette over ERA text."
-         loading="lazy" decoding="async">
+         alt="Painted transparencies of sillouetted women" loading="lazy" decoding="async">
   </figure>
-  <figure>
+  <figure class="about-photo">
     <img src="{{ '/assets/images/portfolio/shes-had-enough/detail-2.webp' | relative_url }}"
-         alt="Corner seam showing wallpaper repeat alignment."
-         loading="lazy" decoding="async">
+         alt="Painted transparencies of sillouetted women" loading="lazy" decoding="async">
   </figure>
-  <figure>
+  <figure class="about-photo">
     <img src="{{ '/assets/images/portfolio/shes-had-enough/detail-3.webp' | relative_url }}"
-         alt="Close-up of text texture behind the silhouette."
-         loading="lazy" decoding="async">
+         alt="Painted transparency of sillouetted woman - close up - pink tax" loading="lazy" decoding="async">
+  </figure>
+  <figure class="about-photo">
+    <img src="{{ '/assets/images/portfolio/shes-had-enough/detail-0.png' | relative_url }}"
+         alt="Close-up sillouetted woman with hourly wage comparison next to her" loading="lazy" decoding="async">
+  </figure>
+  <figure class="about-photo">
+    <div class="img-wrap about-photo">
+      <img src="{{ '/assets/images/portfolio/shes-had-enough/shes-had-enough-wallpaper.svg' | relative_url }}"
+           alt="Detail of wallpaper" loading="lazy" decoding="async">
+      <span class="badge--overlay">Free download</span>
+    </div>
   </figure>
 </div>
 
 > **Free download:** Poster + wallpapers on Gumroad.  
-> [Grab it here](https://gumroad.com/) <!-- replace with your product URL -->
+> <p><a class="btn" href="https://moxiecolor.gumroad.com/l/musqi" target="_blank" rel="noopener">Get the free poster</a></p>
+
 
 ## Statement:  
 Intriguingly, we find ourselves in a time reminiscent of the Dickensian era – a paradoxical blend of the finest and the direst. Our current juncture seems poised for transformative change, carrying an air of unprecedented shift. Yet, amid this promise, there simmers a noxious blend of resentment and despondency, fueled by the injustices that persist in our societal fabric. Let us pause and cast a eye upon a fundamental necessity, and the intricate complexities that encircle it.
