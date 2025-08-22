@@ -2,6 +2,8 @@
 layout: default
 title: "Moxie Color | She’s Had Enough"
 permalink: /sheshadenough/
+description: "Installation wallpaper built from the ERA text with a repeating 'mudflap girl' silhouette."
+image: /assets/images/portfolio/shes-had-enough/shes-had-enough.webp
 ---
 
 # She’s Had Enough
@@ -11,6 +13,39 @@ Five female figures are measured, judged, put on a saintly pedestal, sexually ob
 Woolworth Window #1, 11th & Commerce, Tacoma WA
 Aug 16 – Nov 15, 2018
 
+<!-- Hero -->
+<picture>
+  <source srcset="{{ '/assets/images/portfolio/shes-had-enough/shes-had-enough.webp' | relative_url }}" type="image/webp">
+  <img src="{{ '/assets/images/portfolio/shes-had-enough/shes-had-enough.png' | relative_url }}"
+       alt="Installation wallpaper: ERA text background with repeating 1970s-style 'mudflap' silhouette."
+       loading="eager" decoding="async" style="width:100%;height:auto;">
+</picture>
+
+<div class="gallery">
+  <figure>
+    <img src="{{ '/assets/images/portfolio/shes-had-enough/shes-had-enough-wallpaper.svg' | relative_url }}"
+         alt="Vector repeat: ERA text as texture with silhouette overlay."
+         loading="lazy" decoding="async">
+  </figure>
+  <figure>
+    <img src="{{ '/assets/images/portfolio/shes-had-enough/detail-1.webp' | relative_url }}"
+         alt="Detail view of the repeating silhouette over ERA text."
+         loading="lazy" decoding="async">
+  </figure>
+  <figure>
+    <img src="{{ '/assets/images/portfolio/shes-had-enough/detail-2.webp' | relative_url }}"
+         alt="Corner seam showing wallpaper repeat alignment."
+         loading="lazy" decoding="async">
+  </figure>
+  <figure>
+    <img src="{{ '/assets/images/portfolio/shes-had-enough/detail-3.webp' | relative_url }}"
+         alt="Close-up of text texture behind the silhouette."
+         loading="lazy" decoding="async">
+  </figure>
+</div>
+
+> **Free download:** Poster + wallpapers on Gumroad.  
+> [Grab it here](https://gumroad.com/) <!-- replace with your product URL -->
 
 ## Statement:  
 Intriguingly, we find ourselves in a time reminiscent of the Dickensian era – a paradoxical blend of the finest and the direst. Our current juncture seems poised for transformative change, carrying an air of unprecedented shift. Yet, amid this promise, there simmers a noxious blend of resentment and despondency, fueled by the injustices that persist in our societal fabric. Let us pause and cast a eye upon a fundamental necessity, and the intricate complexities that encircle it.
