@@ -12,7 +12,7 @@ Completed October 2013
 
 <div class="container">
 	<div class="photo-gallery">
-		<div class="column>
+		<div class="column">
 			<div class="photo">
 				<img src="{{ '/assets/images/portfolio/Traversing Marrakesh/Once You Find Koutoubia You Know Your Way Home.svg' | relative_url }}"
                                              alt="Once You Find Koutoubia You Know Your Way Home"
@@ -24,7 +24,7 @@ Completed October 2013
                                              loading="lazy">
 			</div>
 		</div>
-		<div class="column>
+		<div class="column">
 			<div class="photo">
 				<img src="{{ '/assets/images/portfolio/Traversing Marrakesh/The Route Not Taken.svg' | relative_url }}"
                                              alt="The Route Not Taken"
@@ -36,7 +36,7 @@ Completed October 2013
                                              loading="lazy">
 			</div>
 		</div>
-		<div class="column>
+		<div class="column">
 			<div class="photo">
 				<img src="{{ '/assets/images/portfolio/Traversing Marrakesh/Walking to Medersa Ben.svg' | relative_url }}"
                                              alt="Walking to Medersa Ben"
