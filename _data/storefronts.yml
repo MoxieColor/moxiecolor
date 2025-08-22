@@ -3,11 +3,11 @@
   blurb: "Instantly download images & books. Great for art lovers, teachers, and makers."
   trust: "Secure checkout on Gumroad"
   url: "https://moxiecolor.gumroad.com"
-  image: "/assets/images/stores/Word Search Trivia Square.png"
+  image: "assets/images/portfolio/shes-had-enough/shes-had-enough-wallpaper-square.svg"
   featured:
-    - title: "Word Search Trivia (Printable PDF)"
-      url: "https://moxiecolor.gumroad.com/l/xjmqof"
-      image: "/assets/images/stores/Gumroad_wordsearchtrivia.png"
+    - title: "Free Poster & Wallpaper download"
+      url: "https://moxiecolor.gumroad.com/l/musqi"
+      image: "assets/images/portfolio/shes-had-enough/shes-had-enough-wallpaper-square.svg"
 
 - name: Spoonflower
   badge: Fabric & Home Decor
