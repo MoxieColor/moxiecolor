@@ -35,12 +35,12 @@ Aug 16 – Nov 15, 2018
        alt="Installation view: silhouettes with stripes and flowers against ERA text." loading="lazy" decoding="async">
   <img src="{{ '/assets/images/portfolio/shes-had-enough/detail-3.webp' | relative_url }}"
        alt="Close-up: figure with 'Pink Tax' symbol over ERA text wallpaper." loading="lazy" decoding="async">
+  <img src="{{ '/assets/images/portfolio/shes-had-enough/shes-had-enough-wallpaper.svg' | relative_url }}"
+       alt="Wallpaper repeat: ERA text with repeating 1970s-style silhouette." loading="lazy" decoding="async">
   <img src="{{ '/assets/images/portfolio/shes-had-enough/shes-had-enough.webp' | relative_url }}"
        alt="Wallpaper repeat: ERA text with repeating 1970s-style silhouette." loading="lazy" decoding="async">
   <img src="{{ '/assets/images/portfolio/shes-had-enough/detail-0.png' | relative_url }}"
        alt="Close-up: figure with wage comparisons over ERA text wallpaper." loading="lazy" decoding="async">
-  <img src="{{ '/assets/images/portfolio/shes-had-enough/shes-had-enough-wallpaper.svg' | relative_url }}"
-       alt="Wallpaper repeat: ERA text with repeating 1970s-style silhouette." loading="lazy" decoding="async">
 </div>
 
 > **Free download:** Poster + wallpapers on Gumroad.  
