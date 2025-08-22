@@ -8,7 +8,7 @@ date: 2013-10-01 08:00:00 -0700
 ---
 
 # Traversing Marrakesh  
-Lost on purpose. Found by map and compass.
+Lost on purpose. Found by map and compass.  
 Completed October 2013  
 
 In June 2013 I landed in Marrakesh with no phone data. Directions vanished into a blur of donkey carts and mopeds, so I learned to read the streets by light, sound, and a paper map I guarded like gold. These works trace that lost-and-found feeling—layering the actual map into the pieces.   
