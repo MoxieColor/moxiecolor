@@ -1,20 +1,10 @@
 ---
 layout: default
-title: Small Words
-permalink: /small/
-description: "Small Works, Tests, Sketches"
+title: Small Works & Studies
+permalink: /small-works-studies/
+description: "Petite pieces, sketches, and studies."
 ---
-
-{% assign items = site.pages | where: "type", "small" | sort: "date" | reverse %}
-
-<ul class="gallery-grid">
-  {% for work in items %}
-  <li>
-    <a href="{{ work.url | relative_url }}">
-      <img src="{{ work.image | default: '/assets/images/placeholders/portfolio.jpg' | relative_url }}"
-           alt="{{ work.title | escape }}" loading="lazy" decoding="async">
-      <span>{{ work.title }}</span>
-    </a>
-  </li>
-  {% endfor %}
-</ul>
+{% include portfolio-grid.html
+   type="small"
+   heading="Small Works & Studies"
+   intro="Petite pieces, sketches, and studies." %}
