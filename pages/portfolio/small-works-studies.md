@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Small Works & Studies
-permalink: /small-works-studies/
+permalink: /small/
 description: "Petite pieces, sketches, and studies."
 ---
 {% include portfolio-grid.html
