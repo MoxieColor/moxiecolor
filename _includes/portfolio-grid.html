@@ -1,0 +1,66 @@
+{%- comment -%}
+Reusable portfolio grid that mirrors your shop layout.
+Params:
+  - type: "install" | "series" | "small"
+  - heading (optional): page H1
+  - intro (optional): short blurb under H1
+  - limit (optional): number of items to show
+Notes:
+  • Relies on store-like classes: product-grid, product-card, product-link, product-media, product-meta, product-title, product-subtitle.
+  • Do NOT set `type` in the landing pages' own front matter to avoid recursive listing.
+{%- endcomment -%}
+
+{%- assign items = site.pages | where: "type", include.type | sort: "date" | reverse -%}
+{%- if include.limit -%}
+  {%- assign items = items | slice: 0, include.limit -%}
+{%- endif -%}
+{%- assign count = items | size -%}
+
+<header class="page-header">
+  {%- if include.heading -%}<h1>{{ include.heading }}</h1>{%- endif -%}
+  {%- if include.intro -%}<p class="page-intro">{{ include.intro }}</p>{%- endif -%}
+  {%- if count > 0 -%}<p class="page-count">{{ count }} work{{ count > 1 ? 's' : '' }}</p>{%- endif -%}
+</header>
+
+{%- if count == 0 -%}
+  <p>No works yet in this category. Check back soon!</p>
+{%- else -%}
+<ul class="product-grid portfolio-grid">
+  {%- for work in items -%}
+    <li class="product-card">
+      <a class="product-link" href="{{ work.url | relative_url }}">
+        <figure class="product-media">
+          <img
+            src="{{ work.image | default: '/assets/images/placeholders/portfolio.jpg' | relative_url }}"
+            alt="{{ work.title | escape }}"
+            loading="lazy" decoding="async">
+        </figure>
+        <div class="product-meta">
+          <h3 class="product-title">{{ work.title }}</h3>
+          {%- if work.date -%}
+            <p class="product-subtitle">{{ work.date | date: "%b %Y" }}</p>
+          {%- endif -%}
+        </div>
+      </a>
+    </li>
+  {%- endfor -%}
+</ul>
+{%- endif -%}
+
+{%- comment -%}
+Optional: light CSS safety net if your store classes aren’t present on this page.
+Remove if your global stylesheet already handles these classes.
+{%- endcomment -%}
+<style>
+  .product-grid{ display:grid; gap:1rem; grid-template-columns: repeat(auto-fit, minmax(240px,1fr)); padding:0; margin:1rem 0 0; list-style:none; }
+  .product-card{ border:1px solid color-mix(in oklab, currentColor 12%, transparent); border-radius:16px; overflow:hidden; background: color-mix(in oklab, Canvas 98%, currentColor 2%); transition:transform .12s ease, box-shadow .12s ease; }
+  .product-card:hover{ transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .product-media img{ width:100%; aspect-ratio:4/3; object-fit:cover; display:block; }
+  .product-meta{ padding:.9rem 1rem; }
+  .product-title{ margin:0 0 .2rem; font-size:1.05rem; }
+  .product-subtitle{ margin:0; opacity:.75; font-size:.95rem; }
+  .page-header{ margin-bottom:.5rem; }
+  .page-header h1{ margin:.2rem 0 .2rem; }
+  .page-intro{ margin:.25rem 0 .25rem; opacity:.8; }
+  .page-count{ margin:.25rem 0 0; opacity:.6; font-size:.95rem; }
+</style>
