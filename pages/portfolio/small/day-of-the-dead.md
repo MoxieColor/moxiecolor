@@ -5,6 +5,7 @@ permalink:
 description: ""
 image: /assets/images/portfolio/dayofthedead/Dead-Horse.svg
 type: small  
+assets: /assets/images/portfolio/dayofthedead  
 date: 2014-09-01 08:00:00 -0700
 ---
 
