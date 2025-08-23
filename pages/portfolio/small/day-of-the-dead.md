@@ -3,7 +3,7 @@ layout: default
 title: "Day of the Dead"
 permalink: 
 description: ""
-image: 
+image: /assets/images/portfolio/dayofthedead/Dead-Horse.svg
 type: small  
 date: 2014-09-01 08:00:00 -0700
 ---
