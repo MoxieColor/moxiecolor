@@ -14,7 +14,6 @@ permalink: /
     <div class="cta">
       <a class="btn" href="{{ '/shop/' | relative_url }}">Shop My Art</a>
       <a class="btn" href="{{ '/newsletter/' | relative_url }}">Subscribe to Hue & Tell</a>
-      <a class="btn" href="{{ '/portfolio/' | relative_url }}">See My Portfolio</a>
       <a class="btn" href="{{ '/about/' | relative_url }}">About the Artist - Me</a>
     </div>
   </div>
@@ -23,6 +22,8 @@ permalink: /
     <img src="{{ 'assets/images/portfolio/meditations/StargazingIntoTheBlue.jpeg' | relative_url }}" alt="Stargazing into the Blue, Original acrylic painting, 42&quot;x60&quot; ">
   </div>
 </section>  
+
+## Portfolio  
 
 {% comment %}
 Pull the newest page for each type by date.
