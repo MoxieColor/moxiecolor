@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Day of the Dead"
-permalink: 
+permalink: /dayofthedead/
 description: ""
 image: /assets/images/portfolio/dayofthedead/1_Dead-Horse.svg
 type: small  
