@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Moxie Color | Traversing Merrakesh"
+title: "Traversing Merrakesh"
 permalink: /TraversingMerrakesh/
 description: "Mixed-media collage of Marrakesh street map with hot-pink route overlay; stained washes."
 image: /assets/images/portfolio/Traversing Marrakesh/Once You Find Koutoubia You Know Your Way Home.svg
