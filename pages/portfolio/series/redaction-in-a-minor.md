@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Moxie Color | Redaction In A Minor"
+title: "Redaction In A Minor"
 permalink: 
 description: ""
 image: 
