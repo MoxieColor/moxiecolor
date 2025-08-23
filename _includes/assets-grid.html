@@ -1,83 +1,42 @@
-{%- comment -%} Folder-driven gallery (GH Pages safe) {%- endcomment -%}
+{%- comment -%} Folder-driven gallery (GitHub Pages safe & simple) {%- endcomment -%}
 
-{%- assign folder    = include.folder | default: page.assets | strip -%}
-{%- assign layout    = include.layout | default: "uniform" -%}
-{%- assign ratio     = include.ratio  | default: "4/3" -%}
-{%- assign fit       = include.fit    | default: "cover" -%}
-{%- assign show_caps = include.captions  | default: false -%}
-{%- assign link_full = include.link_full | default: false -%}
-
+{%- assign folder = include.folder | default: page.assets -%}
 {%- if folder == nil or folder == "" -%}
   <p><em>Missing <code>assets</code> folder path (set in page front matter or pass as include param).</em></p>
 {%- endif -%}
 {%- assign folder = folder | append: "/" | replace: "//","/" -%}
 
 {%- assign count = 0 -%}
-<ul class="gallery-grid {{ layout }}">
+<ul class="gallery-grid">
   {%- for f in site.static_files | sort: "name" -%}
-    {%- assign p   = f.path | strip -%}
-    {%- assign dir = p | remove: f.name | replace: "//","/" -%}
+    {%- assign p = f.path -%}
     {%- assign ext = f.extname | downcase -%}
-    {%- if dir == folder and (ext==".svg" or ext==".png" or ext==".jpg" or ext==".jpeg" or ext==".webp") -%}
+    {%- if p contains folder and (ext == ".svg" or ext == ".png" or ext == ".jpg" or ext == ".jpeg" or ext == ".webp") -%}
       {%- assign count = count | plus: 1 -%}
       {%- assign base = f.name | split: "." | first -%}
       {%- assign title_from_name = base | split: "_" | last | replace: "-", " " -%}
       <li class="gallery-item">
-        {%- if link_full -%}<a href="{{ p | relative_url }}" target="_blank" rel="noopener">{%- endif -%}
-          <img src="{{ p | relative_url }}"
-               alt="{{ title_from_name | escape }}"
-               loading="lazy" decoding="async"
-               style="--ratio: {{ ratio }}; --fit: {{ fit }};">
-        {%- if link_full -%}</a>{%- endif -%}
-        {%- if show_caps -%}<figcaption class="gallery-caption">{{ title_from_name }}</figcaption>{%- endif -%}
+        {%- if include.link_full -%}<a href="{{ p | relative_url }}" target="_blank" rel="noopener">{%- endif -%}
+          <img src="{{ p | relative_url }}" alt="{{ title_from_name | escape }}" loading="lazy" decoding="async">
+        {%- if include.link_full -%}</a>{%- endif -%}
+        {%- if include.captions -%}<figcaption class="gallery-caption">{{ title_from_name }}</figcaption>{%- endif -%}
       </li>
     {%- endif -%}
   {%- endfor -%}
 </ul>
 
 {%- if count == 0 -%}
-  <p>No images found in <code>{{ folder }}</code></p>
-{%- endif -%}
-
-{%- if include.debug -%}
-<details><summary>debug</summary>
-  <p>folder: <code>{{ folder }}</code></p>
-  <ul>
-  {%- for f in site.static_files | sort:"name" -%}
-    {%- assign p = f.path | strip -%}
-    {%- assign dir = p | remove: f.name | replace: "//","/" -%}
-    {%- if dir == folder -%}<li>{{ p }}</li>{%- endif -%}
-  {%- endfor -%}
-  </ul>
-</details>
+  <p>No images found in <code>{{ folder }}</code>.</p>
 {%- endif -%}
 
 <style>
-  .gallery-grid{ list-style:none; padding:0; margin:1rem 0 0; }
-  .gallery-item{
-    border:1px solid color-mix(in oklab, currentColor 12%, transparent);
-    border-radius:12px; overflow:hidden;
-    background: color-mix(in oklab, Canvas 98%, currentColor 2%);
-  }
+  .gallery-grid{ display:grid; gap:1rem; grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+                 list-style:none; padding:0; margin:1rem 0 0; }
+  .gallery-item{ border:1px solid color-mix(in oklab, currentColor 12%, transparent);
+                 border-radius:12px; overflow:hidden;
+                 background: color-mix(in oklab, Canvas 98%, currentColor 2%);
+                 transition: transform .12s ease, box-shadow .12s ease; }
+  .gallery-item:hover{ transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .gallery-item img{ width:100%; height:auto; display:block; }
   .gallery-caption{ padding:.6rem .8rem; font-size:.95rem; opacity:.8; }
-
-  /* Uniform: equal-height tiles */
-  .gallery-grid.uniform{
-    display:grid; gap:1rem;
-    grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
-  }
-  .gallery-grid.uniform img{
-    width:100%;
-    aspect-ratio: var(--ratio, 4/3);
-    object-fit: var(--fit, cover); /* cover=crop; contain=letterbox */
-    display:block;
-    background: color-mix(in oklab, Canvas 96%, currentColor 4%);
-  }
-
-  /* Masonry: variable heights, no cropping */
-  .gallery-grid.masonry{ column-width: 320px; column-gap: 1rem; }
-  @media (max-width: 960px){ .gallery-grid.masonry{ column-width: 280px; } }
-  @media (max-width: 640px){ .gallery-grid.masonry{ column-width: 220px; } }
-  .gallery-grid.masonry .gallery-item{ break-inside: avoid; display:inline-block; width:100%; margin:0 0 1rem; }
-  .gallery-grid.masonry img{ width:100%; height:auto; display:block; }
 </style>
