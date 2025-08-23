@@ -5,7 +5,7 @@ permalink:
 description: ""
 image: /assets/images/portfolio/sewing-circle/1_before-you-slash.svg
 type: small  
-assets: /assets/images/portfolio/sewing-circle  
+assets: /assets/images/portfolio/sewing-circle/  
 date: 2012-08-01 08:00:00 -0700
 ---
 
@@ -14,7 +14,7 @@ date: 2012-08-01 08:00:00 -0700
 
 *Sewing Circle* collages vintage pattern tissue, classifieds, and found bits into small, seam-showing stories. Paper-doll optimism meets seam-ripper truth: darts as decisions, notches as alignments, seam allowance as room to breathe. ‘Women’s work’ as design, archive, and quiet rebellion—altering the pattern we inherited.  
 
-(Images coming soon!)
+{% include assets-grid.html folder=page.assets captions=true link_full=true %}  
 
 This series starts with what’s usually thrown away: pattern tissue, instruction diagrams, scraps of fabric, odd notions. I collage them with acrylic washes and drawing, then stitch in found texture—mesh, thread, ephemera—so the edits stay visible. The diagrams do double duty: Dart. Slash. Grainline. They’re about garments, and they’re about lives.  
 
