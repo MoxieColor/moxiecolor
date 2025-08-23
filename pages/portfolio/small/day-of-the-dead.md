@@ -14,8 +14,7 @@ date: 2014-09-01 08:00:00 -0700
 
 Day of the Dead, in paper, paint, and imagination. Skeletons ride turtles, serenade the night, and clatter past on horse bones. Bright washes, cut shapes, hand-drawn edges—joy forward, grief welcomed. These are tiny fiestas for the ones we love.  
 
-{% include assets-grid.html captions=true
-   layout="masonry" %} 
+{% include assets-grid.html captions=true layout="masonry" folder=page.assets debug=true %}
 
 This ongoing series is where I let color and cut paper run. I paint sheets in marigold, obsidian, and jade, then slice and layer them with acrylic details until the figures feel mid-stride—music up, candles lit.  
 
