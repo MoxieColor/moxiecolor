@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "ProtoNext"
-permalink: 
+permalink: /protonext/
 description: ""
 image: /assets/images/portfolio/protonext/21_ProtoNext.svg
 type: small    
