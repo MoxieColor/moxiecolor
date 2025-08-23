@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Moxie Color | ProtoNext"
+title: "ProtoNext"
 permalink: 
 description: ""
 image: 
