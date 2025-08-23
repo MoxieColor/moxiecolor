@@ -19,3 +19,5 @@ nav:
     url: "/about/"
   - title: "Newsletter"
     url: "/newsletter/"
+  - title: "Portfolio"
+    url: "/portfolio/"
