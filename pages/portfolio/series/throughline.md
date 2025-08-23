@@ -4,6 +4,7 @@ title: "Moxie Color | Throughline"
 permalink: 
 description: ""
 image: 
+type: series  
 date: 2023-08-01 08:00:00 -0700
 ---
 
