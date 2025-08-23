@@ -6,17 +6,14 @@
 {%- endif -%}
 {%- assign folder = folder | append: "/" | replace: "//","/" -%}
 
-{%- comment -%}
-Build a lightweight list of "name|||path" lines for images under the folder,
-then natural-sort that list by filename.
-{%- endcomment -%}
+{%- comment -%} Build "name|||path" lines, then natural sort by filename {%- endcomment -%}
 {%- capture list -%}
 {%- for f in site.static_files -%}
   {%- assign p = f.path -%}
   {%- if p contains folder -%}
     {%- assign ext = f.extname | downcase -%}
     {%- if ext == ".svg" or ext == ".png" or ext == ".jpg" or ext == ".jpeg" or ext == ".webp" -%}
-{{ f.name }}|||{{ f.path }}
+{{- f.name -}}|||{{- f.path -}}
     {%- endif -%}
   {%- endif -%}
 {%- endfor -%}
@@ -26,13 +23,14 @@ then natural-sort that list by filename.
 {%- assign count = lines | size -%}
 
 {%- if count == 0 -%}
-  <p>Coming soon! in <code>{{ folder }}</code>.</p>
+  <p>No images found in <code>{{ folder }}</code>.</p>
 {%- else -%}
 <ul class="gallery-grid">
   {%- for line in lines -%}
+    {%- assign line = line | strip -%}
     {%- assign pair = line | split: "|||" -%}
-    {%- assign name = pair[0] -%}
-    {%- assign path = pair[1] -%}
+    {%- assign name = pair[0] | strip -%}
+    {%- assign path = pair[1] | strip -%}
     {%- assign base = name | split: "." | first -%}
     {%- assign title_from_name = base | split: "_" | last | replace: "-", " " -%}
     <li class="gallery-item">
@@ -44,6 +42,7 @@ then natural-sort that list by filename.
   {%- endfor -%}
 </ul>
 {%- endif -%}
+
 
 <style>
   .gallery-grid{ display:grid; gap:1rem; grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
