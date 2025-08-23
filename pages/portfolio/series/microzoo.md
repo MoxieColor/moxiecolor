@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Moxie Color | MicroZoo"
+title: "MicroZoo"
 permalink: 
 description: ""
 image: 
