@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Moxie Color | Meditations"
+title: "Meditations"
 permalink: 
 description: ""
 image: 
