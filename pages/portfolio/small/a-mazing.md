@@ -3,7 +3,7 @@ layout: default
 title: "Moxie Color | A-Mazing"
 permalink: 
 description: ""
-image: 
+image: /assets/images/portfolio/a-mazing/This-Isnt-the-Maze-Youre-In.svg
 type: small  
 date: 2017-02-01 08:00:00 -0700
 ---
