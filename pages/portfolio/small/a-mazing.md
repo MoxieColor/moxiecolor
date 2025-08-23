@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "A-Mazing"
-permalink: //
+permalink: /amazing/
 description: ""
 image: /assets/images/portfolio/a-mazing/1_This-Isnt-the-Maze-Youre-In.svg
 type: small
