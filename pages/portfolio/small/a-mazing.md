@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Moxie Color | A-Mazing"
+title: "A-Mazing"
 permalink: 
 description: ""
 image: /assets/images/portfolio/a-mazing/This-Isnt-the-Maze-Youre-In.svg
