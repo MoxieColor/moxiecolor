@@ -1,11 +1,11 @@
 {%- comment -%} Folder-driven gallery with layout + fit options (GitHub Pages safe) {%- endcomment -%}
 
-{%- assign folder      = include.folder    | default: page.assets -%}
-{%- assign layout      = include.layout    | default: "uniform" -%}   {# "uniform" | "masonry" #}
-{%- assign ratio       = include.ratio     | default: "4/3" -%}       {# used in uniform mode #}
-{%- assign fit         = include.fit       | default: "cover" -%}     {# "cover" | "contain"   #}
-{%- assign show_caps   = include.captions  | default: false -%}
-{%- assign link_full   = include.link_full | default: false -%}
+{%- assign folder    = include.folder    | default: page.assets -%}
+{%- assign layout    = include.layout    | default: "uniform" -%}   {%- comment -%} "uniform" | "masonry" {%- endcomment -%}
+{%- assign ratio     = include.ratio     | default: "4/3" -%}       {%- comment -%} used in uniform mode {%- endcomment -%}
+{%- assign fit       = include.fit       | default: "cover" -%}     {%- comment -%} "cover" | "contain"  {%- endcomment -%}
+{%- assign show_caps = include.captions  | default: false -%}
+{%- assign link_full = include.link_full | default: false -%}
 
 {%- if folder == nil or folder == "" -%}
   <p><em>Missing <code>assets</code> folder path (set in page front matter or pass as include param).</em></p>
@@ -58,7 +58,7 @@
     aspect-ratio: var(--ratio, 4/3);   /* e.g., 4/3, 3/4, 1/1, 2/3 */
     object-fit: var(--fit, cover);     /* cover = crop; contain = letterbox */
     display:block;
-    background: color-mix(in oklab, Canvas 96%, currentColor 4%); /* pleasant letterbox for 'contain' */
+    background: color-mix(in oklab, Canvas 96%, currentColor 4%);
   }
 
   /* Masonry mode: no cropping, variable heights */
