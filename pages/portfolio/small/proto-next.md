@@ -14,7 +14,8 @@ date: 2015-09-01 08:00:00 -0700
 
 *ProtoNext* is a chain reaction of small paintings—160 five-inch squares—each one riffing on the last. Born from my Meditations studies, the “prototype” becomes the point: ideas evolve in public, not behind a curtain. Small, affordable, and meant to be lived with now—not “someday.”  
 
-{% include assets-grid.html captions=true link_full=true %}  
+{% include assets-grid.html captions=true
+   layout="masonry" %}
 
 This series started as a conversation about access: if art is for everyone, how do we make that real? My answer was to work small, work often, and show the thinking. ProtoNext takes the prototype—the test, the try—and treats it as the artwork.  
 
