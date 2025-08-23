@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Moxie Color | Throughline"
+title: "Throughline"
 permalink: 
 description: ""
 image: 
