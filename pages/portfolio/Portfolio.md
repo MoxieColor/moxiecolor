@@ -53,7 +53,7 @@ Find the category landing pages so links stay correct even if URLs change.
       <img src="{{ install_img | relative_url }}" alt="{{ latest_install.title | default: 'Installations' | escape }}" loading="lazy" decoding="async">
       <figcaption>
         <h3>Installations</h3>
-        <p>{{ latest_install.title | default: "Latest installation" }}</p>
+       -- <p>{{ latest_install.title | default: "Latest installation" }}</p>
       </figcaption>
     </figure>
   </a>
@@ -64,7 +64,7 @@ Find the category landing pages so links stay correct even if URLs change.
       <img src="{{ series_img | relative_url }}" alt="{{ latest_series.title | default: 'Paintings, Collage, & Drawings' | escape }}" loading="lazy" decoding="async">
       <figcaption>
         <h3>Paintings, Collage, &amp; Drawings</h3>
-        <p>{{ latest_series.title | default: "Latest series work" }}</p>
+      --  <p>{{ latest_series.title | default: "Latest series work" }}</p>
       </figcaption>
     </figure>
   </a>
@@ -74,8 +74,8 @@ Find the category landing pages so links stay correct even if URLs change.
     <figure>
       <img src="{{ small_img | relative_url }}" alt="{{ latest_small.title | default: 'Small Works' | escape }}" loading="lazy" decoding="async">
       <figcaption>
-        <h3>Small Works</h3>
-        <p>{{ latest_small.title | default: "Latest small work" }}</p>
+        <h3>Small Works, Studies, &amp; Sketches</h3>
+     --   <p>{{ latest_small.title | default: "Latest small work" }}</p>
       </figcaption>
     </figure>
   </a>
