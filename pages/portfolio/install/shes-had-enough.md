@@ -4,6 +4,7 @@ title: "Moxie Color | She’s Had Enough"
 permalink: /sheshadenough/
 description: "Installation of femail silhouettes and comentary painted onto transparencies hanging in front of wallpaper built from the ERA text with a repeating 'mudflap girl' silhouette."
 image: /assets/images/portfolio/shes-had-enough/shes-had-enough-wallpaper-square.svg
+type: install
 date: 2018-08-16 08:00:00 -0700
 ---
 # She’s Had Enough
