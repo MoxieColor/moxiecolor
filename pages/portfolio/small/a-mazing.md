@@ -10,6 +10,9 @@ date: 2017-02-01 08:00:00 -0700
 ---
 
 # A-Mazing  
+<pre style="font-size:.85rem;white-space:pre-wrap">
+{{ list }}
+</pre>
 **Completed February 2017**  
 
 *A-Mazing* is part map, part manifesto. Collaged figures and city blocks carry maze patterns while hand-stamped lines push back: I care right. I refuse to live down to your expectations. This isn’t the maze you’re in. Not a single “right way”—just the right to redraw the route.
