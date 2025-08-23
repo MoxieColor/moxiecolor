@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Moxie Color | My Dreams Are Blue"
+title: "My Dreams Are Blue"
 permalink: 
 description: ""
 image: 
