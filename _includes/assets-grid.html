@@ -15,20 +15,19 @@
 {%- assign count = 0 -%}
 <ul class="gallery-grid {{ layout }}">
   {%- for f in site.static_files | sort: "name" -%}
-    {%- assign p   = f.relative_path | default: f.path | strip -%}
-    {%- assign ext = f.extname       | downcase -%}
-    {%- comment -%} `contains` is fine here once paths are normalized {%- endcomment -%}
-    {%- if p contains folder and (ext==".svg" or ext==".png" or ext==".jpg" or ext==".jpeg" or ext==".webp") -%}
+    {%- assign p   = f.path | strip -%}
+    {%- assign ext = f.extname | downcase -%}
+    {%- assign parts = p | split: folder -%} {%- comment -%}parts.size > 1 ⇒ p is inside folder{%- endcomment -%}
+    {%- if parts.size > 1 and (ext==".svg" or ext==".png" or ext==".jpg" or ext==".jpeg" or ext==".webp") -%}
       {%- assign count = count | plus: 1 -%}
       {%- assign base = f.name | split: "." | first -%}
       {%- assign title_from_name = base | split: "_" | last | replace: "-", " " -%}
       <li class="gallery-item">
         {%- if link_full -%}<a href="{{ p | relative_url }}" target="_blank" rel="noopener">{%- endif -%}
-          <img
-            src="{{ p | relative_url }}"
-            alt="{{ title_from_name | escape }}"
-            loading="lazy" decoding="async"
-            style="--ratio: {{ ratio }}; --fit: {{ fit }};">
+          <img src="{{ p | relative_url }}"
+               alt="{{ title_from_name | escape }}"
+               loading="lazy" decoding="async"
+               style="--ratio: {{ ratio }}; --fit: {{ fit }};">
         {%- if link_full -%}</a>{%- endif -%}
         {%- if show_caps -%}<figcaption class="gallery-caption">{{ title_from_name }}</figcaption>{%- endif -%}
       </li>
@@ -45,8 +44,8 @@
   <p>folder: <code>{{ folder }}</code></p>
   <ul>
   {%- for f in site.static_files | sort:"name" -%}
-    {%- assign p = f.relative_path | default: f.path | strip -%}
-    {%- if p contains folder -%}<li>{{ p }}</li>{%- endif -%}
+    {%- assign p = f.path | strip -%}
+    {%- if p | split: folder | size > 1 -%}<li>{{ p }}</li>{%- endif -%}
   {%- endfor -%}
   </ul>
 </details>
@@ -76,8 +75,4 @@
 
   /* Masonry mode: no cropping, variable heights */
   .gallery-grid.masonry{ column-width: 320px; column-gap: 1rem; }
-  @media (max-width: 960px){ .gallery-grid.masonry{ column-width: 280px; } }
-  @media (max-width: 640px){ .gallery-grid.masonry{ column-width: 220px; } }
-  .gallery-grid.masonry .gallery-item{ break-inside: avoid; display:inline-block; width:100%; margin:0 0 1rem; }
-  .gallery-grid.masonry img{ width:100%; height:auto; display:block; }
-</style>
+  @m
