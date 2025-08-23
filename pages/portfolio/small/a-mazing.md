@@ -10,9 +10,15 @@ date: 2017-02-01 08:00:00 -0700
 ---
 
 # A-Mazing  
-{%- if include.debug -%}
-  <pre style="white-space:pre-wrap">{{ lines | join: "\n" }}</pre>
-{%- endif -%}  
+<details><summary>debug: found images</summary>
+  <ul>
+  {% for f in site.static_files | sort: "name" %}
+    {% if f.path contains page.assets %}
+      <li>{{ f.path }}</li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+</details>  
 
 **Completed February 2017**  
 
