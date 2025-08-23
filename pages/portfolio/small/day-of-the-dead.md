@@ -8,6 +8,12 @@ date: 2014-09-01 08:00:00 -0700
 ---
 
 # Day of the Dead  
-Ongoing  
+**Ongoing**  
 
-Creating collages with Day of the Dead themes is an endeavor fueled by pure enjoyment, free from judgment. The vibrant and lively spirit of this celebration resonates deeply with my artistic sensibilities, inspiring me to explore its themes in a playful and imaginative way. Through each collage, I embrace the colorful and symbolic elements that make Day of the Dead so captivating, without any reservations. This creative journey is a celebration of art and culture, a chance to revel in the joy of crafting something that speaks to my heart and I hope brings a smile to your face.
+Day of the Dead, in paper, paint, and imagination. Skeletons ride turtles, serenade the night, and clatter past on horse bones. Bright washes, cut shapes, hand-drawn edges—joy forward, grief welcomed. These are tiny fiestas for the ones we love.  
+
+(Images coming soon!)  
+
+This ongoing series is where I let color and cut paper run. I paint sheets in marigold, obsidian, and jade, then slice and layer them with acrylic details until the figures feel mid-stride—music up, candles lit.  
+
+It’s simple on purpose: paper, paint, and imagination. The point isn’t to mourn in grayscale—it’s to celebrate in full volume, to laugh with our ghosts and keep them in the room. If a piece makes you smile and get a lump in your throat at the same time, that’s the dance.
