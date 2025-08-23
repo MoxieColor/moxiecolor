@@ -4,6 +4,7 @@ title: "Moxie Color | A-Mazing"
 permalink: 
 description: ""
 image: 
+type: small  
 date: 2017-02-01 08:00:00 -0700
 ---
 
