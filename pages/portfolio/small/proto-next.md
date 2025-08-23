@@ -3,7 +3,7 @@ layout: default
 title: "ProtoNext"
 permalink: 
 description: ""
-image: 
+image: /assets/images/portfolio/protonext/ProtoNext21.svg
 type: small  
 date: 2015-09-01 08:00:00 -0700
 ---
