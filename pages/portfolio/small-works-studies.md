@@ -1,7 +1,20 @@
 ---
 layout: default
-title: "Moxie Color | Small Works"
+title: Small Words
 permalink: /small/
+description: "Small Works, Tests, Sketches"
 ---
 
-# Small Works  
+{% assign items = site.pages | where: "type", "small" | sort: "date" | reverse %}
+
+<ul class="gallery-grid">
+  {% for work in items %}
+  <li>
+    <a href="{{ work.url | relative_url }}">
+      <img src="{{ work.image | default: '/assets/images/placeholders/portfolio.jpg' | relative_url }}"
+           alt="{{ work.title | escape }}" loading="lazy" decoding="async">
+      <span>{{ work.title }}</span>
+    </a>
+  </li>
+  {% endfor %}
+</ul>
