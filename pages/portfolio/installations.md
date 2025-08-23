@@ -4,6 +4,11 @@ title: Installations
 permalink: /installations/
 description: "Site-specific and immersive works."
 ---
+{% include portfolio-grid.html
+   type="install"
+   heading="Installations"
+   intro="Site-specific and immersive works." %}
+
 
 {% assign items = site.pages | where: "type", "install" | sort: "date" | reverse %}
 
