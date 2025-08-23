@@ -5,7 +5,7 @@ permalink:
 description: ""
 image: /assets/images/portfolio/dayofthedead/1_Dead-Horse.svg
 type: small  
-assets: /assets/images/portfolio/dayofthedead  
+assets: /assets/images/portfolio/dayofthedead/  
 date: 2014-09-01 08:00:00 -0700
 ---
 
@@ -14,7 +14,7 @@ date: 2014-09-01 08:00:00 -0700
 
 Day of the Dead, in paper, paint, and imagination. Skeletons ride turtles, serenade the night, and clatter past on horse bones. Bright washes, cut shapes, hand-drawn edges—joy forward, grief welcomed. These are tiny fiestas for the ones we love.  
 
-(Images coming soon!)  
+{% include assets-grid.html folder=page.assets captions=true link_full=true %}  
 
 This ongoing series is where I let color and cut paper run. I paint sheets in marigold, obsidian, and jade, then slice and layer them with acrylic details until the figures feel mid-stride—music up, candles lit.  
 
