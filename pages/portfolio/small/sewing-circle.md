@@ -4,6 +4,7 @@ title: "Moxie Color | Sewing Circle"
 permalink: 
 description: ""
 image: 
+type: small  
 date: 2012-08-01 08:00:00 -0700
 ---
 
