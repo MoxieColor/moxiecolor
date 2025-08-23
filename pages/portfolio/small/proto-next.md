@@ -4,6 +4,7 @@ title: "Moxie Color | ProtoNext"
 permalink: 
 description: ""
 image: 
+type: small  
 date: 2015-09-01 08:00:00 -0700
 ---
 
