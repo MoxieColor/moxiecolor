@@ -1,0 +1,65 @@
+{%- comment -%}
+Render a gallery from a folder path.
+
+Usage:
+  {% include assets-grid.html folder=page.assets captions=true link_full=true %}
+
+Params:
+  - folder     : directory to read (defaults to page.assets)
+  - captions   : true/false (default: false) — show caption from filename after the first "_"
+  - link_full  : true/false (default: false) — wrap each img in a link to the original file
+
+Notes:
+  • Works on GitHub Pages (no plugins).
+  • Natural sort by name (1,2,10).
+  • Accepts .svg .png .jpg .jpeg .webp
+{%- endcomment -%}
+
+{%- assign folder = include.folder | default: page.assets -%}
+{%- assign folder = folder | append: "/" | replace: "//", "/" -%}
+
+{%- assign imgs = site.static_files
+  | where_exp: "f", "f.path contains folder"
+  | where_exp: "f", "f.extname == '.svg' or f.extname == '.png' or f.extname == '.jpg' or f.extname == '.jpeg' or f.extname == '.webp'"
+  | sort_natural: "name" -%}
+
+{%- assign count = imgs | size -%}
+
+{%- if count == 0 -%}
+  <p>No images found in <code>{{ folder }}</code>.</p>
+{%- else -%}
+<ul class="gallery-grid">
+  {%- for f in imgs -%}
+    {%- assign base = f.name | replace: f.extname, '' -%}
+    {%- assign title_from_name = base | split: '_' | last | replace: '-', ' ' -%}
+    <li class="gallery-item">
+      {%- if include.link_full -%}<a href="{{ f.path | relative_url }}" target="_blank" rel="noopener">{%- endif -%}
+        <img src="{{ f.path | relative_url }}"
+             alt="{{ title_from_name | escape }}" loading="lazy" decoding="async">
+      {%- if include.link_full -%}</a>{%- endif -%}
+      {%- if include.captions -%}
+        <figcaption class="gallery-caption">{{ title_from_name }}</figcaption>
+      {%- endif -%}
+    </li>
+  {%- endfor -%}
+</ul>
+{%- endif -%}
+
+<style>
+  /* Minimal safety-net styles; remove if you already have gallery classes */
+  .gallery-grid{
+    display:grid;
+    gap:1rem;
+    grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+    list-style:none; padding:0; margin:1rem 0 0;
+  }
+  .gallery-item{
+    border:1px solid color-mix(in oklab, currentColor 12%, transparent);
+    border-radius:12px; overflow:hidden;
+    background: color-mix(in oklab, Canvas 98%, currentColor 2%);
+    transition: transform .12s ease, box-shadow .12s ease;
+  }
+  .gallery-item:hover{ transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .gallery-item img{ width:100%; height:auto; display:block; }
+  .gallery-caption{ padding:.6rem .8rem; font-size:.95rem; opacity:.8; }
+</style>
