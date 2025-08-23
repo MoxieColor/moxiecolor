@@ -9,7 +9,7 @@ date: 2018-08-16 08:00:00 -0700
 ---
 # She’s Had Enough
 Five women, five boxes they never asked for: measured, graded, shamed, sexualized, taxed—and expected to keep the candles blazing at both ends. It’s exhausting. This series draws the line: they’re done performing. She’s had enough. Change starts now.  
-> <p><a class="btn" href="https://moxiecolor.gumroad.com/l/musqi" target="_blank" rel="noopener">Get a free poster & wallpapers on Gumroad</a></p>  
+<p><a class="btn" href="https://moxiecolor.gumroad.com/l/musqi" target="_blank" rel="noopener">Get a free poster & wallpapers on Gumroad</a></p>  
 **[Streetside Artscape](https://www.spaceworkstacoma.com/projects/jennifer-chin-shes-had-enough/)**  
 Woolworth Window #1, 11th & Commerce, Tacoma WA
 Aug 16 – Nov 15, 2018  
