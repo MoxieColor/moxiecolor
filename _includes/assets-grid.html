@@ -1,27 +1,43 @@
+{%- comment -%} Folder-driven gallery (GitHub Pages safe) {%- endcomment -%}
+
+{%- assign folder = include.folder | default: page.assets -%}
+{%- if folder == nil or folder == "" -%}
+  <p><em>Missing <code>assets</code> folder path (set in page front matter or pass as include param).</em></p>
+{%- endif -%}
+{%- assign folder = folder | append: "/" | replace: "//","/" -%}
+
 {%- comment -%}
-Usage:
-  {% include assets-grid.html folder=page.assets captions=true link_full=true %}
+Build a lightweight list of "name|||path" lines for images under the folder,
+then natural-sort that list by filename.
 {%- endcomment -%}
+{%- capture list -%}
+{%- for f in site.static_files -%}
+  {%- assign p = f.path -%}
+  {%- if p contains folder -%}
+    {%- assign ext = f.extname | downcase -%}
+    {%- if ext == ".svg" or ext == ".png" or ext == ".jpg" or ext == ".jpeg" or ext == ".webp" -%}
+{{ f.name }}|||{{ f.path }}
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- endcapture -%}
 
-{%- assign folder = include.folder | default: page.assets | append: "/" | replace: "//","/" -%}
-
-{%- assign files = site.static_files | where_exp: "f", 'f.path contains folder' | where_exp: "f", 'f.extname == ".svg" or f.extname == ".png" or f.extname == ".jpg" or f.extname == ".jpeg" or f.extname == ".webp"' -%}
-
-{%- comment -%} Natural sort by filename (works on GitHub Pages) {%- endcomment -%}
-{%- assign names = files | map: "name" | sort_natural -%}
-{%- assign count = names | size -%}
+{%- assign lines = list | split: "\n" | reject: "" | sort_natural -%}
+{%- assign count = lines | size -%}
 
 {%- if count == 0 -%}
-  <p>No images found in <code>{{ folder }}</code>.</p>
+  <p>Coming soon! in <code>{{ folder }}</code>.</p>
 {%- else -%}
 <ul class="gallery-grid">
-  {%- for name in names -%}
-    {%- assign f = files | where: "name", name | first -%}
-    {%- assign base = f.name | replace: f.extname, '' -%}
-    {%- assign title_from_name = base | split: '_' | last | replace: '-', ' ' -%}
+  {%- for line in lines -%}
+    {%- assign pair = line | split: "|||" -%}
+    {%- assign name = pair[0] -%}
+    {%- assign path = pair[1] -%}
+    {%- assign base = name | split: "." | first -%}
+    {%- assign title_from_name = base | split: "_" | last | replace: "-", " " -%}
     <li class="gallery-item">
-      {%- if include.link_full -%}<a href="{{ f.path | relative_url }}" target="_blank" rel="noopener">{%- endif -%}
-        <img src="{{ f.path | relative_url }}" alt="{{ title_from_name | escape }}" loading="lazy" decoding="async">
+      {%- if include.link_full -%}<a href="{{ path | relative_url }}" target="_blank" rel="noopener">{%- endif -%}
+        <img src="{{ path | relative_url }}" alt="{{ title_from_name | escape }}" loading="lazy" decoding="async">
       {%- if include.link_full -%}</a>{%- endif -%}
       {%- if include.captions -%}<figcaption class="gallery-caption">{{ title_from_name }}</figcaption>{%- endif -%}
     </li>
@@ -30,8 +46,12 @@ Usage:
 {%- endif -%}
 
 <style>
-  .gallery-grid{ display:grid; gap:1rem; grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); list-style:none; padding:0; margin:1rem 0 0; }
-  .gallery-item{ border:1px solid color-mix(in oklab, currentColor 12%, transparent); border-radius:12px; overflow:hidden; background: color-mix(in oklab, Canvas 98%, currentColor 2%); transition: transform .12s ease, box-shadow .12s ease; }
+  .gallery-grid{ display:grid; gap:1rem; grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+                 list-style:none; padding:0; margin:1rem 0 0; }
+  .gallery-item{ border:1px solid color-mix(in oklab, currentColor 12%, transparent);
+                 border-radius:12px; overflow:hidden;
+                 background: color-mix(in oklab, Canvas 98%, currentColor 2%);
+                 transition: transform .12s ease, box-shadow .12s ease; }
   .gallery-item:hover{ transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
   .gallery-item img{ width:100%; height:auto; display:block; }
   .gallery-caption{ padding:.6rem .8rem; font-size:.95rem; opacity:.8; }
