@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Sewing Circle"
-permalink: 
+permalink: /sewingcircle/
 description: ""
 image: /assets/images/portfolio/sewing-circle/1_before-you-slash.svg
 type: small  
