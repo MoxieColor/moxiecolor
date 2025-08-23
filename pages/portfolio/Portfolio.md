@@ -47,17 +47,6 @@ Find the category landing pages so links stay correct even if URLs change.
 </style>
 
 <div class="portfolio-grid">
-  {%- assign install_img = latest_install.image | default: "/assets/images/placeholders/portfolio.jpg" -%}
-  <a class="portfolio-card" href="{{ installations_page.url | relative_url }}">
-    <figure>
-      <img src="{{ install_img | relative_url }}" alt="{{ latest_install.title | default: 'Installations' | escape }}" loading="lazy" decoding="async">
-      <figcaption>
-        <h3>Installations</h3>
-       <!-- <p>{{ latest_install.title | default: "Latest installation" }}</p> -->
-      </figcaption>
-    </figure>
-  </a>
-
   {%- assign series_img = latest_series.image | default: "/assets/images/placeholders/portfolio.jpg" -%}
   <a class="portfolio-card" href="{{ pcd_page.url | relative_url }}">
     <figure>
@@ -79,4 +68,16 @@ Find the category landing pages so links stay correct even if URLs change.
       </figcaption>
     </figure>
   </a>
+
+  {%- assign install_img = latest_install.image | default: "/assets/images/placeholders/portfolio.jpg" -%}
+  <a class="portfolio-card" href="{{ installations_page.url | relative_url }}">
+    <figure>
+      <img src="{{ install_img | relative_url }}" alt="{{ latest_install.title | default: 'Installations' | escape }}" loading="lazy" decoding="async">
+      <figcaption>
+        <h3>Installations</h3>
+       <!-- <p>{{ latest_install.title | default: "Latest installation" }}</p> -->
+      </figcaption>
+    </figure>
+  </a>
+
 </div>
