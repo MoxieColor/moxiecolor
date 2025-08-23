@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Moxie Color | Sewing Circle"
+title: "Sewing Circle"
 permalink: 
 description: ""
 image: 
