@@ -3,8 +3,9 @@ layout: default
 title: "Sewing Circle"
 permalink: 
 description: ""
-image: /assets/images/portfolio/sewing-circle/before-you-slash.svg
+image: /assets/images/portfolio/sewing-circle/1_before-you-slash.svg
 type: small  
+assets: /assets/images/portfolio/sewing-circle  
 date: 2012-08-01 08:00:00 -0700
 ---
 
