@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Moxie Color | Day of the Dead"
+title: "Day of the Dead"
 permalink: 
 description: ""
 image: 
