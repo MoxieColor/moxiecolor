@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Paintings, Collage, & Drawings
-permalink: /paintings-collage-drawings/
+permalink: /series/
 description: "Selected paintings, mixed-media collage, and drawings."
 ---
 {% include portfolio-grid.html
