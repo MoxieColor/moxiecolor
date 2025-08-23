@@ -19,7 +19,11 @@ Notes:
 <header class="page-header">
   {%- if include.heading -%}<h1>{{ include.heading }}</h1>{%- endif -%}
   {%- if include.intro -%}<p class="page-intro">{{ include.intro }}</p>{%- endif -%}
-  {%- if count > 0 -%}<p class="page-count">{{ count }} work{{ count > 1 ? 's' : '' }}</p>{%- endif -%}
+  {%- if count > 0 -%}
+  <p class="page-count">
+    {{ count }} {% if count == 1 %}Collection{% else %}Collections{% endif %}
+  </p>
+{%- endif -%}
 </header>
 
 {%- if count == 0 -%}
