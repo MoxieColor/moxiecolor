@@ -15,10 +15,10 @@
 {%- assign count = 0 -%}
 <ul class="gallery-grid {{ layout }}">
   {%- for f in site.static_files | sort: "name" -%}
-    {%- assign p   = f.path     | strip -%}
-    {%- assign ext = f.extname  | downcase -%}
-    {%- assign parts = p | split: folder -%} {# parts.size > 1 means p contains folder #}
-    {%- if parts.size > 1 and (ext==".svg" or ext==".png" or ext==".jpg" or ext==".jpeg" or ext==".webp") -%}
+    {%- assign p   = f.relative_path | default: f.path | strip -%}
+    {%- assign ext = f.extname       | downcase -%}
+    {%- comment -%} `contains` is fine here once paths are normalized {%- endcomment -%}
+    {%- if p contains folder and (ext==".svg" or ext==".png" or ext==".jpg" or ext==".jpeg" or ext==".webp") -%}
       {%- assign count = count | plus: 1 -%}
       {%- assign base = f.name | split: "." | first -%}
       {%- assign title_from_name = base | split: "_" | last | replace: "-", " " -%}
@@ -37,7 +37,19 @@
 </ul>
 
 {%- if count == 0 -%}
-  <p>No images found in <code>{{ folder }}</code>.</p>
+  <p>No images found in <code>{{ folder }}</code></p>
+{%- endif -%}
+
+{%- if include.debug -%}
+<details><summary>debug</summary>
+  <p>folder: <code>{{ folder }}</code></p>
+  <ul>
+  {%- for f in site.static_files | sort:"name" -%}
+    {%- assign p = f.relative_path | default: f.path | strip -%}
+    {%- if p contains folder -%}<li>{{ p }}</li>{%- endif -%}
+  {%- endfor -%}
+  </ul>
+</details>
 {%- endif -%}
 
 <style>
@@ -56,8 +68,8 @@
   }
   .gallery-grid.uniform img{
     width:100%;
-    aspect-ratio: var(--ratio, 4/3);   /* e.g., 4/3, 3/4, 1/1, 2/3 */
-    object-fit: var(--fit, cover);     /* cover=crop; contain=letterbox */
+    aspect-ratio: var(--ratio, 4/3);
+    object-fit: var(--fit, cover); /* cover=crop; contain=letterbox */
     display:block;
     background: color-mix(in oklab, Canvas 96%, currentColor 4%);
   }
