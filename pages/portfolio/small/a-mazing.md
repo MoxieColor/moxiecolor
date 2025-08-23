@@ -3,8 +3,9 @@ layout: default
 title: "A-Mazing"
 permalink: 
 description: ""
-image: /assets/images/portfolio/a-mazing/This-Isnt-the-Maze-Youre-In.svg
+image: /assets/images/portfolio/a-mazing/1_This-Isnt-the-Maze-Youre-In.svg
 type: small  
+assets: /assets/images/portfolio/a-mazing
 date: 2017-02-01 08:00:00 -0700
 ---
 
