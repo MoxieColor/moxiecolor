@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Moxie Color | About"
+title: "About"
 permalink: /about/
 ---
 
