@@ -1,9 +1,9 @@
 {%- comment -%} Folder-driven gallery with layout + fit options (GitHub Pages safe) {%- endcomment -%}
 
-{%- assign folder    = include.folder    | default: page.assets -%}
-{%- assign layout    = include.layout    | default: "uniform" -%}   {%- comment -%} "uniform" | "masonry" {%- endcomment -%}
-{%- assign ratio     = include.ratio     | default: "4/3" -%}       {%- comment -%} used in uniform mode {%- endcomment -%}
-{%- assign fit       = include.fit       | default: "cover" -%}     {%- comment -%} "cover" | "contain"  {%- endcomment -%}
+{%- assign folder    = include.folder | default: page.assets | strip -%}
+{%- assign layout    = include.layout | default: "uniform" -%}
+{%- assign ratio     = include.ratio  | default: "4/3" -%}
+{%- assign fit       = include.fit    | default: "cover" -%}
 {%- assign show_caps = include.captions  | default: false -%}
 {%- assign link_full = include.link_full | default: false -%}
 
@@ -15,9 +15,10 @@
 {%- assign count = 0 -%}
 <ul class="gallery-grid {{ layout }}">
   {%- for f in site.static_files | sort: "name" -%}
-    {%- assign p = f.path -%}
-    {%- assign ext = f.extname | downcase -%}
-    {%- if p contains folder and (ext==".svg" or ext==".png" or ext==".jpg" or ext==".jpeg" or ext==".webp") -%}
+    {%- assign p   = f.path     | strip -%}
+    {%- assign ext = f.extname  | downcase -%}
+    {%- assign parts = p | split: folder -%} {# parts.size > 1 means p contains folder #}
+    {%- if parts.size > 1 and (ext==".svg" or ext==".png" or ext==".jpg" or ext==".jpeg" or ext==".webp") -%}
       {%- assign count = count | plus: 1 -%}
       {%- assign base = f.name | split: "." | first -%}
       {%- assign title_from_name = base | split: "_" | last | replace: "-", " " -%}
@@ -56,7 +57,7 @@
   .gallery-grid.uniform img{
     width:100%;
     aspect-ratio: var(--ratio, 4/3);   /* e.g., 4/3, 3/4, 1/1, 2/3 */
-    object-fit: var(--fit, cover);     /* cover = crop; contain = letterbox */
+    object-fit: var(--fit, cover);     /* cover=crop; contain=letterbox */
     display:block;
     background: color-mix(in oklab, Canvas 96%, currentColor 4%);
   }
@@ -65,8 +66,6 @@
   .gallery-grid.masonry{ column-width: 320px; column-gap: 1rem; }
   @media (max-width: 960px){ .gallery-grid.masonry{ column-width: 280px; } }
   @media (max-width: 640px){ .gallery-grid.masonry{ column-width: 220px; } }
-  .gallery-grid.masonry .gallery-item{
-    break-inside: avoid; display:inline-block; width:100%; margin:0 0 1rem;
-  }
+  .gallery-grid.masonry .gallery-item{ break-inside: avoid; display:inline-block; width:100%; margin:0 0 1rem; }
   .gallery-grid.masonry img{ width:100%; height:auto; display:block; }
 </style>
