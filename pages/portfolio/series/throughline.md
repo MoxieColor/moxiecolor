@@ -3,7 +3,7 @@ layout: default
 title: "Throughline"
 permalink: 
 description: ""
-image: 
+image: /assets/images/portfolio/throughline/Throughline-Detail.svg
 type: series  
 date: 2023-08-01 08:00:00 -0700
 ---
