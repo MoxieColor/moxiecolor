@@ -21,11 +21,10 @@
       image: "/assets/images/stores/Spoonflower3.png"
 
 - name: Amazon KDP
-  badge: Paperbacks (soon)
-  blurb: "Paperbacks in review. Join the list and I’ll email you the moment it’s live."
-  trust: "Secure checkout on Amazon"
-  status: waitlist
-  waitlist_url: "/newsletter/"
+  badge: Paperbacks
+  blurb: "Perfect for puzzle lovers, trivia fans, and anyone who enjoys a smart brain workout."
+  trust: "Secure checkout on Amazon - Affiliate Link"
+  url: "https://amzn.to/47JdLwn"
   image: "/assets/images/stores/Word Search Trivia Square.png"
 
 - name: Etsy
