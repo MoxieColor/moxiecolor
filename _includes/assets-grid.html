@@ -30,7 +30,8 @@
 {%- endif -%}
 
 <style>
-  .gallery-justified{ display:flex; flex-wrap:wrap; gap:1rem; align-items:flex-start; margin:1rem 0 2rem; }
+  .gallery-grid{ display:grid; gap:1rem; grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+                 list-style:none; padding:0; margin:1rem 0 0; }
   .gallery-item{ border:1px solid color-mix(in oklab, currentColor 12%, transparent);
                  border-radius:12px; overflow:hidden;
                  background: color-mix(in oklab, Canvas 98%, currentColor 2%);
