@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Throughline"
-permalink: /Throughline/
+permalink: /Throughline1/
 description: ""
 image: /assets/images/portfolio/Throughline-Detail.svg
 type: series  
@@ -13,7 +13,7 @@ date: 2023-08-01 08:00:00 -0700
 
 *Throughline* builds big stories from small pieces. Individual paintings keep their own voice; together they make a chorus. Seams stay visible on purpose—the connective tissue is the point. We’re many, and we’re one.  
 
-{% include assets-grid.html captions=true layout="masonry" %}  
+(coming soon)
 
 *Throughline* is modular on the surface and communal at heart. I paint in small units, then assemble them into larger fields—shifting pieces until edges start a conversation. Layers overlap, colors echo across panels, and little frictions keep the harmony honest. No single square gets the solo for long.  
 
