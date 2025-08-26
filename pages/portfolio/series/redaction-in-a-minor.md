@@ -13,7 +13,7 @@ date: 2018-04-01 08:00:00 -0700
 
 Start with a 1940s how-to manual. Erase every “A”—except one stubborn capital left as a witness. Text becomes constellations; meaning turns to pattern. *Redaction In A Minor* uses absence as ink: less headline noise, more quiet signal. No right-side-up; one redacted page becomes a repeating tile.   
 
-{% include assets-grid.html captions=true layout="masonry" %}  
+_coming soon_
 
 Lately the feed feels like a shouting match: takes on takes, bots posing as people, “breaking” that rarely breaks new ground. I needed subtraction. So I pulled a timeworn reference book—a 1940s tool manual with that library-stack perfume—and began removing every single “A.” Not black bars, but deliberate marks following aesthetic logic.  
 
