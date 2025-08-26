@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Throughline"
-permalink: /Throughline1/
+permalink: /Throughline/
 description: ""
 image: /assets/images/portfolio/Throughline-Detail.svg
 type: series  
