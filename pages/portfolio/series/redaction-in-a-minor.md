@@ -3,7 +3,7 @@ layout: default
 title: "Redaction In A Minor"
 permalink: 
 description: ""
-image: 
+image: /assets/images/portfolio/RedactionMix.svg
 type: series  
 date: 2018-04-01 08:00:00 -0700
 ---
