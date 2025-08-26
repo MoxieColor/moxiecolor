@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Redaction In A Minor"
-permalink: 
+permalink: /RedactionInAMinor/
 description: ""
 image: /assets/images/portfolio/RedactionMix.svg
 type: series  
