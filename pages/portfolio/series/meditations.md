@@ -1,9 +1,9 @@
 ---
 layout: default
 title: "Meditations"
-permalink: 
+permalink: /meditations/
 description: ""
-image: 
+image: /assets/images/portfolio/meditations/
 type: series  
 assets: /assets/images/portfolio/meditations/
 date: 2015-03-01 08:00:00 -0700
