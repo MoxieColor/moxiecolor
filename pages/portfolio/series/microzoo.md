@@ -5,6 +5,7 @@ permalink:
 description: ""
 image: 
 type: series  
+assets: 
 date: 2014-12-01 08:00:00 -0700
 ---
 
