@@ -3,7 +3,7 @@ layout: default
 title: "Meditations"
 permalink: /meditations/
 description: ""
-image: /assets/images/portfolio/meditations/
+image: /assets/images/portfolio/meditations/Tangerine-and-Teal.svg
 type: series  
 assets: /assets/images/portfolio/meditations/
 date: 2015-03-01 08:00:00 -0700
