@@ -14,7 +14,7 @@ date: 2014-04-01 08:00:00 -0700
 
 Dreams are slippery; the harder I reach, the faster they dissolve. *My Dreams Are Blue* tries to hold that feeling—deep blue pours guided by gravity, where forms warp, crack, and drift like memory underwater.  
 
-(images coming soon!)  
+{% include assets-grid.html captions=true layout="masonry" %}
 
 I rarely remember my dreams—just shapes, moods, a recurring theme. It feels like reaching through water: fragments shimmer, then slip. This series leans into that almost-remembered state.  
 
