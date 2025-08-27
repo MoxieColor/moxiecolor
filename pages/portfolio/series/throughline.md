@@ -5,6 +5,7 @@ permalink: /Throughline/
 description: ""
 image: /assets/images/portfolio/throughline/z-Throughline-Detail.svg
 type: series  
+assets: /assets/images/portfolio/throughline/
 date: 2023-08-01 08:00:00 -0700
 ---
 
