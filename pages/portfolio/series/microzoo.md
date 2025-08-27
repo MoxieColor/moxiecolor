@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "MicroZoo"
-permalink: 
+permalink: /microzoo/
 description: ""
 image: /assets/images/portfolio/microzoo/Tintinnid.svg
 type: series  
