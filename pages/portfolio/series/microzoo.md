@@ -3,7 +3,7 @@ layout: default
 title: "MicroZoo"
 permalink: 
 description: ""
-image: 
+image: /assets/images/portfolio/microzoo/Tintinnid.svg
 type: series  
 assets: /assets/images/portfolio/microzoo/
 date: 2014-12-01 08:00:00 -0700
