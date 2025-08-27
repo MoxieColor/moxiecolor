@@ -1,9 +1,9 @@
 ---
 layout: default
 title: "My Dreams Are Blue"
-permalink: 
+permalink: /my-dreams-are-blue/
 description: ""
-image: 
+image: /assets/images/portfolio/my-dreams-are-blue/
 type: series   
 assets: /assets/images/portfolio/my-dreams-are-blue/
 date: 2014-04-01 08:00:00 -0700
