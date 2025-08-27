@@ -14,7 +14,7 @@ date: 2014-12-01 08:00:00 -0700
 
 *MicroZoo* celebrates the alien world hiding at our fingertips. While headlines chase galaxies and rovers, these works scale up the nearly invisible—tiny organisms, textures, and architectures—until the minuscule becomes monumental. Less Hubble, more humble.  
 
-(images coming soon!)
+{% include assets-grid.html captions=true layout="masonry" %}
 
 We live in an age where science feels like modern magic: new galaxies discovered, robots roaming Mars, even a comet’s “song” recorded. *MicroZoo* turns the lens the other way. Instead of the faraway, it spotlights the strange and spectacular life we pass by every day—too small to notice without help.  
 
