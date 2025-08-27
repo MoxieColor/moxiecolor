@@ -3,7 +3,7 @@ layout: default
 title: "My Dreams Are Blue"
 permalink: /my-dreams-are-blue/
 description: ""
-image: /assets/images/portfolio/my-dreams-are-blue/
+image: /assets/images/portfolio/my-dreams-are-blue/Yogo-Pose.svg
 type: series   
 assets: /assets/images/portfolio/my-dreams-are-blue/
 date: 2014-04-01 08:00:00 -0700
