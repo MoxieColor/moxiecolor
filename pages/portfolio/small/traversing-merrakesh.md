@@ -3,7 +3,7 @@ layout: default
 title: "Traversing Merrakesh"
 permalink: /TraversingMerrakesh/
 description: "Mixed-media collage of Marrakesh street map with hot-pink route overlay; stained washes."
-image: /assets/images/portfolio/Traversing Marrakesh/Once You Find Koutoubia You Know Your Way Home.svg
+image: /assets/images/portfolio/Traversing-Marrakesh/Once You Find Koutoubia You Know Your Way Home.svg
 type: small  
 date: 2013-10-01 08:00:00 -0700
 ---
@@ -17,36 +17,36 @@ In June 2013 I landed in Marrakesh with no phone data. Directions vanished into 
 	<div class="photo-gallery">
 		<div class="column">
 			<div class="photo">
-				<img src="{{ '/assets/images/portfolio/Traversing Marrakesh/Once You Find Koutoubia You Know Your Way Home.svg' | relative_url }}"
+				<img src="{{ '/assets/images/portfolio/Traversing-Marrakesh/Once You Find Koutoubia You Know Your Way Home.svg' | relative_url }}"
                                              alt="Once You Find Koutoubia You Know Your Way Home"
                                              loading="lazy">
 			</div>
 			<div class="photo">
-				<img src="{{ '/assets/images/portfolio/Traversing Marrakesh/Getting Lost on the Way to KifKaf.svg' | relative_url }}"
+				<img src="{{ '/assets/images/portfolio/Traversing-Marrakesh/Getting Lost on the Way to KifKaf.svg' | relative_url }}"
                                              alt="Getting Lost on the Way to KifKaf"
                                              loading="lazy">
 			</div>
 		</div>
 		<div class="column">
 			<div class="photo">
-				<img src="{{ '/assets/images/portfolio/Traversing Marrakesh/The Route Not Taken.svg' | relative_url }}"
+				<img src="{{ '/assets/images/portfolio/Traversing-Marrakesh/The Route Not Taken.svg' | relative_url }}"
                                              alt="The Route Not Taken"
                                              loading="lazy">
 			</div>
 			<div class="photo">
-				<img src="{{ '/assets/images/portfolio/Traversing Marrakesh/Searching for Tombeaux.svg' | relative_url }}"
+				<img src="{{ '/assets/images/portfolio/Traversing-Marrakesh/Searching for Tombeaux.svg' | relative_url }}"
                                              alt="Searching for Tombeaux"
                                              loading="lazy">
 			</div>
 		</div>
 		<div class="column">
 			<div class="photo">
-				<img src="{{ '/assets/images/portfolio/Traversing Marrakesh/Walking to Medersa Ben.svg' | relative_url }}"
+				<img src="{{ '/assets/images/portfolio/Traversing-Marrakesh/Walking to Medersa Ben.svg' | relative_url }}"
                                              alt="Walking to Medersa Ben"
                                              loading="lazy">
 			</div>
 			<div class="photo">
-				<img src="{{ '/assets/images/portfolio/Traversing Marrakesh/Oasis of Jardin Majorelle.svg' | relative_url }}"
+				<img src="{{ '/assets/images/portfolio/Traversing-Marrakesh/Oasis of Jardin Majorelle.svg' | relative_url }}"
                                              alt="Oasis of Jardin Majorelle"
                                              loading="lazy">
 			</div>
