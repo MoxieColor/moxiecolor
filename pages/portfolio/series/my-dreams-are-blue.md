@@ -4,7 +4,8 @@ title: "My Dreams Are Blue"
 permalink: 
 description: ""
 image: 
-type: series  
+type: series   
+assets: 
 date: 2014-04-01 08:00:00 -0700
 ---
 
