@@ -6,7 +6,7 @@ description: "You Are Your Own Sysadmin: unapologetic neon art prints mixing gee
 image: /assets/images/portfolio/you-are-your-own-sysadmin/BowTie/Neon-Green-Bow-Tie.svg
 type: series  
 assets: /assets/images/portfolio/you-are-your-own-sysadmin/
-date: 2015-03-01 08:00:00 -0700
+date: 2025-09-15 08:00:00 -0700
 ---
 
 # You Are Your Own Sysadmin
