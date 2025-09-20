@@ -3,7 +3,7 @@ layout: default
 title: "You Are Your Own SysAdmin"
 permalink: /sysadmin/
 description: "You Are Your Own Sysadmin: unapologetic neon art prints mixing geek wit and rebellion. A manifesto for choice, autonomy, and root access to your own life."
-image: /assets/images/portfolio/you-are-your-own-sysadmin/Neon-Green-Bow-Tie.svg
+image: /assets/images/portfolio/you-are-your-own-sysadmin/Neon Green - Bow Tie.webp
 type: series  
 assets: /assets/images/portfolio/you-are-your-own-sysadmin/
 date: 2025-09-15 08:00:00 -0700
