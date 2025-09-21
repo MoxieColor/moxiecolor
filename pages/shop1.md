@@ -197,7 +197,7 @@ description: "Limited Collector’s Edition Posters and printables from MoxieCol
   <div class="explore-list">
     <div class="explore-card">
       <div class="thumb">
-        <img src="/assets/images/stores/Gumroad_wordsearchtrivia.png"
+        <img src="assets/images/portfolio/shes-had-enough/shes-had-enough-wallpaper-square.svg"
              alt="Gumroad storefront preview.">
       </div>
       <h4>More Digital Downloads</h4>
@@ -217,7 +217,7 @@ description: "Limited Collector’s Edition Posters and printables from MoxieCol
 
     <div class="explore-card">
       <div class="thumb">
-        <img src="/assets/images/stores/Gumroad_wordsearchtrivia.png"
+        <img src="assets/images/stores/Word Search Trivia Square.png"
              alt="Word Search Trivia paperback cover.">
       </div>
       <h4>Puzzle Book (Amazon)</h4>
