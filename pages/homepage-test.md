@@ -9,18 +9,31 @@ permalink: /homepage-test/
 </section>
 
 <style>
-  /* Reusable hero */
+  /* Brand hero: full-width text + CTA (no image) */
+  .brand-hero{
+    display:block;
+    margin-block:1.5rem 2rem;
+    padding:1.25rem 1.25rem 1.5rem;
+    border:1px solid rgba(0,0,0,.08);
+    border-radius:1rem;
+    background:#fff;
+    box-shadow:0 8px 24px rgba(0,0,0,.06);
+  }
+  .brand-hero h2{margin:.1rem 0 .35rem 0}
+  .brand-hero p{margin:0 0 .75rem 0}
+
+  /* Shared buttons */
+  .btn{display:inline-block;padding:.9rem 1.1rem;border-radius:.75rem;background:#111;color:#fff;
+       text-decoration:none;font-weight:700;line-height:1}
+  .btn.light{background:#222}
+  .cta-row{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.25rem}
+
+  /* Product heroes (stacked) */
   .hero{display:grid;grid-template-columns:1.1fr 1fr;gap:2rem;align-items:center;margin-block:2rem 2.5rem}
   .hero img{width:100%;height:auto;border-radius:1rem;box-shadow:0 10px 30px rgba(0,0,0,.12)}
   .hero h1,.hero h2{margin:0 0 .5rem 0}
   .hero.reverse{grid-template-columns:1fr 1.1fr}
   @media (max-width:900px){.hero,.hero.reverse{grid-template-columns:1fr}}
-
-  /* Buttons */
-  .btn{display:inline-block;padding:.9rem 1.1rem;border-radius:.75rem;background:#111;color:#fff;
-       text-decoration:none;font-weight:700;line-height:1}
-  .btn.light{background:#222}
-  .cta-row{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.75rem}
 
   /* Featured cards */
   .featured-grid{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));margin-block:2rem}
@@ -28,7 +41,7 @@ permalink: /homepage-test/
   .card img{width:100%;height:auto;border-radius:.75rem;margin-bottom:.65rem}
   .card h3{margin:.25rem 0 .4rem 0}
 
-  /* Portfolio grid (kept from your page styles) */
+  /* Portfolio grid */
   .portfolio-grid{display:grid;gap:1rem;grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));}
   .portfolio-card{display:block;border:1px solid color-mix(in oklab, currentColor 10%, transparent);border-radius:16px;overflow:hidden;text-decoration:none;background: color-mix(in oklab, Canvas 98%, currentColor 2%);transition: transform .12s ease, box-shadow .12s ease;}
   .portfolio-card:hover{ transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
@@ -46,20 +59,14 @@ permalink: /homepage-test/
   .quicklinks a{background:#f5f5f5;border:1px solid rgba(0,0,0,.08);padding:.6rem .8rem;border-radius:.65rem;text-decoration:none;color:inherit}
 </style>
 
-<!-- Brand tagline stays -->
-<section class="hero">
-  <div class="hero-text">
-    <h2>Logic is found in the chaos around us.</h2>
-    <p>Bold art for curious minds.</p>
-    <div class="cta-row">
-      <a class="btn" href="{{ '/shop/' | relative_url }}">🔥 Shop the New Drop</a>
-      <a class="btn light" href="{{ '/shop/#freebies' | relative_url }}">🎁 Get a Freebie</a>
-      <a class="btn light" href="{{ '/newsletter/' | relative_url }}">📩 Subscribe to Hue & Tell</a>
-    </div>
-  </div>
-  <div class="hero-image">
-    <!-- Keep a calm background here if you like; the two “drop” heroes follow -->
-    <img src="{{ 'assets/images/portfolio/meditations/StargazingIntoTheBlue.jpeg' | relative_url }}" alt="Stargazing into the Blue, original acrylic painting.">
+<!-- BRAND HERO (no image) -->
+<section class="brand-hero">
+  <h2>Logic is found in the chaos around us.</h2>
+  <p>Bold art for curious minds.</p>
+  <div class="cta-row">
+    <a class="btn" href="{{ '/shop/' | relative_url }}">🔥 Shop the New Drop</a>
+    <a class="btn light" href="{{ '/shop/#freebies' | relative_url }}">🎁 Get a Freebie</a>
+    <a class="btn light" href="{{ '/newsletter/' | relative_url }}">📩 Subscribe to Hue & Tell</a>
   </div>
 </section>
 
