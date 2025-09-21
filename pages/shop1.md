@@ -79,8 +79,6 @@ description: "Limited Collector’s Edition Posters and printables from MoxieCol
     </ul>
   </div>
 </section>
-
-<hr>
 <section class="section">
   <div class="cards">
     <article class="card">
@@ -94,6 +92,8 @@ description: "Limited Collector’s Edition Posters and printables from MoxieCol
     </article>
   </div>
 </section>
+<hr>
+
 
 <section class="section">
   <h2>🎁 Freebies to Try</h2>
