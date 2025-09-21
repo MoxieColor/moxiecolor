@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Shop"
-permalink: /shop/
+permalink: /shop1/
 description: "Limited Collector’s Edition Posters and printables from MoxieColor."
 ---
 
