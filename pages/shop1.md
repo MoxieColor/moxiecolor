@@ -9,10 +9,11 @@ description: "Limited Collector’s Edition Posters and printables from MoxieCol
 <script src="https://gumroad.com/js/gumroad.js"></script>
 
 <style>
-  .shop-hero{display:grid;grid-template-columns:1.1fr 1fr;gap:2rem;align-items:center;margin-block:2rem 2.5rem}
-  .shop-hero img{width:100%;height:auto;border-radius:1rem;box-shadow:0 10px 30px rgba(0,0,0,.12)}
-  .shop-hero h1{margin:0 0 .5rem 0}
-
+  .hero{display:grid;grid-template-columns:1.1fr 1fr;gap:2rem;align-items:center;margin-block:2rem 2.5rem}
+  .hero img{width:100%;height:auto;border-radius:1rem;box-shadow:0 10px 30px rgba(0,0,0,.12)}
+  .hero h1,.hero h2{margin:0 0 .5rem 0}
+  .hero.reverse{grid-template-columns:1fr 1.1fr}
+  
   /* Unified button style (matches Collector’s Edition button) */
   .btn{display:inline-block;padding:.9rem 1.1rem;border-radius:.75rem;background:#111;color:#fff;
        text-decoration:none;font-weight:700;line-height:1}
@@ -46,31 +47,24 @@ description: "Limited Collector’s Edition Posters and printables from MoxieCol
   .explore-card .thumb img{width:100%;height:100%;object-fit:cover;object-position:left top;display:block}
 
   @media (max-width:900px){
-    .shop-hero{grid-template-columns:1fr}
+    .hero,.hero.reverse{grid-template-columns:1fr}
     .cards{grid-template-columns:1fr}
     .bundles-list{grid-template-columns:1fr}
     .explore-list{grid-template-columns:1fr}
   }
 </style>
 
-<section class="shop-hero">
-  <!-- HERO IMAGE -->
+<section class="hero">
   <img src="/assets/images/stores/sysadmin-superbundle.png"
        alt="Neon zine collage posters in multiple colorways — You Are Your Own Sysadmin mega bundle preview.">
-
-  <!-- HERO COPY -->
   <div>
     <h1>🔥 Limited Collector’s Edition Posters — Only 50 with Exclusives</h1>
     <p><strong>Six neon zine collages × six colorways = 36 instant-download posters.</strong><br>
     Each file is 5400×7200 px, 300 dpi — perfect for printing, framing, or plastering across your favorite wall.</p>
-
     <p>For the first 50 buyers only, this drop also includes two retired designs:<br>
     🐾 <em>Mad Cat</em> + 🐾 <em>Bad Dog</em>. Once they’re gone, they’re gone.</p>
-
-    <a class="btn"
-       href="https://moxiecolor.gumroad.com/l/you-are-your-own-sysadmin"
+    <a class="btn" href="https://moxiecolor.gumroad.com/l/you-are-your-own-sysadmin"
        data-gumroad-overlay-checkout="true">Get the Collector’s Edition →</a>
-
     <ul class="benefits">
       <li>✅ Instant digital download — print today, hang tonight</li>
       <li>✅ All colorways included — change your vibe anytime</li>
@@ -79,19 +73,24 @@ description: "Limited Collector’s Edition Posters and printables from MoxieCol
     </ul>
   </div>
 </section>
-<section class="section">
-  <div class="cards">
-    <article class="card">
-      <img src="/assets/images/stores/protonext-thebundle-thumbnail.png"
-           alt="ProtoNext Foundation Set — printable wall art bundle preview.">
-      <h3>ProtoNext Vol. 1–3 Bundle: <em>The Foundation Set</em></h3>
-      <p>Six acrylic+ink prints per volume, bundled from sold-out originals. Instant-download, print-ready files.</p>
-      <a class="btn"
-         href="https://moxiecolor.gumroad.com/l/the-foundation-set"
-         data-gumroad-overlay-checkout="true">Get the Foundation Set →</a>
-    </article>
+
+<section class="hero reverse">
+  <div>
+    <h2>🧪 ProtoNext Vol. 1–3 Bundle — <em>The Foundation Set</em></h2>
+    <p>Three volumes of acrylic+ink prints pulled from sold-out originals — curated into a print-ready bundle for instant download.</p>
+    <ul class="benefits">
+      <li>✅ 3 volumes × 6 prints each — gallery-ready files</li>
+      <li>✅ Instant download — print today, frame tonight</li>
+      <li>✅ Works as a coordinated wall set or gifts</li>
+    </ul>
+    <a class="btn" href="https://moxiecolor.gumroad.com/l/the-foundation-set"
+       data-gumroad-overlay-checkout="true">Get the Foundation Set →</a>
   </div>
+
+  <img src="/assets/images/stores/protonext-thebundle-thumbnail.png"
+       alt="ProtoNext Foundation Set — printable wall art bundle preview.">
 </section>
+
 <hr>
 
 
