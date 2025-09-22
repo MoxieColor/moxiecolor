@@ -119,8 +119,9 @@ description: "Limited Collector’s Edition Posters and printables from MoxieCol
          href="https://moxiecolor.gumroad.com/l/permission-slip?utm_source=site&utm_medium=shop&utm_campaign=freebies&utm_content=card_permission_slip_btn"
          data-gumroad-overlay-checkout="true">Grab It Now →</a>
     </article>
+    
     <article class="card">
-      <img src="/assets/images/stores/wordsearch-sample.png"
+      <img src="/assets/images/stores/Word Search Trivia Square.png"
            alt="Word Search Trivia sample puzzle page preview.">
       <h3>🧩 Word Search Trivia — Free Sample Puzzle</h3>
       <p>Try before you buy: one full puzzle pulled from the Word Search Trivia book. Print it, solve it, share it.</p>
