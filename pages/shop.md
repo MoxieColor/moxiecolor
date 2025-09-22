@@ -39,6 +39,7 @@ description: "Limited Collector’s Edition Posters and printables from MoxieCol
   .explore-card img{width:100%;height:auto;border-radius:.75rem;margin-bottom:.65rem}
 
   .note{font-size:.9rem;color:#555;margin-top:.5rem}
+  .section[id] { scroll-margin-top: 96px; } /* adjust to your header height */
   
   /* Force square, top-left crop for Explore cards */
   .explore-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.25rem}
@@ -94,7 +95,7 @@ description: "Limited Collector’s Edition Posters and printables from MoxieCol
 <hr>
 
 
-<section class="section", id="freebies">
+<section class="section" id="freebies">
   <h2>🎁 Freebies to Try</h2>
   <p>Get a taste of the Moxie vibe before diving into the full collection.</p>
   
