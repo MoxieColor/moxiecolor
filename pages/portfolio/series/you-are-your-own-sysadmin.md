@@ -27,10 +27,10 @@ date: 2025-09-15 08:00:00 -0700
 
 <div class="cta-row">
   <a class="btn light" href="#about-sysadmin">Learn More ↓</a>
-  <a class="btn" href="https://moxiecolor.gumroad.com/l/you-are-your-own-sysadmin" data-gumroad-overlay-checkout="true">🔥 Buy the Sysadmin Bundle</a>
-  <a class="btn" href="https://moxiecolor.gumroad.com/l/neon-bow-tie" data-gumroad-overlay-checkout="true">🎀 Neon Bow Tie Bundle →</a>
-  <a class="btn" href="https://moxiecolor.gumroad.com/l/neon-kiss" data-gumroad-overlay-checkout="true">💋 Neon Kiss Bundle →</a>
-  <a class="btn" href="https://moxiecolor.gumroad.com/l/neon-good-pets" data-gumroad-overlay-checkout="true">🐾 Neon Good Pets Bundle →</a>
+  <a class="btn" href="https://moxiecolor.gumroad.com/l/you-are-your-own-sysadmin" data-gumroad-overlay-checkout="true">🔥 Buy Sysadmin Bundle →</a>
+  <a class="btn" href="https://moxiecolor.gumroad.com/l/neon-bow-tie" data-gumroad-overlay-checkout="true">🎀 Buy Neon Bow Tie →</a>
+  <a class="btn" href="https://moxiecolor.gumroad.com/l/neon-kiss" data-gumroad-overlay-checkout="true">💋 Buy Neon Kiss →</a>
+  <a class="btn" href="https://moxiecolor.gumroad.com/l/neon-good-pets" data-gumroad-overlay-checkout="true">🐾 Buy Neon Good Pets →</a>
 </div>
 
 {% include assets-grid.html captions=true layout="masonry" %}
