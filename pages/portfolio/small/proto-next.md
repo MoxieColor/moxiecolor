@@ -46,5 +46,4 @@ At heart, ProtoNext is an invitation: come into the process, own a piece of its 
 
 <div class="cta-row">
   <a class="btn light" href="#top">↑ Back to top</a>
-  <a class="btn" href="https://moxiecolor.gumroad.com/l/the-foundation-set" data-gumroad-overlay-checkout="true">Buy the Foundation Set →</a>
 </div>

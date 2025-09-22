@@ -194,3 +194,7 @@ This page is a plain-English summary. The **full license text** inside each down
   ]
 }
 </script>
+
+<div class="cta-row">
+  <a class="btn light" href="#top">↑ Back to top</a>
+</div>

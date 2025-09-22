@@ -16,3 +16,7 @@ Lives and works in Tacoma, WA
 {% include cv_section.html title="Publications" key="publications" %}
 
 {% include cv_section.html title="Education" key="education" %}
+
+<div class="cta-row">
+  <a class="btn light" href="#top">↑ Back to top</a>
+</div>

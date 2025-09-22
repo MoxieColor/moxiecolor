@@ -143,3 +143,7 @@ If you’re still stuck, reach me via the **[About]({{ '/about/' | relative_url 
   ]
 }
 </script>
+
+<div class="cta-row">
+  <a class="btn light" href="#top">↑ Back to top</a>
+</div>

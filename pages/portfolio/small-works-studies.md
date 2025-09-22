@@ -8,3 +8,7 @@ description: "Petite pieces, sketches, and studies."
    type="small"
    heading="Small Works & Studies"
    intro="Petite pieces, sketches, and studies." %}
+
+<div class="cta-row">
+  <a class="btn light" href="#top">↑ Back to top</a>
+</div>

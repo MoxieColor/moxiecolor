@@ -24,5 +24,4 @@ Step closer. The vast is hiding in the small. The universe is local.
 
 <div class="cta-row">
   <a class="btn light" href="#top">↑ Back to top</a>
-  <a class="btn" href="https://moxiecolor.gumroad.com/l/you-are-your-own-sysadmin" data-gumroad-overlay-checkout="true">Buy the Sysadmin Bundle →</a>
 </div>
