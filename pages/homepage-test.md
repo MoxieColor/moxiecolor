@@ -103,19 +103,19 @@ permalink: /homepage-test/
        alt="ProtoNext Foundation Set — printable wall art bundle preview.">
 </section>
 
-<!-- FEATURED: drive to Shop -->
+<!-- FEATURED: drive to Portfolio with shop buttons on page -->
 <section>
   <h2>Featured Collections</h2>
   <div class="featured-grid">
     <div class="card">
       <img src="{{ '/assets/images/stores/sysadmin-neon-kiss.png' | relative_url }}" alt="SysAdmin Neon Posters — colorways preview.">
       <h3>SysAdmin Neon Posters (Collector’s Edition)</h3>
-      <a class="btn" href="{{ '/shop/' | relative_url }}">Shop the Drop →</a>
+      <a class="btn" href="{{ '/sysadmin/' | relative_url }}">Explore You Are Your Own Sysadmin →</a>
     </div>
     <div class="card">
       <img src="{{ '/assets/images/stores/protonext-the-inked-series.png' | relative_url }}" alt="ProtoNext — The Inked Series preview.">
-      <h3>ProtoNext: The Foundation Set</h3>
-      <a class="btn" href="{{ '/shop/' | relative_url }}#protonext">Explore ProtoNext →</a>
+      <h3>Learn more about ProtoNext</h3>
+      <a class="btn" href="{{ '/protonext/' | relative_url }}#protonext">Explore ProtoNext →</a>
     </div>
   </div>
 </section>
