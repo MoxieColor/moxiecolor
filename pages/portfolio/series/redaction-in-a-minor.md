@@ -23,3 +23,8 @@ The pages shifted from language to star maps: dotted fields, small galaxies of r
 Why “A Minor”? Because the letter is (almost) gone, the mood sits in a lower key—and one capital “A” is intentionally left unredacted. That lone major note inside a minor field keeps the key signature honest.  
 
 The work asks what remains when you strip the loudest characters away: which structures persist, what new readings appear, and who decides what gets erased. In a culture hooked on hot takes and “fake news,” this series is my cool take: fewer exclamation points, more looking. And yes—many A’s were harmed in the making.  
+
+<div class="cta-row">
+  <a class="btn light" href="#top">↑ Back to top</a>
+  <a class="btn" href="https://moxiecolor.gumroad.com/l/you-are-your-own-sysadmin" data-gumroad-overlay-checkout="true">Buy the Sysadmin Bundle →</a>
+</div>

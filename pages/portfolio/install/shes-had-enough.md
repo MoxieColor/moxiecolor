@@ -48,3 +48,9 @@ Meanwhile, women are put on pedestals and under microscopes—saint and object, 
 She’s Had Enough is part protest, part boundary. It refuses the old game of “shrink it and pink it,” of unpaid labor dressed up as gratitude, of value defined by someone else’s checklist. These works say: no more. No more quiet compliance. No more double standards with fine print.  
 
 If you recognize yourself here, you’re not alone. This is a call and a catalyst—one more match struck. She’s had enough. It’s time for a change now.
+
+<div class="cta-row">
+  <a class="btn light" href="#top">↑ Back to top</a>
+  <a class="btn" href="https://moxiecolor.gumroad.com/l/you-are-your-own-sysadmin" data-gumroad-overlay-checkout="true">Buy the Sysadmin Bundle →</a>
+</div>
+

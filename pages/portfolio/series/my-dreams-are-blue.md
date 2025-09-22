@@ -23,3 +23,8 @@ I work in deep acrylic pours, letting gravity do part of the drawing. I pour int
 The blue is not just color, it’s temperature and buoyancy. It holds those brief, weightless moments when gravity seems to lift—pain eases, breath deepens, time slows. Each layer cures for 24–48 hours; the whole series took about six months. The titles point to the themes that surface and resurface as I refine.  
 
 Less dream interpretation, more dream sensation: a record of how memory blurs, cracks, and somehow still rings true.
+
+<div class="cta-row">
+  <a class="btn light" href="#top">↑ Back to top</a>
+  <a class="btn" href="https://moxiecolor.gumroad.com/l/you-are-your-own-sysadmin" data-gumroad-overlay-checkout="true">Buy the Sysadmin Bundle →</a>
+</div>

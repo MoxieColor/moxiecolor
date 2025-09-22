@@ -33,3 +33,8 @@ The figures wear the labyrinth as a second skin; buildings shoulder it like zoni
  - *This isn’t the maze you’re in* projection isn’t a compass.
 
 Seams stay visible on purpose—you can see the edits, the pivots, the places autonomy interrupts the algorithm. There’s no single solution. The win is noticing where you chose the path and where the path chose you—and then choosing again.
+
+<div class="cta-row">
+  <a class="btn light" href="#top">↑ Back to top</a>
+  <a class="btn" href="https://moxiecolor.gumroad.com/l/you-are-your-own-sysadmin" data-gumroad-overlay-checkout="true">Buy the Sysadmin Bundle →</a>
+</div>

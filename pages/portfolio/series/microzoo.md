@@ -21,3 +21,8 @@ We live in an age where science feels like modern magic: new galaxies discovered
 Inspired by microscopy, pattern study, and the unruly intelligence of nature, I build a micro-menagerie and enlarge it to human scale. The forms hover between specimen and story—grounded in biology, colored by imagination. By making the tiny impossible to ignore, the work asks us to recalibrate our gaze: to trade spectacle for attention, and wonder for wonder’s sake.  
 
 Step closer. The vast is hiding in the small. The universe is local.  
+
+<div class="cta-row">
+  <a class="btn light" href="#top">↑ Back to top</a>
+  <a class="btn" href="https://moxiecolor.gumroad.com/l/you-are-your-own-sysadmin" data-gumroad-overlay-checkout="true">Buy the Sysadmin Bundle →</a>
+</div>

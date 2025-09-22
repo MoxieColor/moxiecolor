@@ -21,3 +21,8 @@ date: 2015-03-01 08:00:00 -0700
 Each layer listens to the one before it. Prior applications create a soft, almost resist-like boundary that encourages the next wash to pause rather than spill—less rule, more gentle suggestion. The forms arrive gradually, like easing into a pose and letting breath do the work.
 
 What remains is a conversation between structure and surrender: symmetry without stiffness, movement without hurry. These pieces are less “ta-da” and more exhale—an invitation to stand still for a moment and notice how small shifts accumulate into shape.
+
+<div class="cta-row">
+  <a class="btn light" href="#top">↑ Back to top</a>
+  <a class="btn" href="https://moxiecolor.gumroad.com/l/you-are-your-own-sysadmin" data-gumroad-overlay-checkout="true">Buy the Sysadmin Bundle →</a>
+</div>

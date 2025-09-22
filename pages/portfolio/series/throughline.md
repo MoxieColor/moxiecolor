@@ -21,3 +21,8 @@ date: 2023-08-01 08:00:00 -0700
 The title points to what carries through: a color that repeats, a gesture that returns, a seam that guides the eye. Like a quilt, a skyline, or a crowd, the whole reads differently than any one part. Differences don’t get sanded down; they’re what make the structure hold.  
 
 The work is a simple metaphor for how we live—distinct, interdependent, stitched together by shared moments. As you move through these composites, notice where your eye lingers and what paths you trace. That’s your throughline meeting mine: a reminder that connection isn’t a slogan, it’s a practice of attention.  
+
+<div class="cta-row">
+  <a class="btn light" href="#top">↑ Back to top</a>
+  <a class="btn" href="https://moxiecolor.gumroad.com/l/you-are-your-own-sysadmin" data-gumroad-overlay-checkout="true">Buy the Sysadmin Bundle →</a>
+</div>

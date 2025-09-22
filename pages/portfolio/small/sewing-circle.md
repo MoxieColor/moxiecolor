@@ -23,3 +23,8 @@ This series starts with what’s usually thrown away: pattern tissue, instructio
 The title is literal and sideways: a table where makers share tips, and a whisper network that trades survival strategies. Bias is both the grain you cut on and the stories we grow up in; here, we cut on one to undo the other. The seam ripper is a tool and a thesis: unmake what doesn’t fit, then re-stitch with care.  
 
 These pieces are small on purpose—portable, personal, close to the body. They ask: Which pattern pieces did you keep? Which did you alter? Where do we need to draft a new shape altogether? Pin, baste, test, repeat. That’s the work: on paper and in public.  
+
+<div class="cta-row">
+  <a class="btn light" href="#top">↑ Back to top</a>
+  <a class="btn" href="https://moxiecolor.gumroad.com/l/you-are-your-own-sysadmin" data-gumroad-overlay-checkout="true">Buy the Sysadmin Bundle →</a>
+</div>

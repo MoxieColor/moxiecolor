@@ -172,3 +172,9 @@ Pull the newest page for each type by date.
   </div>
   <img src="{{ '/assets/images/stores/Cheshire-Purple-thumbnail.webp' | relative_url }}" alt="Purple Cheshire Cat poster — newsletter vibe image." />
 </section>
+
+<div class="cta-row">
+  <a class="btn light" href="#top">↑ Back to top</a>
+  <a class="btn" href="https://moxiecolor.gumroad.com/l/you-are-your-own-sysadmin" data-gumroad-overlay-checkout="true">Buy the Sysadmin Bundle →</a>
+</div>
+

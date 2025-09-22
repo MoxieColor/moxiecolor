@@ -56,3 +56,9 @@ In June 2013 I landed in Marrakesh with no phone data. Directions vanished into 
   
 *Traversing Marrakesh* grew from a very analog adventure. With no data, my neat turn-by-turn plan dissolved into the city’s everyday choreography—donkey carts, mopeds, calls to prayer, sudden shade. I carried a paper map like a life preserver and leaned on the compass app when Wi-Fi found me. A small, favorite win: finding my way out of the souks on my own.
 Back home I cut and layered the original map into the work—re-orienting it to mark the flip from disorientation to clarity. This series is a thank-you to a city that made me look up, slow down, and find direction the long way.
+
+<div class="cta-row">
+  <a class="btn light" href="#top">↑ Back to top</a>
+  <a class="btn" href="https://moxiecolor.gumroad.com/l/you-are-your-own-sysadmin" data-gumroad-overlay-checkout="true">Buy the Sysadmin Bundle →</a>
+</div>
+
