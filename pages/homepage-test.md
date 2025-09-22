@@ -164,7 +164,7 @@ Pull the newest page for each type by date.
       <a class="btn light" href="{{ '/shop/' | relative_url }}#freebies">Grab a Freebie →</a>
     </div>
   </div>
-  <img src="{{ '/assets/images/stores/sysadmin-neon-bow-tie.png' | relative_url }}" alt="Neon Bow Tie poster — newsletter vibe image." />
+  <img src="{{ '/assets/images/portfolio/you-are-your-own-sysadmin/Cheshire Purple.webp' | relative_url }}" alt="Purple Cheshire Cat poster — newsletter vibe image." />
 </section>
 
 <!-- Optional quicklinks strip (remove if your global footer already covers this) -->
