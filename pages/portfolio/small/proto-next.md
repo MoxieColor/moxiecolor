@@ -9,10 +9,20 @@ assets: /assets/images/portfolio/protonext/
 date: 2015-09-01 08:00:00 -0700
 ---
 
+<!-- Gumroad overlay script -->
+<script src="https://gumroad.com/js/gumroad.js"></script>
+
 # ProtoNext  
 **Completed September 2015**  
 
 *ProtoNext* is a chain reaction of small paintings—160 five-inch squares—each one riffing on the last. Born from my Meditations studies, the “prototype” becomes the point: ideas evolve in public, not behind a curtain. Small, affordable, and meant to be lived with now—not “someday.”  
+
+<div class="cta-row">
+  <a class="btn" href="https://moxiecolor.gumroad.com/l/the-foundation-set" data-gumroad-overlay-checkout="true">🧪 Buy ProtoNext Foundation Set</a>
+  <a class="btn" href="https://moxiecolor.gumroad.com/l/the-inked-series" data-gumroad-overlay-checkout="true">Get Vol. 1 →</a>
+  <a class="btn" href="https://moxiecolor.gumroad.com/l/the-layered-set" data-gumroad-overlay-checkout="true">Get Vol. 2 →</a>
+  <a class="btn" href="https://moxiecolor.gumroad.com/l/the-deep-drift" data-gumroad-overlay-checkout="true">Get Vol. 3 →</a>
+</div>
 
 {% include assets-grid.html captions=true layout="masonry" %}
 
