@@ -64,7 +64,7 @@ description: "Limited Collector’s Edition Posters and printables from MoxieCol
     Each file is 5400×7200 px, 300 dpi — perfect for printing, framing, or plastering across your favorite wall.</p>
     <p>For the first 50 buyers only, this drop also includes two retired designs:<br>
     🐾 <em>Mad Cat</em> + 🐾 <em>Bad Dog</em>. Once they’re gone, they’re gone.</p>
-    <a class="btn" href="https://moxiecolor.gumroad.com/l/you-are-your-own-sysadmin"
+    <a class="btn" href="https://moxiecolor.gumroad.com/l/you-are-your-own-sysadmin?utm_source=site&utm_medium=shop&utm_campaign=sysadmin_drop&utm_content=hero_btn"
        data-gumroad-overlay-checkout="true">Get the Collector’s Edition →</a>
     <ul class="benefits">
       <li>✅ Instant digital download — print today, hang tonight</li>
@@ -84,7 +84,7 @@ description: "Limited Collector’s Edition Posters and printables from MoxieCol
       <li>✅ Instant download — print today, frame tonight</li>
       <li>✅ Works as a coordinated wall set or gifts</li>
     </ul>
-    <a class="btn" href="https://moxiecolor.gumroad.com/l/the-foundation-set"
+    <a class="btn" href="https://moxiecolor.gumroad.com/l/the-foundation-set?utm_source=site&utm_medium=shop&utm_campaign=protonext_foundation&utm_content=hero_btn"
        data-gumroad-overlay-checkout="true">Get the Foundation Set →</a>
   </div>
 
@@ -106,7 +106,7 @@ description: "Limited Collector’s Edition Posters and printables from MoxieCol
       <h3>“She’s Had Enough” — Free Poster + Wallpapers</h3>
       <p>Bold, patterned wall art for screens or walls. Try the vibe free.</p>
       <a class="btn"
-         href="https://moxiecolor.gumroad.com/l/shes-had-enough"
+         href="https://moxiecolor.gumroad.com/l/shes-had-enough?utm_source=site&utm_medium=shop&utm_campaign=freebies&utm_content=card_shes_had_enough_btn"
          data-gumroad-overlay-checkout="true">Download Free →</a>
     </article>
 
@@ -116,7 +116,7 @@ description: "Limited Collector’s Edition Posters and printables from MoxieCol
       <h3>“Permission Slip — Root Access” (Pay What You Like)</h3>
       <p>You are your own sysadmin. Hang it above your desk as a reminder.</p>
       <a class="btn"
-         href="https://moxiecolor.gumroad.com/l/permission-slip"
+         href="https://moxiecolor.gumroad.com/l/permission-slip?utm_source=site&utm_medium=shop&utm_campaign=freebies&utm_content=card_permission_slip_btn"
          data-gumroad-overlay-checkout="true">Grab It Now →</a>
     </article>
   </div>
@@ -135,7 +135,7 @@ description: "Limited Collector’s Edition Posters and printables from MoxieCol
            alt="Neon Bow Tie collage bundle — multiple colorways preview.">
       <h4>🎀 Neon Bow Tie Bundle</h4>
       <a class="btn"
-         href="https://moxiecolor.gumroad.com/l/neon-bow-tie"
+         href="https://moxiecolor.gumroad.com/l/neon-bow-tie?utm_source=site&utm_medium=shop&utm_campaign=sysadmin_drop&utm_content=bundle_bow_tie_btn"
          data-gumroad-overlay-checkout="true">Buy Bow Tie →</a>
     </div>
 
@@ -144,7 +144,7 @@ description: "Limited Collector’s Edition Posters and printables from MoxieCol
            alt="Neon Kiss collage bundle — multiple colorways preview.">
       <h4>💋 Neon Kiss Bundle</h4>
       <a class="btn"
-         href="https://moxiecolor.gumroad.com/l/neon-kiss"
+         href="https://moxiecolor.gumroad.com/l/neon-kiss?utm_source=site&utm_medium=shop&utm_campaign=sysadmin_drop&utm_content=bundle_kiss_btn"
          data-gumroad-overlay-checkout="true">Buy Kiss →</a>
     </div>
 
@@ -153,7 +153,7 @@ description: "Limited Collector’s Edition Posters and printables from MoxieCol
            alt="Neon Good Pets collage bundle — cat and dog designs, multiple colorways preview.">
       <h4>🐾 Neon Good Pets Bundle</h4>
       <a class="btn"
-         href="https://moxiecolor.gumroad.com/l/neon-good-pets"
+         href="https://moxiecolor.gumroad.com/l/neon-good-pets?utm_source=site&utm_medium=shop&utm_campaign=sysadmin_drop&utm_content=bundle_good_pets_btn"
          data-gumroad-overlay-checkout="true">Buy Good Pets →</a>
     </div>
   </div>
@@ -203,7 +203,7 @@ description: "Limited Collector’s Edition Posters and printables from MoxieCol
       </div>
       <h4>More Digital Downloads</h4>
       <p>Posters, prompts, and printables if you love to browse.</p>
-      <a class="btn" href="https://moxiecolor.gumroad.com/">See all on Gumroad →</a>
+      <a class="btn" href="https://moxiecolor.gumroad.com/?utm_source=site&utm_medium=shop&utm_campaign=explore&utm_content=explore_gumroad_card">See all on Gumroad →</a>
     </div>
 
     <div class="explore-card">
@@ -213,7 +213,7 @@ description: "Limited Collector’s Edition Posters and printables from MoxieCol
       </div>
       <h4>Fabric & Wallpaper</h4>
       <p>Turn designs into tablecloths, cushions, or entire walls.</p>
-      <a class="btn" href="https://www.spoonflower.com/profiles/moxiecolor">Shop Spoonflower →</a>
+      <a class="btn" href="https://www.spoonflower.com/profiles/moxiecolor?utm_source=site&utm_medium=shop&utm_campaign=explore&utm_content=explore_spoonflower_card">Shop Spoonflower →</a>
     </div>
 
     <div class="explore-card">
@@ -223,7 +223,7 @@ description: "Limited Collector’s Edition Posters and printables from MoxieCol
       </div>
       <h4>Puzzle Book (Amazon)</h4>
       <p>125 puzzles × 25 categories — for word nerds and brain breakers.</p>
-      <a class="btn" href="https://www.amazon.com/dp/B0D8N1T5NQ" rel="nofollow sponsored">Buy on Amazon →</a>
+      <a class="btn" href="https://www.amazon.com/dp/B0D8N1T5NQ?utm_source=site&utm_medium=shop&utm_campaign=explore&utm_content=explore_amazon_card" rel="nofollow sponsored">Buy on Amazon →</a>
       <div class="note">Disclosure: This is an Amazon affiliate link. If you purchase, I may earn a small commission at no extra cost to you.</div>
     </div>
   </div>

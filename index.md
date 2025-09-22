@@ -82,7 +82,7 @@ permalink: /
     First 50 buyers also get <em>Mad Cat</em> + <em>Bad Dog</em>. Once they’re gone, they’re gone.</p>
     <div class="cta-row">
       <a class="btn"
-         href="https://moxiecolor.gumroad.com/l/you-are-your-own-sysadmin"
+         href="https://moxiecolor.gumroad.com/l/you-are-your-own-sysadmin?utm_source=site&utm_medium=homepage&utm_campaign=sysadmin_drop&utm_content=hero_btn"
          data-gumroad-overlay-checkout="true">Get the Collector’s Edition →</a>
     </div>
   </div>
@@ -95,7 +95,7 @@ permalink: /
     <p>Three volumes of acrylic+ink prints pulled from sold-out originals — curated into a print-ready bundle for instant download.</p>
     <div class="cta-row">
       <a class="btn"
-         href="https://moxiecolor.gumroad.com/l/the-foundation-set"
+         href="https://moxiecolor.gumroad.com/l/the-foundation-set?utm_source=site&utm_medium=homepage&utm_campaign=protonext_foundation&utm_content=hero_btn"
          data-gumroad-overlay-checkout="true">Get the Foundation Set →</a>
     </div>
   </div>
