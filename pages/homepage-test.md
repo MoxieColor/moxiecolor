@@ -161,7 +161,7 @@ Pull the newest page for each type by date.
     <p>Bold color, creative rituals, and occasional freebies. Short, thoughtful notes from the studio.</p>
     <div class="cta-row">
       <a class="btn" href="{{ '/newsletter/' | relative_url }}">Subscribe to Hue & Tell →</a>
-      <a class="btn light" href="{{ 'https://moxiecolor.gumroad.com/?section=BOTIZ0IE4xvuZR3qzRlA8Q==#BOTIZ0IE4xvuZR3qzRlA8Q==' | relative_url }}">Grab a Freebie →</a>
+      <a class="btn light" href="{{ '/shop/' | relative_url }}#freebies">Grab a Freebie →</a>
     </div>
   </div>
   <img src="{{ '/assets/images/stores/sysadmin-neon-bow-tie.png' | relative_url }}" alt="Neon Bow Tie poster — newsletter vibe image." />
