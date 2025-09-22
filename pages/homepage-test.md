@@ -79,7 +79,9 @@ permalink: /homepage-test/
     <p><strong>Six neon zine collages × six colorways = 36 instant-download posters.</strong><br>
     First 50 buyers also get <em>Mad Cat</em> + <em>Bad Dog</em>. Once they’re gone, they’re gone.</p>
     <div class="cta-row">
-      <a class="btn" href="{{ '/shop/' | relative_url }}">Get the Collector’s Edition →</a>
+      <a class="btn"
+         href="https://moxiecolor.gumroad.com/l/you-are-your-own-sysadmin"
+         data-gumroad-overlay-checkout="true">Get the Collector’s Edition →</a>
     </div>
   </div>
 </section>
@@ -90,7 +92,9 @@ permalink: /homepage-test/
     <h2>🧪 ProtoNext Vol. 1–3 — <em>The Foundation Set</em></h2>
     <p>Three volumes of acrylic+ink prints pulled from sold-out originals — curated into a print-ready bundle for instant download.</p>
     <div class="cta-row">
-      <a class="btn" href="{{ '/shop/' | relative_url }}#protonext">Get the Foundation Set →</a>
+      <a class="btn"
+         href="https://moxiecolor.gumroad.com/l/the-foundation-set"
+         data-gumroad-overlay-checkout="true">Get the Foundation Set →</a>
     </div>
   </div>
   <img src="{{ '/assets/images/stores/protonext-thebundle-thumbnail.png' | relative_url }}"
