@@ -115,7 +115,7 @@ permalink: /
     <div class="card">
       <img src="{{ '/assets/images/stores/protonext-the-inked-series.png' | relative_url }}" alt="ProtoNext — The Inked Series preview.">
       <h3>Learn more about ProtoNext</h3>
-      <a class="btn" href="{{ '/protonext/' | relative_url }}#protonext">Explore ProtoNext →</a>
+      <a class="btn" href="{{ '/protonext/' | relative_url }}">Explore ProtoNext →</a>
     </div>
   </div>
 </section>
