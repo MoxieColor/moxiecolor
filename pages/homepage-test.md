@@ -65,7 +65,7 @@ permalink: /homepage-test/
   <p>Bold art for curious minds.</p>
   <div class="cta-row">
     <a class="btn" href="{{ '/shop/' | relative_url }}">🔥 Shop the New Drop</a>
-    <a class="btn light" href="{{ '/shop/#freebies-to-try' | relative_url }}">🎁 Get a Freebie</a>
+    <a class="btn light" href="{{ '/shop/#freebies' | relative_url }}">🎁 Get a Freebie</a>
     <a class="btn light" href="{{ '/newsletter/' | relative_url }}">📩 Subscribe to Hue & Tell</a>
   </div>
 </section>
