@@ -94,10 +94,10 @@ description: "Limited Collector’s Edition Posters and printables from MoxieCol
 <hr>
 
 
-<section class="section">
+<section class="section", id="freebies">
   <h2>🎁 Freebies to Try</h2>
   <p>Get a taste of the Moxie vibe before diving into the full collection.</p>
-
+  
   <div class="cards">
     <article class="card">
       <img src="/assets/images/portfolio/shes-had-enough/shes-had-enough-wallpaper-square.svg"
