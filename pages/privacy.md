@@ -33,14 +33,18 @@ If you email us directly, we will use your email address only to respond and del
 ---
 
 ## Cookies & Tracking
-We do not set cookies or tracking pixels ourselves. However, third parties (such as Gumroad, Amazon, or Mailchimp) may use cookies or similar technologies when you interact with their services. See their privacy policies for details.
+We do not set cookies or tracking pixels ourselves. However, third parties (such as Gumroad, Amazon, or Mailchimp) may use cookies or similar technologies when you interact with their services. See their privacy policies for details.  
+
+We may use URL parameters (such as UTM tags) to understand which pages, buttons, or links on our site lead to sign-ups or purchases. These parameters only record general referral information (e.g., which button was clicked) and do not collect personally identifiable information.
 
 ---
 
 ## How We Use Information
 - To deliver requested products, downloads, or newsletters  
 - To respond to inquiries you send us directly  
-- To analyze general site traffic using built-in hosting logs (no personal identifiers stored)  
+- To analyze general site traffic using built-in hosting logs (no personal identifiers stored)
+- When you click a purchase button on our site, Gumroad’s secure overlay checkout may open directly on the page. All transaction details, including payment processing, are handled by Gumroad according to their privacy policy. We do not see or store your payment details.
+- Affiliate and partner links may help support the site; we may receive small commissions if you purchase through them. These links are clearly disclosed on our pages.
 
 ---
 
