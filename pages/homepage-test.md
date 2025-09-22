@@ -3,6 +3,8 @@ layout: default
 title: "Moxie Color | A Creative Enterprise"
 permalink: /homepage-test/
 ---
+<!-- Gumroad overlay script -->
+<script src="https://gumroad.com/js/gumroad.js"></script>
 
 <section>
   <p>Hi, I’m Jenn — I create art that visually merges color, texture, and narrative. Every piece tells a layered story. Explore my latest work, discover digital downloads, or connect for collaborations.</p>
