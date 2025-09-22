@@ -172,13 +172,3 @@ Pull the newest page for each type by date.
   </div>
   <img src="{{ '/assets/images/stores/Cheshire-Purple-thumbnail.webp' | relative_url }}" alt="Purple Cheshire Cat poster — newsletter vibe image." />
 </section>
-
-<!-- Optional quicklinks strip (remove if your global footer already covers this) -->
-<div class="quicklinks">
-  <a href="{{ '/shop/' | relative_url }}">Shop</a>
-  <a href="{{ '/newsletter/' | relative_url }}">Newsletter</a>
-  <a href="{{ '/portfolio/' | relative_url }}">Portfolio</a>
-  <a href="{{ '/about/' | relative_url }}">About</a>
-  <a href="{{ '/licensing/' | relative_url }}">Licensing</a>
-  <a href="{{ '/faq/' | relative_url }}">FAQ</a>
-</div>
