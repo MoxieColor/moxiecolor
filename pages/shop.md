@@ -24,7 +24,7 @@ description: "Limited Collector’s Edition Posters and printables from MoxieCol
   .benefits li{margin:.35rem 0}
 
   .section{margin-block:2.5rem}
-  .cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.25rem}
+  .cards {display: grid;  gap: 1.25rem;  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));}
   .card{background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:1rem;padding:1rem}
   .card img{width:100%;height:auto;border-radius:.75rem;margin-bottom:.75rem}
   .card h3{margin:.25rem 0 .25rem 0}
