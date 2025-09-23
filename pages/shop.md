@@ -126,7 +126,7 @@ description: "Limited Collector’s Edition Posters and printables from MoxieCol
       <h3>🧩 Word Search Trivia — Free Sample Puzzle</h3>
       <p>Try before you buy: one full puzzle pulled from the Word Search Trivia book. Print it, solve it, share it.</p>
       <a class="btn"
-         href="https://moxiecolor.gumroad.com/l/wordsearch-sample?utm_source=site&utm_medium=shop&utm_campaign=freebies&utm_content=card_wordsearch_sample_btn"
+         href="https://moxiecolor.gumroad.com/l/word-search-trivia-sample?utm_source=site&utm_medium=shop&utm_campaign=freebies&utm_content=card_wordsearch_sample_btn"
          data-gumroad-overlay-checkout="true">Download Free →</a>
     </article>
   </div>
