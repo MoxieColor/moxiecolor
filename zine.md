@@ -36,9 +36,11 @@ description: "Grab the free Moxie Zine (8-page foldable) + mini poster. Print it
     </div>
     <div class="cta-row">
       <!-- download -->
-      <a class="btn light" href="https://moxiecolor.gumroad.com/l/moxie-zine-issue-1?utm_source=zine&utm_medium=site&utm_campaign=zine_issue1&utm_content=landing_btn" data-gumroad-overlay-checkout="true">Download Moxie Zine Issue #1</a>
+      <a class="btn light" href="https://moxiecolor.gumroad.com/l/moxie-zine-issue-1?utm_source=zine&utm_medium=site&utm_campaign=zine_issue1&utm_content=landing_btn"
+       data-gumroad-overlay-checkout="true">Download Moxie Zine Issue #1</a>
       <!-- Direct buy to your drop via overlay -->
-      <a class="btn light" href="https://moxiecolor.gumroad.com/l/you-are-your-own-sysadmin?utm_source=zine&utm_medium=qr&utm_campaign=sysadmin_drop&utm_content=hero_btn" data-gumroad-overlay-checkout="true">🛒 Get the Collector’s Edition</a>
+      <a class="btn light" href="https://moxiecolor.gumroad.com/l/you-are-your-own-sysadmin?utm_source=zine&utm_medium=qr&utm_campaign=sysadmin_drop&utm_content=hero_btn"
+       data-gumroad-overlay-checkout="true">🛒 Get the Collector’s Edition</a>
     </div>
     <div class="cta-row">
       <a class="btn light" href="/shop/#freebies">🎁 Grab More Freebies</a>
@@ -79,7 +81,8 @@ description: "Grab the free Moxie Zine (8-page foldable) + mini poster. Print it
   <p class="muted">If you spotted a stamped copy in Tacoma: you found one of the first run. Each number was hand-stamped with an old mechanical counter. You’re part of the lore now.</p>
 
   <div class="cta-row" style="margin-top:1rem">
-    <a class="btn" href="https://moxiecolor.gumroad.com/l/you-are-your-own-sysadmin?utm_source=zine&utm_medium=qr&utm_campaign=sysadmin_drop&utm_content=about_btn" data-gumroad-overlay-checkout="true">Buy the Full Poster Bundle →</a>
+    <a class="btn" href="https://moxiecolor.gumroad.com/l/you-are-your-own-sysadmin?utm_source=zine&utm_medium=qr&utm_campaign=sysadmin_drop&utm_content=about_btn"
+       data-gumroad-overlay-checkout="true">Buy the Full Poster Bundle →</a>
     <a class="btn light" href="/shop/?utm_source=zine&utm_medium=qr&utm_campaign=zine_v1&utm_content=continue_shopping#freebies">Continue Shopping →</a>
   </div>
 </section>
