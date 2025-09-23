@@ -37,7 +37,7 @@ description: "Grab the free Moxie Zine (8-page foldable) + mini poster. Print it
     <div class="cta-row">
       <!-- download -->
       <a class="btn light" href="https://moxiecolor.gumroad.com/l/gymzc?utm_source=zine&utm_medium=site&utm_campaign=zine_issue1&utm_content=landing_btn"
-       data-gumroad-overlay-checkout="true">Download Moxie Zine Issue #1</a>
+       data-gumroad-overlay-checkout="true">Download Moxie Zine Issue One</a>
       <!-- Direct buy to your drop via overlay -->
       <a class="btn light" href="https://moxiecolor.gumroad.com/l/you-are-your-own-sysadmin?utm_source=zine&utm_medium=qr&utm_campaign=sysadmin_drop&utm_content=hero_btn"
        data-gumroad-overlay-checkout="true">🛒 Get the Collector’s Edition</a>
