@@ -106,7 +106,7 @@ description: "Limited Collector’s Edition Posters and printables from MoxieCol
       <h3>“She’s Had Enough” — Free Poster + Wallpapers</h3>
       <p>Bold, patterned wall art for screens or walls. Try the vibe free.</p>
       <a class="btn"
-         href="https://moxiecolor.gumroad.com/l/shes-had-enough?offer_code=FREEENOUGH&utm_source=site&utm_medium=shop&utm_campaign=freebies&utm_content=shes_had_enough_btn"
+         href="https://moxiecolor.gumroad.com/l/shes-had-enough?offer_code=FREEBIE&utm_source=site&utm_medium=shop&utm_campaign=freebies&utm_content=shes_had_enough_btn"
          data-gumroad-overlay-checkout="true">Download Free →</a>
     </article>
 
@@ -116,7 +116,7 @@ description: "Limited Collector’s Edition Posters and printables from MoxieCol
       <h3>“Permission Slip — Root Access” (Pay What You Like)</h3>
       <p>You are your own sysadmin. Hang it above your desk as a reminder.</p>
       <a class="btn"
-         href="https://moxiecolor.gumroad.com/l/permission-slip?offer_code=FREEROOT&utm_source=site&utm_medium=shop&utm_campaign=freebies&utm_content=permission_slip_btn"
+         href="https://moxiecolor.gumroad.com/l/permission-slip?offer_code=FREEBIE&utm_source=site&utm_medium=shop&utm_campaign=freebies&utm_content=permission_slip_btn"
          data-gumroad-overlay-checkout="true">Grab It Now →</a>
     </article>
     
@@ -126,7 +126,7 @@ description: "Limited Collector’s Edition Posters and printables from MoxieCol
       <h3>🧩 Word Search Trivia — Free Sample Puzzle</h3>
       <p>Try before you buy: one full puzzle pulled from the Word Search Trivia book. Print it, solve it, share it.</p>
       <a class="btn"
-         href="https://moxiecolor.gumroad.com/l/word-search-trivia-sample?offer_code=FREESAMPLE&utm_source=site&utm_medium=shop&utm_campaign=freebies&utm_content=wordsearch_sample_btn"
+         href="https://moxiecolor.gumroad.com/l/word-search-trivia-sample?offer_code=FREEBIE&utm_source=site&utm_medium=shop&utm_campaign=freebies&utm_content=wordsearch_sample_btn"
          data-gumroad-overlay-checkout="true">Download Free →</a>
     </article>
   </div>
