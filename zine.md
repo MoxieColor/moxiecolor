@@ -58,10 +58,10 @@ description: "Grab the free Moxie Zine (8-page foldable) + mini poster. Print it
       <p class="muted">Use US Letter (8.5×11). Fit to page off. Print at 100% for clean folds.</p>
     </div>
     <div class="card">
-      <img src="/assets/images/how-to-fold.png" alt="Zine fold diagram — adapted from Tallis A-Level Photography Resources (tallisalevelphoto.weebly.com).">
+      <img src="/assets/images/how-to-fold-a-zine.png" alt="Zine fold diagram — adapted from Tallis A-Level Photography Resources (tallisalevelphoto.weebly.com).">
       <h3>2) Fold & Slice</h3>
       <p class="muted">Fold in half, then into quarters, slit the center seam, refold into an 8-page booklet.</p>
-      <a href="https://tallisalevelphoto.weebly.com/zine-making-resources.html" target="_blank" rel="noopener">Tallis A-Level Photography Resources</a>.
+      <a href="https://en.wikibooks.org/wiki/Zine_Making/Putting_pages_together " target="_blank" rel="noopener">Instructions by Wikibooks</a>.
     </div>
     <div class="card">
       <img src="/assets/images/stores/moxie-zine-v1-mini-poster.webp" alt="Mini poster inside the zine reading Never Forget — You are your own sysadmin.">
