@@ -233,7 +233,7 @@ description: "Limited Collector’s Edition Posters and printables from MoxieCol
       </div>
       <h4>Puzzle Book (Amazon)</h4>
       <p>125 puzzles × 25 categories — for word nerds and brain breakers.</p>
-      <a class="btn" href="https://www.amazon.com/dp/B0D8N1T5NQ?utm_source=site&utm_medium=shop&utm_campaign=explore&utm_content=explore_amazon_card" rel="nofollow sponsored">Buy on Amazon →</a>
+      <a class="btn" href="https://amzn.to/433bvwT" rel="nofollow sponsored">Buy on Amazon →</a>
       <div class="note">Disclosure: This is an Amazon affiliate link. If you purchase, I may earn a small commission at no extra cost to you.</div>
     </div>
   </div>
