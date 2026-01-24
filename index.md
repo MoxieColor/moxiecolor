@@ -143,7 +143,7 @@ permalink: /
       </div>
     </div>
     <div class="video-caption">
-      <h3>Issue #1 — Never Forget</h3>
+      <h3>Issue #1 - Never Forget</h3>
       <p style="margin:0;opacity:.8;">Coming soon</p>
     </div>
   </article>
@@ -162,7 +162,7 @@ permalink: /
       </div>
     </div>
     <div class="video-caption">
-      <h3>Issue #2 — ICE Edition</h3>
+      <h3>Issue #2 - ICE Edition</h3>
       <p style="margin:0;opacity:.8;">Coming soon</p>
     </div>
   </article>
@@ -181,7 +181,7 @@ permalink: /
       </div>
     </div>
     <div class="video-caption">
-      <h3>Issue #3 — Know Your Rights</h3>
+      <h3>Issue #3 - Know Your Rights</h3>
       <p style="margin:0;opacity:.8;">Coming soon</p>
     </div>
   </article>
