@@ -15,6 +15,7 @@ permalink: /about/
     <p class="about-actions">
       <a class="btn" href="{{ '/CV/' | relative_url }}" aria-label="View Jennifer Chin’s full CV">View CV</a>
       <a class="btn" href="{{ '/Artist Statement/' | relative_url }}" aria-label="View Jennifer Chin’s Artist Statement">View Artist Statement</a>
+      <a class="btn" href="{{ '/shop/' | relative_url }}" aria-label="View Jennifer Chin’s Shop">Shop - FYI - Everything is FREE right now!</a>
     </p>
   </div>
 
