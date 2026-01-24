@@ -82,7 +82,7 @@ description: "Grab the free Moxie Zine (8-page foldable) + mini poster. Print it
 
   <div class="cta-row" style="margin-top:1rem">
     <a class="btn" href="https://moxiecolor.gumroad.com/l/you-are-your-own-sysadmin?utm_source=zine&utm_medium=qr&utm_campaign=sysadmin_drop&utm_content=about_btn"
-       data-gumroad-overlay-checkout="true">Buy the Full Poster Bundle →</a>
-    <a class="btn light" href="/shop/?utm_source=zine&utm_medium=qr&utm_campaign=zine_v1&utm_content=continue_shopping">Check Out My Shop →</a>
+       data-gumroad-overlay-checkout="true">Get the Bundle →</a>
+   <!--  <a class="btn light" href="/shop/?utm_source=zine&utm_medium=qr&utm_campaign=zine_v1&utm_content=continue_shopping">Check Out My Shop →</a> -->
   </div>
 </section>
