@@ -27,7 +27,7 @@ date: 2015-09-01 08:00:00 -0700
 
 <div class="cta-row">
   <a class="btn light" href="#about-protonext">Learn More ↓</a>
-  <a class="btn" href="https://moxiecolor.gumroad.com/l/the-foundation-set?utm_source=site&utm_medium=portfolio&utm_campaign=protonext_foundation&utm_content=cta_row_top" data-gumroad-overlay-checkout="true">🧪 Buy ProtoNext Foundation Set</a>
+ <!-- <a class="btn" href="https://moxiecolor.gumroad.com/l/the-foundation-set?utm_source=site&utm_medium=portfolio&utm_campaign=protonext_foundation&utm_content=cta_row_top" data-gumroad-overlay-checkout="true">🧪 Buy ProtoNext Foundation Set</a> -->
   <a class="btn" href="https://moxiecolor.gumroad.com/l/the-inked-series?utm_source=site&utm_medium=portfolio&utm_campaign=protonext_vol1&utm_content=cta_row_top" data-gumroad-overlay-checkout="true">Get Vol. 1 →</a>
   <a class="btn" href="https://moxiecolor.gumroad.com/l/the-layered-set?utm_source=site&utm_medium=portfolio&utm_campaign=protonext_vol2&utm_content=cta_row_top" data-gumroad-overlay-checkout="true">Get Vol. 2 →</a>
   <a class="btn" href="https://moxiecolor.gumroad.com/l/the-deep-drift?utm_source=site&utm_medium=portfolio&utm_campaign=protonext_vol3&utm_content=cta_row_top" data-gumroad-overlay-checkout="true">Get Vol. 3 →</a>
