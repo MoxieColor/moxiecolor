@@ -61,6 +61,8 @@ permalink: /
   .quicklinks a{background:#f5f5f5;border:1px solid rgba(0,0,0,.08);padding:.6rem .8rem;border-radius:.65rem;text-decoration:none;color:inherit}
 </style>
 
+<!-- commenting out all shop for now - fuck this shit with the country right now
+
 <!-- BRAND HERO (no image) -->
 <section class="brand-hero">
   <h2>Logic is found in the chaos around us.</h2>
@@ -118,7 +120,10 @@ permalink: /
       <a class="btn" href="{{ '/protonext/' | relative_url }}">Explore ProtoNext →</a>
     </div>
   </div>
-</section>
+</section>  -->
+
+## Videos
+Coming soon
 
 ## Portfolio
 
