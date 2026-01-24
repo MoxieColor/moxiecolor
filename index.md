@@ -6,6 +6,9 @@ permalink: /
 <!-- Gumroad overlay script -->
 <script src="https://gumroad.com/js/gumroad.js"></script>
 
+<!-- TikTok embed script -->
+<script async src="https://www.tiktok.com/embed.js"></script>
+
 <section>
   <p>Hi, I’m Jenn — I create art that visually merges color, texture, and narrative. Every piece tells a layered story. Explore my latest work, discover digital downloads, or connect for collaborations.</p>
 </section>
@@ -125,7 +128,81 @@ permalink: /
 </section>  -->
 
 ## Video Zines
-Coming soon
+<div class="portfolio-grid">
+  <!-- Issue #1 -->
+  <article class="video-card">
+  <div class="video-wrap">
+    <div class="video-embed">
+      <img
+        src="{{ '/assets/placeholder.jpg' | relative_url }}"
+        alt="Issue #1 teaser — coming soon"
+        style="width:100%;height:100%;object-fit:cover;border-radius:12px;"
+        loading="lazy"
+        decoding="async"
+      >
+      </div>
+    </div>
+    <div class="video-caption">
+      <h3>Issue #1 — Never Forget</h3>
+      <p style="margin:0;opacity:.8;">Coming soon</p>
+    </div>
+  </article>
+  
+  <!-- Issue #2 -->
+  <article class="video-card">
+    <div class="video-wrap">
+      <div class="video-embed">
+        <blockquote class="tiktok-embed"
+          cite="https://www.tiktok.com/@moxiecolor/video/7594307681049988382"
+          data-video-id="7594307681049988382">
+          <section>
+            <a target="_blank" title="@moxiecolor" href="https://www.tiktok.com/@moxiecolor?refer=embed">@moxiecolor</a>
+            I made a <a title="zinetok" target="_blank" href="https://www.tiktok.com/tag/zinetok?refer=embed">#zinetok</a>
+            Perhaps the antidote for dread is absurdity.
+            <a title="nofear" target="_blank" href="https://www.tiktok.com/tag/nofear?refer=embed">#NoFear</a>
+            <a title="lovethyneighbor" target="_blank" href="https://www.tiktok.com/tag/lovethyneighbor?refer=embed">#lovethyneighbor</a>
+            <a title="iceicebaby" target="_blank" href="https://www.tiktok.com/tag/iceicebaby?refer=embed">#iceicebaby</a>
+            <a target="_blank" title="♬ The Benny Hill Show - The Edwin Davids Jazz Band"
+               href="https://www.tiktok.com/music/The-Benny-Hill-Show-6835092391427311617?refer=embed">
+              ♬ The Benny Hill Show - The Edwin Davids Jazz Band
+            </a>
+          </section>
+        </blockquote>
+      </div>
+    </div>
+    <div class="video-caption">
+      <h3>Issue #2 — ICE Edition</h3>
+      <a href="https://www.tiktok.com/@moxiecolor/video/7594307681049988382" target="_blank" rel="noopener">Watch on TikTok →</a>
+    </div>
+  </article>
+
+  <!-- Issue #3 -->
+  <article class="video-card">
+    <div class="video-wrap">
+      <div class="video-embed">
+        <blockquote class="tiktok-embed"
+          cite="https://www.tiktok.com/@moxiecolor/video/7598765109971864862"
+          data-video-id="7598765109971864862">
+          <section>
+            <a target="_blank" title="@moxiecolor" href="https://www.tiktok.com/@moxiecolor?refer=embed">@moxiecolor</a>
+            <a title="knowyourrights" target="_blank" href="https://www.tiktok.com/tag/knowyourrights?refer=embed">#knowyourrights</a>
+            <a title="wearelegion" target="_blank" href="https://www.tiktok.com/tag/wearelegion?refer=embed">#wearelegion</a>
+            <a target="_blank" title="♬ original sound - moxiecolor"
+               href="https://www.tiktok.com/music/original-sound-7598765067420666655?refer=embed">
+              ♬ Rebel Riot - Honeycutts
+            </a>
+          </section>
+        </blockquote>
+      </div>
+    </div>
+    <div class="video-caption">
+      <h3>Issue #3 — Know Your Rights</h3>
+      <a href="https://www.tiktok.com/@moxiecolor/video/7598765109971864862" target="_blank" rel="noopener">Watch on TikTok →</a>
+    </div>
+  </article>
+
+</div>
+
 
 ## Portfolio
 
