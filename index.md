@@ -61,10 +61,8 @@ permalink: /
   .quicklinks a{background:#f5f5f5;border:1px solid rgba(0,0,0,.08);padding:.6rem .8rem;border-radius:.65rem;text-decoration:none;color:inherit}
 </style>
 
-<!-- commenting out all shop for now - fuck this shit with the country right now -->
-
 <!-- BRAND HERO (no image) -->
-<!-- commenting out all shop for now - fuck this shit with the country right now -->
+<!-- commenting out all shop for now - fuck this shit with the country right now
 <section class="brand-hero">
   <h2>Logic is found in the chaos around us.</h2>
   <p>Bold art for curious minds.</p>
@@ -76,7 +74,7 @@ permalink: /
 </section>  -->
 
 <!-- HERO #1: SysAdmin Neon -->
-<!-- commenting out all shop for now - fuck this shit with the country right now -->
+<!-- commenting out all shop for now - fuck this shit with the country right now
 <section class="hero">
   <img src="{{ '/assets/images/stores/sysadmin-superbundle.png' | relative_url }}"
        alt="Neon zine collage posters — You Are Your Own Sysadmin mega bundle preview.">
@@ -93,7 +91,7 @@ permalink: /
 </section> -->
 
 <!-- HERO #2: ProtoNext Foundation (flipped layout) -->
-<!-- commenting out all shop for now - fuck this shit with the country right now -->
+<!-- commenting out all shop for now - fuck this shit with the country right now
 <section class="hero reverse">
   <div>
     <h2>🧪 ProtoNext Vol. 1–3 — <em>The Foundation Set</em></h2>
