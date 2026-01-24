@@ -124,7 +124,7 @@ permalink: /
   </div>
 </section>  -->
 
-## Videos
+## Video Zines
 Coming soon
 
 ## Portfolio
