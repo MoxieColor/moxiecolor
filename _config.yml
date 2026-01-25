@@ -15,7 +15,7 @@ plugins:
 # Navigation (simple, used by layouts below)
 nav:
   - title: "Zines"
-    url: "/moxie-zines/"
+    url: "/moxiezines/"
   - title: "Shop"
     url: "/shop/"
   - title: "About"
@@ -28,4 +28,4 @@ nav:
 collections:
   moxiezines:
     output: true
-    permalink: /moxie-zines/:name/
+    permalink: /moxiezines/:name/
