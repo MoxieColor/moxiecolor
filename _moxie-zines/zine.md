@@ -2,7 +2,7 @@
 layout: moxiezine
 title: "Issue #1 — Never Forget"
 issue_number: 1
-date: 2026-01-24
+date: 2025-09-24
 thumb: /assets/images/moxiezines/issue-1-thumb.jpg
 tiktok_url:
 instagram_url:
