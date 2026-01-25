@@ -728,3 +728,32 @@ details>summary::-webkit-details-marker{display:none}
 @media (max-width:768px){
   .photo-gallery{ flex-direction: column; }
 }
+
+/* =========================
+   Moxie Zines
+   ========================= */
+
+.grid{
+  display:grid;
+  gap:1.25rem;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  margin-block:1.5rem;
+}
+
+.card{
+  background:#fff;
+  border:1px solid rgba(0,0,0,.08);
+  border-radius:1rem;
+  padding:1rem;
+}
+
+.card img{
+  width:100%;
+  height:auto;
+  border-radius:.75rem;
+  margin-bottom:.65rem;
+}
+
+.muted{
+  color:#555;
+}
