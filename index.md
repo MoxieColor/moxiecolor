@@ -127,7 +127,7 @@ permalink: /
   </div>
 </section>  -->
 
-## Video Zines
+## Moxie Zines
 <div class="portfolio-grid">
   <!-- Issue #1 -->
   <article class="video-card">
