@@ -1,6 +1,6 @@
 ---
-layout: moxiezine
-title: "Issue #1 — Never Forget"
+layout: default
+title: "Issue 1"
 issue_number: 1
 date: 2025-09-24
 thumb: /assets/images/moxiezines/issue-1-thumb.jpg
@@ -8,7 +8,7 @@ tiktok_url:
 instagram_url:
 pdf_url: /downloads/moxiezines/issue-1-paper-zine.pdf
 status: coming_soon
-description: "A free foldable paper zine + mini poster. Print it, fold it, share it."
+description: "Never Forget - You are your own sysdamin."
 ---
 <p>
   <img src="{{ '/assets/images/stores/moxie-zine-v1-cover.webp' | relative_url }}"
