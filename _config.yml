@@ -28,4 +28,4 @@ nav:
 collections:
   moxiezines:
     output: true
-    permalink: /moxie-zines/:slug/
+    permalink: /moxie-zines/:name/
