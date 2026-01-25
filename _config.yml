@@ -1,11 +1,12 @@
 title: "Moxie Color | A Creative Enterprise"
 description: "Bold, conceptual, and layered artworks for curious minds."
-baseurl: "" 
-url: "https://moxiecolor.com" 
+baseurl: ""
+url: "https://moxiecolor.com"
 image: /assets/logo/share-image.png
 theme: minima
 brand: "Moxie Color"
 author_name: "Jennifer Chin"
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -13,6 +14,8 @@ plugins:
 
 # Navigation (simple, used by layouts below)
 nav:
+  - title: "Zines"
+    url: "/moxie-zines/"
   - title: "Shop"
     url: "/shop/"
   - title: "About"
@@ -21,3 +24,8 @@ nav:
     url: "/newsletter/"
   - title: "Portfolio"
     url: "/portfolio/"
+
+collections:
+  moxiezines:
+    output: true
+    permalink: /moxie-zines/:slug/
