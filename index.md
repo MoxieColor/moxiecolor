@@ -10,7 +10,7 @@ permalink: /
 <script async src="https://www.tiktok.com/embed.js"></script>
 
 <section>
-  <p>Hi, I’m Jenn — I create art that visually merges color, texture, and narrative. Every piece tells a layered story. Explore my latest work, discover digital downloads, or connect for collaborations.</p>
+  <p>Hi, I’m Jenn - I create art that visually merges color, texture, and narrative. Every piece tells a layered story. Explore my latest work, discover digital downloads, or connect for collaborations.</p>
 </section>
 
 <style>
